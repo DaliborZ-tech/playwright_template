@@ -1,0 +1,23 @@
+{
+  "run_group": "take_1794309488",
+  "voice": "cs-CZ-VlastaNeural",
+  "inputs_sha256": {
+    "video_course\\r2\\plan.json": "714c76ba9991944a6f9d0de54bbe6dcf8561807612764653507c000bad75f075",
+    "video_course\\r2\\timeline.json": "76ff4a8eed0d89ae972a25047a18f630e96f8c4967373c3a06cf47fc144aa42b",
+    "video_course\\r2\\narration.wav": "6041fd242670d3ed8901c6d3a3d42b9e44197d636c23afaaabffda1269de061c",
+    "video_course\\r2\\narration\\r2_01_88e072ffebbc.mp3": "ddae365908e4bd7196707f7c9a81136d570c1163b5db98f7a54a3220a7a6ee19",
+    "video_course\\r2\\narration\\r2_01_88e072ffebbc.json": "127f5828960af5cced60da2a0a810e494d23276fb4ebf618203bc3c376da96b3",
+    "video_course\\r2\\narration\\r2_02_876a6f6a8545.mp3": "db4b67521252c20dff39ca563dbde5e3ad052e587789297b180547ce3bfa4651",
+    "video_course\\r2\\narration\\r2_02_876a6f6a8545.json": "b6138ccf75cf25c2e4c50bd416246ed3eb92f44bda27092361282aa393ae7ed5",
+    "video_course\\r2\\narration\\r2_03_b4dea77002b2.mp3": "502c1a4a126598b72ac70bede41c9c3f28883c47550f19e0ae5b274da112456c",
+    "video_course\\r2\\narration\\r2_03_b4dea77002b2.json": "64cc69078b6bd7f76c48466f89c57b067ce9c18f173167482653ccc1d3af8a1c",
+    "video_course\\r2\\narration\\r2_04_3bc3c9788ec8.mp3": "7f0de8be4068264bdc782543277b7ac5e994499c6135d99f3431b8d186a753b8",
+    "video_course\\r2\\narration\\r2_04_3bc3c9788ec8.json": "fc14a873f3d1178e1d35d23a70f80eebd56baef6474c80a1a362d5636b8fd767",
+    "video_course\\r2\\narration\\r2_05_512339f050af.mp3": "359bef44809a2478fcaf0290ef1470c511e80627373811df0519337c54cd3093",
+    "video_course\\r2\\narration\\r2_05_512339f050af.json": "82b1ccc894528ac566f4a24a1ab4f059fc3f3aaf4a073621e81fc7776183c13a",
+    "video_course\\r2\\narration\\r2_06_6e40c665b282.mp3": "9bfa9994a45163d2a15cd944da733e1eaef82a587d25a7f7ff4f2d58121e9860",
+    "video_course\\r2\\narration\\r2_06_6e40c665b282.json": "799e1ad2c3169fa84ecdaeec0af97b8c93f643c5bb7e9ce83833e78e3897a858",
+    "video_course\\r2\\narration\\r2_07_929f4160dc24.mp3": "7f72d318708ed14fe98595f5d3e0b5690adcb2a2a2d88fb794914f5c8c0aafee",
+    "video_course\\r2\\narration\\r2_07_929f4160dc24.json": "d938b63150bc61c025ad54c3167c0daa2bbb61adcbdda95d1abcd6a109a1bd34"
+  }
+}

@@ -1,0 +1,367 @@
+[
+  {
+    "start": 0.10154166666666667,
+    "end": 4.341208333333333,
+    "text": "Naším cílem je první samostatný test přihlašovacího formuláře."
+  },
+  {
+    "start": 4.862895833333333,
+    "end": 10.288104166666667,
+    "text": "Nejdříve otevřu skutečnou aplikaci a společně si pojmenujeme očekávaný výsledek."
+  },
+  {
+    "start": 10.666875,
+    "end": 14.880791666666667,
+    "text": "Na stránce má být nadpis Přihlášení a tlačítko Přihlásit se."
+  },
+  {
+    "start": 15.433729166666666,
+    "end": 19.505895833333334,
+    "text": "Do e-mailového pole teď napíšu náš veřejný testovací účet."
+  },
+  {
+    "start": 19.959041666666668,
+    "end": 24.031208333333332,
+    "text": "Potom vyplním syntetické heslo a oba údaje zase odstraním."
+  },
+  {
+    "start": 24.4059375,
+    "end": 27.962645833333333,
+    "text": "Samotné přihlášení dnes ještě automatizovat nebudeme."
+  },
+  {
+    "start": 28.303145833333332,
+    "end": 32.95522916666667,
+    "text": "Náš první test zkontroluje zobrazení stránky a obou uvedených prvků."
+  },
+  {
+    "start": 33.70608333333333,
+    "end": 37.172583333333336,
+    "text": "V editoru teď otevřu prázdný soubor pro náš příklad."
+  },
+  {
+    "start": 37.553958333333334,
+    "end": 42.86325,
+    "text": "Jmenuje se test_video_created.py a leží ve složce tests, examples."
+  },
+  {
+    "start": 43.21639583333333,
+    "end": 48.177729166666666,
+    "text": "Začátek názvu test je důležitý, protože podle něj pytest soubor najde."
+  },
+  {
+    "start": 48.678625,
+    "end": 52.49308333333333,
+    "text": "Nejprve napíšu import objektu Page a funkce expect."
+  },
+  {
+    "start": 52.805770833333334,
+    "end": 58.0500625,
+    "text": "Page nám umožní ovládat kartu prohlížeče a expect zapisuje očekávání."
+  },
+  {
+    "start": 58.47991666666667,
+    "end": 62.82270833333333,
+    "text": "Pod importem založím vlastní testovací funkci s argumentem page."
+  },
+  {
+    "start": 63.190354166666665,
+    "end": 69.33722916666666,
+    "text": "Tento argument připraví naše existující fixture, nemusíme vytvářet prohlížeč ručně."
+  },
+  {
+    "start": 69.676,
+    "end": 71.879625,
+    "text": "Za definicí musí být dvojtečka."
+  },
+  {
+    "start": 72.16079166666667,
+    "end": 75.47904166666666,
+    "text": "Příkazy, které za chvíli přidáme, odsadíme."
+  },
+  {
+    "start": 75.80733333333333,
+    "end": 80.88466666666666,
+    "text": "Odsazené příkazy budou patřit do právě napsaného testu, nikoli mimo něj."
+  },
+  {
+    "start": 81.62625,
+    "end": 86.39429166666666,
+    "text": "Do těla funkce přidám první skutečný krok, page.goto s cestou login."
+  },
+  {
+    "start": 86.75564583333333,
+    "end": 91.44635416666667,
+    "text": "Relativní adresu doplní připravený testovací server našeho Starter Kitu."
+  },
+  {
+    "start": 91.96120833333333,
+    "end": 95.16995833333333,
+    "text": "Soubor teď uložím a vrátím se do prohlížeče."
+  },
+  {
+    "start": 95.52035416666666,
+    "end": 99.19302083333334,
+    "text": "Chci ukázat, podle čeho poznáme správný nadpis."
+  },
+  {
+    "start": 99.74820833333334,
+    "end": 103.936375,
+    "text": "Otevřu vývojářské nástroje a vyberu přímo nadpis Přihlášení."
+  },
+  {
+    "start": 104.25814583333333,
+    "end": 107.5441875,
+    "text": "Ve skutečném DOM je vidět prvek h2 a jeho text."
+  },
+  {
+    "start": 107.857875,
+    "end": 112.49933333333334,
+    "text": "Prvek h2 má roli heading; názvem rozlišíme konkrétní nadpis."
+  },
+  {
+    "start": 112.89691666666667,
+    "end": 118.77320833333333,
+    "text": "Nepotřebujeme kopírovat dlouhou cestu přes vnořené kontejnery ani náhodné CSS třídy."
+  },
+  {
+    "start": 119.07095833333334,
+    "end": 124.44466666666666,
+    "text": "Výběr prvku teď spojujeme s tím, co má uživatel skutečně poznat na stránce."
+  },
+  {
+    "start": 125.16147916666667,
+    "end": 129.9810625,
+    "text": "Než lokátor zapíšeme ručně, krátce si ukážeme pomocníka Codegen."
+  },
+  {
+    "start": 130.34947916666667,
+    "end": 134.0608125,
+    "text": "Tady běží jeho skutečný prohlížeč a vedle něj Inspector."
+  },
+  {
+    "start": 134.5,
+    "end": 138.39175,
+    "text": "Do e-mailového pole napíšu náš veřejný testovací účet."
+  },
+  {
+    "start": 138.80645833333332,
+    "end": 142.59508333333335,
+    "text": "Inspector z provedené akce vytvoří návrh kódu v Pythonu."
+  },
+  {
+    "start": 142.936625,
+    "end": 147.42116666666666,
+    "text": "V návrhu je navigace, nalezený textbox a vyplnění hodnoty."
+  },
+  {
+    "start": 147.79472916666668,
+    "end": 152.7818125,
+    "text": "Záznam samotného klikání ale ještě neříká, co má test ověřovat."
+  },
+  {
+    "start": 153.1926875,
+    "end": 157.2390625,
+    "text": "Návrh proto vždy přečteme a doplníme vlastní očekávání."
+  },
+  {
+    "start": 157.5969375,
+    "end": 163.07377083333333,
+    "text": "Teď se vrátíme k našemu krátkému testu, kde nadpis i tlačítko ověříme vědomě."
+  },
+  {
+    "start": 163.63358333333332,
+    "end": 168.22120833333332,
+    "text": "Zpátky v editoru napíšu očekávání pro právě prohlédnutý nadpis."
+  },
+  {
+    "start": 168.52129166666666,
+    "end": 172.68458333333334,
+    "text": "Použiji get_by_role s rolí heading a přesným názvem Přihlášení."
+  },
+  {
+    "start": 173.01024999999998,
+    "end": 177.623625,
+    "text": "Volba exact vyžaduje shodu celého názvu, nikoli jen jeho části."
+  },
+  {
+    "start": 177.9545,
+    "end": 182.65808333333334,
+    "text": "Za lokátor připojím to_be_visible, protože chceme nadpis opravdu vidět."
+  },
+  {
+    "start": 183.10379166666667,
+    "end": 187.04708333333332,
+    "text": "Potom přidám druhé očekávání pro tlačítko Přihlásit se."
+  },
+  {
+    "start": 187.32231249999998,
+    "end": 190.71372916666667,
+    "text": "Tady je rolí button a názvem text našeho tlačítka."
+  },
+  {
+    "start": 191.2559375,
+    "end": 195.74052083333333,
+    "text": "Vrátím se ještě k živému prvku v prohlížeči a vyberu tlačítko v DOM."
+  },
+  {
+    "start": 196.06320833333334,
+    "end": 199.40083333333334,
+    "text": "Obě kontroly tak mají oporu ve skutečné aplikaci."
+  },
+  {
+    "start": 199.67504166666666,
+    "end": 205.2234375,
+    "text": "Pouhé otevření adresy by nám ještě nepotvrdilo, že se formulář správně zobrazil."
+  },
+  {
+    "start": 205.92639583333332,
+    "end": 210.5655625,
+    "text": "Než budeme věřit zelenému výsledku, vyzkoušíme kontrolovanou chybu."
+  },
+  {
+    "start": 211.0555,
+    "end": 216.22304166666666,
+    "text": "V prvním očekávání teď změním pouze hledaný text na Neexistující nadpis."
+  },
+  {
+    "start": 216.58129166666666,
+    "end": 220.70504166666666,
+    "text": "Ostatní kroky i jméno testu nechám stejné a soubor uložím."
+  },
+  {
+    "start": 221.2408125,
+    "end": 224.28202083333332,
+    "text": "V terminálu spustím právě tento jeden test."
+  },
+  {
+    "start": 224.74016666666665,
+    "end": 229.62416666666667,
+    "text": "Přepínač headed zpřístupní skutečný prohlížeč a slowmo zpomalí ukázku."
+  },
+  {
+    "start": 229.93472916666667,
+    "end": 234.94760416666665,
+    "text": "Zpomalení je pomůcka pro sledování, nikoli řešení nestabilních testů."
+  },
+  {
+    "start": 235.47847916666666,
+    "end": 240.36252083333332,
+    "text": "V nahrávce prohlížeče z tohoto běhu se přihlašovací stránka opravdu načetla."
+  },
+  {
+    "start": 240.64704166666667,
+    "end": 243.89445833333332,
+    "text": "Test ale marně hledá text, který jsme si vymysleli."
+  },
+  {
+    "start": 244.41312499999998,
+    "end": 248.44662499999998,
+    "text": "Teď už terminál ukazuje selhání a návratový kód je jedna."
+  },
+  {
+    "start": 248.72614583333333,
+    "end": 252.7854375,
+    "text": "To je očekávaný výsledek našeho záměrně chybného zadání."
+  },
+  {
+    "start": 253.4878958333333,
+    "end": 257.92089583333336,
+    "text": "V chybovém výpisu najdu assertion a hledaný Neexistující nadpis."
+  },
+  {
+    "start": 258.3139375,
+    "end": 261.98664583333334,
+    "text": "Stránka má přitom stále správný nadpis Přihlášení."
+  },
+  {
+    "start": 262.23372916666665,
+    "end": 267.14339583333333,
+    "text": "Příčina je tedy v očekávání testu, nikoli v přihlašovacím formuláři."
+  },
+  {
+    "start": 267.63827083333337,
+    "end": 271.33672916666666,
+    "text": "V editoru teď opravím jen tuto jednu hodnotu na Přihlášení."
+  },
+  {
+    "start": 271.6494166666667,
+    "end": 276.84270833333335,
+    "text": "Kontrolu nemažu, nepřidávám xfail a nezvyšuji bez důvodu časový limit."
+  },
+  {
+    "start": 277.36910416666666,
+    "end": 281.0031041666667,
+    "text": "Soubor znovu uložím a stejný test spustím podruhé."
+  },
+  {
+    "start": 281.531,
+    "end": 286.87891666666667,
+    "text": "Mění se pouze složka s reportem, aby nám původní chyba zůstala jako důkaz."
+  },
+  {
+    "start": 287.37314583333335,
+    "end": 291.13602083333336,
+    "text": "Také druhý záznam browseru pochází ze skutečného běhu."
+  },
+  {
+    "start": 291.6482916666667,
+    "end": 297.4730416666667,
+    "text": "Nyní obě očekávání odpovídají stránce a terminál ukazuje jeden úspěšný test."
+  },
+  {
+    "start": 297.84122916666666,
+    "end": 301.46235416666667,
+    "text": "Zelené číslo už umíme vysvětlit konkrétní opravou."
+  },
+  {
+    "start": 302.23589583333336,
+    "end": 306.0374375,
+    "text": "Nakonec otevřu skutečný HTML report druhého běhu."
+  },
+  {
+    "start": 306.3712291666667,
+    "end": 310.4563125,
+    "text": "V přehledu je jeden úspěšný případ a dohledáme jeho název."
+  },
+  {
+    "start": 310.9581041666667,
+    "end": 315.80343750000003,
+    "text": "Rozbalím podrobnosti, abychom výsledek spojili s právě napsaným souborem."
+  },
+  {
+    "start": 316.155125,
+    "end": 320.74275,
+    "text": "Report neříká, že jsme prověřili celé přihlašování nebo celou aplikaci."
+  },
+  {
+    "start": 321.0343541666667,
+    "end": 325.158875,
+    "text": "Potvrzuje pouze naše dva viditelné prvky na přihlašovací stránce."
+  },
+  {
+    "start": 325.6647916666667,
+    "end": 329.58229166666666,
+    "text": "V editoru si teď ještě jednou projdeme výsledný krátký test."
+  },
+  {
+    "start": 329.95120833333334,
+    "end": 335.1702916666667,
+    "text": "Má import, vlastní funkci, navigaci a dvě jasná očekávání."
+  },
+  {
+    "start": 335.57320833333335,
+    "end": 338.22783333333336,
+    "text": "Pro samostatné procvičení přidejte kontrolu"
+  },
+  {
+    "start": 338.22783333333336,
+    "end": 341.65566666666666,
+    "text": "přítomnosti e-mailového pole a test znovu spusťte."
+  },
+  {
+    "start": 341.9983541666667,
+    "end": 348.0550625,
+    "text": "Nejdřív si vlastnost ověřte ručně a potom vysvětlete, co zelený výsledek skutečně dokazuje."
+  }
+]

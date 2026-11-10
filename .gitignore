@@ -1,0 +1,75 @@
+# Local environments and credentials; keep empty examples in Git.
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+!.env.*.example
+.tools/
+
+# Python, lint and test caches.
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+build/
+dist/
+
+# Test results and local validation evidence.
+reports/
+test-results/
+playwright-report/
+blob-report/
+/evidence/
+*.log
+
+# Course scripts, Markdown and storyboard stay versioned. Generated media,
+# recordings, chapter workspaces and packaged sources stay on disk only.
+video_course/**/recordings/
+video_course/**/narration/
+video_course/**/output/
+video_course/**/rendered/
+video_course/**/evidence/
+video_course/**/audio_cache/
+video_course/**/edited/
+video_course/**/comparison/
+video_course/**/source_versions/
+/video_course/full/chapters/
+/video_course/storyboard/archive/
+/video_course/voice_samples/
+# Generated screen probes and previews (the vector brand stays versioned).
+video_course/**/*.png
+video_course/**/*.jpg
+video_course/**/*.jpeg
+video_course/**/*.webp
+/video_course/r2/dom-uia.json
+*.mp4
+*.webm
+*.mkv
+*.mov
+*.avi
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.zip
+*.7z
+*.tar
+*.gz
+*.bundle
+
+# Machine-specific editor and OS files.
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+

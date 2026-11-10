@@ -1,0 +1,38 @@
+# Credentials: commit examples only.
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python environments, caches and build outputs.
+.venv/
+venv/
+.tools/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.nox/
+build/
+dist/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Reports contain screenshots, traces and browser recordings.
+reports/
+test-results/
+playwright-report/
+blob-report/
+*.log
+
+# Local editor and OS files.
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini

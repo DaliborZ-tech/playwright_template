@@ -1,0 +1,172 @@
+{
+  "revision": "FULL_R21_STANDARD",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Od manuálního testu k regresi",
+      "learning_outcome": "Převést předpoklad, krok a očekávaný výsledek manuálního případu do prvního regresního ověření.",
+      "voice": "cs-CZ-VlastaNeural",
+      "duration": 463.04,
+      "frozen_commit": "129d317771d91da04e31e8150a2111188f9ae51f",
+      "status": "RENDERED_AWAITING_OWNER_REVIEW",
+      "start": 0.0,
+      "end": 463.04,
+      "source_sha256": "d6eb3981143e5aa52f816df597d80fa0e08409acf904055058483799b721720a"
+    },
+    {
+      "chapter": 2,
+      "title": "Instalace a první spuštění",
+      "learning_outcome": "Ověřit Python, prostředí, závislosti a zvolený interpreter; skutečně spustit připravený projekt.",
+      "voice": "cs-CZ-VlastaNeural",
+      "duration": 461.28,
+      "frozen_commit": "129d317771d91da04e31e8150a2111188f9ae51f",
+      "status": "RENDERED_AWAITING_OWNER_REVIEW",
+      "start": 463.04,
+      "end": 924.3199999999999,
+      "source_sha256": "4cdcf035fbfa7718981df59e98712c534b54685b466b179315b38478f1248d2d"
+    },
+    {
+      "chapter": 3,
+      "title": "Python pro testera",
+      "learning_outcome": "Upravit krátkou Python funkci, vysvětlit proměnnou, argument, seznam, podmínku a návratovou hodnotu.",
+      "voice": "cs-CZ-VlastaNeural",
+      "duration": 454.56,
+      "frozen_commit": "129d317771d91da04e31e8150a2111188f9ae51f",
+      "status": "RENDERED_AWAITING_OWNER_REVIEW",
+      "start": 924.32,
+      "end": 1378.88,
+      "source_sha256": "4c2567deab7355dfeb60ef2347149d9f6bddf15dd0f967145b268aa5d47d330d"
+    },
+    {
+      "chapter": 4,
+      "title": "První vlastní test",
+      "learning_outcome": "Samostatně napsat první test a vysvětlit jeho skutečný RED→GREEN výsledek.",
+      "status": "APPROVED_REFERENCE_REUSED",
+      "duration": 348.48,
+      "reference": "video_course/r21/output/edit_project.json",
+      "start": 1378.88,
+      "end": 1727.3600000000001,
+      "source_sha256": "6c53aeb9e0b0bc7828e115c2868399b6f2a54411835c92a8ab0893a882d42b20"
+    },
+    {
+      "chapter": 5,
+      "title": "Stabilní lokátory",
+      "learning_outcome": "Vybrat jednoznačný lokátor podle role, popisku, textu a test ID a ověřit jeho rozsah.",
+      "voice": "cs-CZ-VlastaNeural",
+      "duration": 407.56,
+      "frozen_commit": "129d317771d91da04e31e8150a2111188f9ae51f",
+      "status": "RENDERED_AWAITING_OWNER_REVIEW",
+      "start": 1727.36,
+      "end": 2134.92,
+      "source_sha256": "0d5776d5e849d007ce59675d2d05f99621c68fe4e87086f2546e38acf7305381"
+    },
+    {
+      "chapter": 6,
+      "title": "Akce a očekávání",
+      "learning_outcome": "Vyplnit skutečný formulář, zvolit hodnotu, uložit data a ověřit viditelný asynchronní výsledek.",
+      "voice": "cs-CZ-VlastaNeural",
+      "duration": 440.6,
+      "frozen_commit": "129d317771d91da04e31e8150a2111188f9ae51f",
+      "status": "RENDERED_AWAITING_OWNER_REVIEW",
+      "start": 2134.92,
+      "end": 2575.52,
+      "source_sha256": "b2c6446882a970744622431a9dbf30f79bc38f63e24190d459a5639698442e4a"
+    },
+    {
+      "chapter": 7,
+      "title": "Projekt, fixtures a data",
+      "learning_outcome": "Spustit parametrizované případy, vysvětlit fixtures a ukázat nezávislost testů na pořadí.",
+      "voice": "cs-CZ-VlastaNeural",
+      "duration": 465.44,
+      "frozen_commit": "129d317771d91da04e31e8150a2111188f9ae51f",
+      "status": "RENDERED_AWAITING_OWNER_REVIEW",
+      "start": 2575.52,
+      "end": 3040.96,
+      "source_sha256": "65b51a38c9542219efc94ec7019be5f8f0800b5be190165096d2cbca662e868d"
+    },
+    {
+      "chapter": 8,
+      "title": "Celá regresní cesta",
+      "learning_outcome": "Projít vytvoření, úpravu, smazání a odhlášení ručně i skutečným regresním testem.",
+      "voice": "cs-CZ-VlastaNeural",
+      "duration": 437.36,
+      "frozen_commit": "129d317771d91da04e31e8150a2111188f9ae51f",
+      "status": "RENDERED_AWAITING_OWNER_REVIEW",
+      "start": 3040.96,
+      "end": 3478.32,
+      "source_sha256": "b693db188d3e58334c54fe0168409410d5b067c6e7e22694299711da9aa7de66"
+    },
+    {
+      "chapter": 9,
+      "title": "Codegen jako pomocník",
+      "learning_outcome": "Získat skutečný Codegen návrh, přečíst ho a doplnit vlastní srozumitelná očekávání.",
+      "voice": "cs-CZ-VlastaNeural",
+      "duration": 439.88,
+      "frozen_commit": "129d317771d91da04e31e8150a2111188f9ae51f",
+      "status": "RENDERED_AWAITING_OWNER_REVIEW",
+      "start": 3478.32,
+      "end": 3918.2000000000003,
+      "source_sha256": "bb4d96bcf9aeac5c5efd75c886ea48e8e9ed0a364df6365725d4cd186753cc24"
+    },
+    {
+      "chapter": 10,
+      "title": "Selhání a diagnostika",
+      "learning_outcome": "Vysvětlit skutečný assertion failure, najít jej v Trace Vieweru a ověřit opravu i Inspector.",
+      "voice": "cs-CZ-VlastaNeural",
+      "duration": 440.52,
+      "frozen_commit": "129d317771d91da04e31e8150a2111188f9ae51f",
+      "status": "RENDERED_AWAITING_OWNER_REVIEW",
+      "start": 3918.2,
+      "end": 4358.719999999999,
+      "source_sha256": "d49e6430ae1b70ffcbbc587efec7762ee3e6c3f766003eb6a87686047ec282ab"
+    },
+    {
+      "chapter": 11,
+      "title": "Regresní výsledky a reporty",
+      "learning_outcome": "Spustit sadu, dohledat správný HTML/JUnit report a vysvětlit rozsah jeho výsledků.",
+      "voice": "cs-CZ-VlastaNeural",
+      "duration": 440.48,
+      "frozen_commit": "129d317771d91da04e31e8150a2111188f9ae51f",
+      "status": "RENDERED_AWAITING_OWNER_REVIEW",
+      "start": 4358.72,
+      "end": 4799.200000000001,
+      "source_sha256": "2d293684e638fd2853dd806bdbb14d4ef947f08ccefab203ff9d5a6f9dc7abf9"
+    },
+    {
+      "chapter": 12,
+      "title": "Váš samostatný test",
+      "learning_outcome": "Ze zadání samostatně vytvořit a spustit test prázdného vyhledávání a určit další bezpečný krok.",
+      "voice": "cs-CZ-VlastaNeural",
+      "duration": 457.28,
+      "frozen_commit": "129d317771d91da04e31e8150a2111188f9ae51f",
+      "status": "RENDERED_AWAITING_OWNER_REVIEW",
+      "start": 4799.2,
+      "end": 5256.48,
+      "source_sha256": "bf3e4a5a5371f09829c114233caf3222814fa7d64602c0488547c2e7591ae4db"
+    }
+  ],
+  "duration": 5256.48,
+  "reference_po_approval": {
+    "revision": "R2.1",
+    "decision": "APPROVED",
+    "date": "2026-11-10",
+    "timezone": "Europe/Prague",
+    "reviewer": "Product Owner / user",
+    "user_statement": "schvaluji",
+    "scope": "Entire R2.1 reference chapter and its visual and audio standard, in response to the request to approve the full chapter after viewing and listening.",
+    "review_method": "Explicit owner approval in this conversation; no separate viewing-session telemetry is claimed.",
+    "frozen_commit": "129d317771d91da04e31e8150a2111188f9ae51f",
+    "voice": "cs-CZ-VlastaNeural",
+    "movies": {
+      "Playwright_Academy_R21_Prvni_Test.mp4": "6c53aeb9e0b0bc7828e115c2868399b6f2a54411835c92a8ab0893a882d42b20",
+      "Playwright_Academy_R21_Prvni_Test_Titulky.mp4": "c3ca84bdde17c1b5a9e038c8eb88b61c158fec027554d4b00c0aabcca7ea50f4"
+    },
+    "approved_delivery_archive_sha256": "d54fbf5af53154a6a0c4e610eb4d5382cdf22124992888f83ffb4a9f86ada6d3",
+    "full_course_build_authorized": true,
+    "remaining_chapters_product_acceptance": "NOT_YET_REVIEWED",
+    "legacy_full_course_product_status": "CHANGES_REQUIRED"
+  },
+  "whole_course_product_acceptance": "PENDING",
+  "production_status": "READY_FOR_OWNER_REVIEW",
+  "whole_course_human_acceptance": "PENDING"
+}

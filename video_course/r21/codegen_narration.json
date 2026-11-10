@@ -1,0 +1,451 @@
+{
+  "id": "r21_codegen",
+  "signature": "8645cd5b1bb69dc58b0bb86872e3879431286d77c1df00667246976b2b9a52c2",
+  "voice": "cs-CZ-VlastaNeural",
+  "unit": "continuous_paragraph",
+  "display_text": "Než lokátor zapíšeme ručně, krátce si ukážeme pomocníka Codegen. Tady běží jeho skutečný prohlížeč a vedle něj Inspector. Do e-mailového pole napíšu náš veřejný testovací účet. Inspector z provedené akce vytvoří návrh kódu v Pythonu. V návrhu je navigace, nalezený textbox a vyplnění hodnoty. Záznam samotného klikání ale ještě neříká, co má test ověřovat. Návrh proto vždy přečteme a doplníme vlastní očekávání. Teď se vrátíme k našemu krátkému testu, kde nadpis i tlačítko ověříme vědomě.",
+  "spoken_text": "Než lokátor zapíšeme ručně, krátce si ukážeme pomocníka koudžen. Tady běží jeho skutečný prohlížeč a vedle něj Inspector. Do e-mailového pole napíšu náš veřejný testovací účet. Inspector z provedené akce vytvoří návrh kódu v pajtonu. V návrhu je navigace, nalezený tekst boks a vyplnění hodnoty. Záznam samotného klikání ale ještě neříká, co má test ověřovat. Návrh proto vždy přečteme a doplníme vlastní očekávání. Teď se vrátíme k našemu krátkému testu, kde nadpis i tlačítko ověříme vědomě.",
+  "replacements": [
+    {
+      "start": 56,
+      "end": 63,
+      "display": "Codegen",
+      "spoken": "koudžen"
+    },
+    {
+      "start": 225,
+      "end": 232,
+      "display": "Pythonu",
+      "spoken": "pajtonu"
+    },
+    {
+      "start": 265,
+      "end": 272,
+      "display": "textbox",
+      "spoken": "tekst boks"
+    }
+  ],
+  "word_boundaries": [
+    {
+      "text": "Než",
+      "offset": 1015410,
+      "duration": 2448330
+    },
+    {
+      "text": "lokátor",
+      "offset": 3592910,
+      "duration": 5154580
+    },
+    {
+      "text": "zapíšeme",
+      "offset": 8747500,
+      "duration": 6572080
+    },
+    {
+      "text": "ručně",
+      "offset": 15319580,
+      "duration": 4381250
+    },
+    {
+      "text": "krátce",
+      "offset": 22278330,
+      "duration": 5799160
+    },
+    {
+      "text": "si",
+      "offset": 28077500,
+      "duration": 1804160
+    },
+    {
+      "text": "ukážeme",
+      "offset": 30397080,
+      "duration": 5412080
+    },
+    {
+      "text": "pomocníka",
+      "offset": 35809160,
+      "duration": 6958750
+    },
+    {
+      "text": "koudžen",
+      "offset": 42767910,
+      "duration": 6443330
+    },
+    {
+      "text": "Tady",
+      "offset": 59665000,
+      "duration": 2706250
+    },
+    {
+      "text": "běží",
+      "offset": 62371250,
+      "duration": 4123750
+    },
+    {
+      "text": "jeho",
+      "offset": 66495000,
+      "duration": 1932910
+    },
+    {
+      "text": "skutečný",
+      "offset": 68427910,
+      "duration": 5927910
+    },
+    {
+      "text": "prohlížeč",
+      "offset": 74613330,
+      "duration": 7087500
+    },
+    {
+      "text": "a",
+      "offset": 82474160,
+      "duration": 1030830
+    },
+    {
+      "text": "vedle",
+      "offset": 83891660,
+      "duration": 3479580
+    },
+    {
+      "text": "něj",
+      "offset": 87371250,
+      "duration": 2448330
+    },
+    {
+      "text": "Inspector",
+      "offset": 90077500,
+      "duration": 6700830
+    },
+    {
+      "text": "Do",
+      "offset": 107216660,
+      "duration": 1288750
+    },
+    {
+      "text": "e-mailového",
+      "offset": 108634160,
+      "duration": 7989580
+    },
+    {
+      "text": "pole",
+      "offset": 116623750,
+      "duration": 2706250
+    },
+    {
+      "text": "napíšu",
+      "offset": 119330000,
+      "duration": 5154580
+    },
+    {
+      "text": "náš",
+      "offset": 124484580,
+      "duration": 3221660
+    },
+    {
+      "text": "veřejný",
+      "offset": 127706250,
+      "duration": 4767910
+    },
+    {
+      "text": "testovací",
+      "offset": 132732080,
+      "duration": 7087500
+    },
+    {
+      "text": "účet",
+      "offset": 140592910,
+      "duration": 5541250
+    },
+    {
+      "text": "Inspector",
+      "offset": 156314580,
+      "duration": 6185410
+    },
+    {
+      "text": "z",
+      "offset": 162628750,
+      "duration": 1288750
+    },
+    {
+      "text": "provedené",
+      "offset": 163917500,
+      "duration": 5927910
+    },
+    {
+      "text": "akce",
+      "offset": 169845410,
+      "duration": 3865830
+    },
+    {
+      "text": "vytvoří",
+      "offset": 173711250,
+      "duration": 5283330
+    },
+    {
+      "text": "návrh",
+      "offset": 178995000,
+      "duration": 5025410
+    },
+    {
+      "text": "kódu",
+      "offset": 184020410,
+      "duration": 3479580
+    },
+    {
+      "text": "v",
+      "offset": 187500000,
+      "duration": 1030830
+    },
+    {
+      "text": "pajtonu",
+      "offset": 188530830,
+      "duration": 5670000
+    },
+    {
+      "text": "V",
+      "offset": 204248750,
+      "duration": 1030830
+    },
+    {
+      "text": "návrhu",
+      "offset": 205279580,
+      "duration": 5412500
+    },
+    {
+      "text": "je",
+      "offset": 210692080,
+      "duration": 1288750
+    },
+    {
+      "text": "navigace",
+      "offset": 211980830,
+      "duration": 6700830
+    },
+    {
+      "text": "nalezený",
+      "offset": 221774580,
+      "duration": 6443330
+    },
+    {
+      "text": "tekst",
+      "offset": 228346660,
+      "duration": 3350410
+    },
+    {
+      "text": "boks",
+      "offset": 231825830,
+      "duration": 3865830
+    },
+    {
+      "text": "a",
+      "offset": 236594160,
+      "duration": 644160
+    },
+    {
+      "text": "vyplnění",
+      "offset": 237753750,
+      "duration": 5670000
+    },
+    {
+      "text": "hodnoty",
+      "offset": 243552910,
+      "duration": 5541250
+    },
+    {
+      "text": "Záznam",
+      "offset": 259016660,
+      "duration": 5541250
+    },
+    {
+      "text": "samotného",
+      "offset": 264557910,
+      "duration": 6572080
+    },
+    {
+      "text": "klikání",
+      "offset": 271130000,
+      "duration": 6572080
+    },
+    {
+      "text": "ale",
+      "offset": 277702500,
+      "duration": 2448330
+    },
+    {
+      "text": "ještě",
+      "offset": 280150830,
+      "duration": 3479160
+    },
+    {
+      "text": "neříká",
+      "offset": 283630000,
+      "duration": 6958750
+    },
+    {
+      "text": "co",
+      "offset": 294068330,
+      "duration": 2061660
+    },
+    {
+      "text": "má",
+      "offset": 296130000,
+      "duration": 2190830
+    },
+    {
+      "text": "test",
+      "offset": 298449580,
+      "duration": 2963750
+    },
+    {
+      "text": "ověřovat",
+      "offset": 302186660,
+      "duration": 6700830
+    },
+    {
+      "text": "Návrh",
+      "offset": 319072080,
+      "duration": 4897080
+    },
+    {
+      "text": "proto",
+      "offset": 323969160,
+      "duration": 3350410
+    },
+    {
+      "text": "vždy",
+      "offset": 327319580,
+      "duration": 2448330
+    },
+    {
+      "text": "přečteme",
+      "offset": 329767910,
+      "duration": 6443330
+    },
+    {
+      "text": "a",
+      "offset": 336340000,
+      "duration": 1030830
+    },
+    {
+      "text": "doplníme",
+      "offset": 337757500,
+      "duration": 5799160
+    },
+    {
+      "text": "vlastní",
+      "offset": 343556660,
+      "duration": 5025830
+    },
+    {
+      "text": "očekávání",
+      "offset": 348711250,
+      "duration": 10824580
+    },
+    {
+      "text": "Teď",
+      "offset": 369587500,
+      "duration": 1675410
+    },
+    {
+      "text": "se",
+      "offset": 371520410,
+      "duration": 1804160
+    },
+    {
+      "text": "vrátíme",
+      "offset": 373324580,
+      "duration": 5799160
+    },
+    {
+      "text": "k",
+      "offset": 379123750,
+      "duration": 773330
+    },
+    {
+      "text": "našemu",
+      "offset": 380025830,
+      "duration": 3994580
+    },
+    {
+      "text": "krátkému",
+      "offset": 384020410,
+      "duration": 6958750
+    },
+    {
+      "text": "testu",
+      "offset": 390979160,
+      "duration": 4639160
+    },
+    {
+      "text": "kde",
+      "offset": 397551660,
+      "duration": 2577080
+    },
+    {
+      "text": "nadpis",
+      "offset": 400128750,
+      "duration": 4639160
+    },
+    {
+      "text": "i",
+      "offset": 405541250,
+      "duration": 257910
+    },
+    {
+      "text": "tlačítko",
+      "offset": 406185410,
+      "duration": 6443330
+    },
+    {
+      "text": "ověříme",
+      "offset": 413273330,
+      "duration": 5541250
+    },
+    {
+      "text": "vědomě",
+      "offset": 418814580,
+      "duration": 5541250
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.101541,
+      "end": 6.237125,
+      "text": "Než lokátor zapíšeme ručně, krátce si ukážeme pomocníka Codegen. Tady"
+    },
+    {
+      "start": 6.237125,
+      "end": 12.448458,
+      "text": "běží jeho skutečný prohlížeč a vedle něj Inspector. Do e-mailového pole napíšu"
+    },
+    {
+      "start": 12.448458,
+      "end": 18.853083,
+      "text": "náš veřejný testovací účet. Inspector z provedené akce vytvoří návrh kódu v"
+    },
+    {
+      "start": 18.853083,
+      "end": 24.909416,
+      "text": "Pythonu. V návrhu je navigace, nalezený textbox a vyplnění hodnoty."
+    },
+    {
+      "start": 25.901666,
+      "end": 32.396916,
+      "text": "Záznam samotného klikání ale ještě neříká, co má test ověřovat. Návrh"
+    },
+    {
+      "start": 32.396916,
+      "end": 38.402041,
+      "text": "proto vždy přečteme a doplníme vlastní očekávání. Teď se vrátíme k našemu"
+    },
+    {
+      "start": 38.402041,
+      "end": 42.435583,
+      "text": "krátkému testu, kde nadpis i tlačítko ověříme vědomě."
+    }
+  ],
+  "audio": "video_course\\r21\\narration\\r21_codegen_8645cd5b1bb6.mp3",
+  "audio_sha256": "4b5a231a6b497ea891bba3e75fa351feba8df8df565ff3be74a6ff07c5603920",
+  "human_listening_review": "not_claimed",
+  "captions_algorithm": 2
+}

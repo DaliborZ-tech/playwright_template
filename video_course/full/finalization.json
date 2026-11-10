@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE_DELIVERY_READY_FOR_OWNER_REVIEW",
+  "completed_at_utc": "2026-11-10T18:36:31.485098+00:00",
+  "package": {
+    "package": "C:\\Users\\dalib\\projects\\playwright_template\\dist\\Playwright_Academy_Full_Course_Complete.zip",
+    "bytes": 2005497911,
+    "sha256": "e8af703ff0af00978b83f195a15e67bd2c362d25532fbb22511a422120e5266d",
+    "files": 2275
+  },
+  "duration_seconds": 5256.48,
+  "chapters": 12,
+  "captions": 1153,
+  "voice": "cs-CZ-VlastaNeural",
+  "movies": {
+    "Playwright_Academy_Python_CZ_Full_Course.mp4": "73199a34cca6bec46ded288e6e8024609e22afc7ee610564340cb6362d273547",
+    "Playwright_Academy_Python_CZ_Full_Course_Titulky.mp4": "f615f76ea6c3a40603ab3a3813318c0d08ddd099dd87f89cdd1621f48737d0ea"
+  },
+  "zip_integrity": "CRC_AND_EVERY_PAYLOAD_SHA256_PASS",
+  "final_payload_render_inputs_verified": 493,
+  "reproduction": "BYTE_IDENTICAL_FULL_COURSE_REBUILD_PASS",
+  "reproduction_evidence": "video_course/full/evidence/reproduction/validation.json",
+  "delivery_binding_evidence": "video_course/full/evidence/reproduction/delivery_binding.json",
+  "render_inputs_sha256": "ba1cc00933d5fa38c0eb08a0f7ad2ecde7624ad2106a99137ce811f45dec5068",
+  "actual_headed_edge_player": "PASS",
+  "starter_testcases_passed": 44,
+  "starter_frozen_files_verified": 78,
+  "human_full_course_acceptance": "PENDING_OWNER_REVIEW",
+  "legacy_full_course_status": "CHANGES_REQUIRED"
+}

@@ -1,0 +1,7 @@
+V této ukázce neposuzujeme jen barvu hlasu. Poslouchejte také konce vět a výslovnost odborných názvů.
+Nejprve otevřeme Playwright a spustíme test v Pythonu pomocí pytestu.
+Locator určuje, který prvek hledáme. Fixture připraví testovací prostředí. Assertion ověří očekávaný výsledek.
+Codegen nám pomůže zaznamenat první kroky. V nástroji Trace Viewer potom najdeme příčinu selhání.
+Přepínač slowmo zpomalí provádění akcí, aby byl postup v prohlížeči dobře vidět.
+Slovo slow znamená pomalu. Browser označuje prohlížeč a screenshot je snímek obrazovky.
+Teď se zastavme. Opravdu stačí úspěšně kliknout? Nestačí. Musíme také ověřit, že se změna uložila.

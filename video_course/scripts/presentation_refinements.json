@@ -1,0 +1,9 @@
+{
+  "02_03": {"kind": "editor", "source": "tests/smoke/test_login.py", "line": 1, "action": "select_interpreter"},
+  "06_00": {"kind": "browser", "source": "tests/regression/test_records.py", "line": 1, "action": "create", "presentation": "word_boundary_actions_v1"},
+  "08_00": {"kind": "browser", "source": "tests/regression/test_records.py", "line": 1, "action": "journey", "presentation": "word_boundary_actions_v1"},
+  "10_02": {"kind": "trace", "source": "tests/teaching/test_expected_failure.py", "line": 1, "action": "inspect", "presentation": "failed_expect_selection_v2"},
+  "10_05": {"kind": "inspector", "source": "tests/examples/test_first_test.py", "line": 1, "action": "debug", "presentation": "user_code_no_artifacts_v2"},
+  "12_00": {"kind": "editor", "source": "training/exercises/WORKBOOK.md", "line": 19, "presentation": "independent_task_before_solution_v1"},
+  "12_01": {"kind": "editor", "source": "training/exercises/WORKBOOK.md", "line": 19, "presentation": "independent_task_before_solution_v1"}
+}

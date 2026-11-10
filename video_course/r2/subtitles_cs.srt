@@ -1,0 +1,349 @@
+1
+00:00:00,102 --> 00:00:04,341
+Naším cílem je první samostatný test
+přihlašovacího formuláře.
+
+2
+00:00:05,348 --> 00:00:10,773
+Nejdříve otevřu skutečnou aplikaci a
+společně si pojmenujeme očekávaný výsledek.
+
+3
+00:00:11,791 --> 00:00:16,005
+Na stránce má být nadpis Přihlášení a
+tlačítko Přihlásit se.
+
+4
+00:00:17,036 --> 00:00:21,108
+Do e-mailového pole teď napíšu náš veřejný
+testovací účet.
+
+5
+00:00:22,113 --> 00:00:26,186
+Potom vyplním syntetické heslo a oba údaje
+zase odstraním.
+
+6
+00:00:27,229 --> 00:00:30,786
+Samotné přihlášení dnes ještě automatizovat
+nebudeme.
+
+7
+00:00:31,804 --> 00:00:36,456
+Náš první test zkontroluje zobrazení
+stránky a obou uvedených prvků.
+
+8
+00:00:37,613 --> 00:00:41,080
+V editoru teď otevřu prázdný soubor pro náš
+příklad.
+
+9
+00:00:42,112 --> 00:00:46,326
+Jmenuje se test_video_created.py a leží ve
+složce tests,
+
+10
+00:00:46,636 --> 00:00:47,422
+examples.
+
+11
+00:00:48,427 --> 00:00:53,388
+Začátek názvu test je důležitý, protože
+podle něj pytest soubor najde.
+
+12
+00:00:54,381 --> 00:00:58,195
+Nejprve napíšu import objektu Page a funkce
+expect.
+
+13
+00:00:59,226 --> 00:01:04,484
+Page nám umožní ovládat kartu prohlížeče a
+expect zapisuje očekávání.
+
+14
+00:01:05,476 --> 00:01:09,819
+Pod importem založím vlastní testovací
+funkci s argumentem page.
+
+15
+00:01:10,850 --> 00:01:14,123
+Tento argument připraví naše existující
+fixture,
+
+16
+00:01:14,561 --> 00:01:16,996
+nemusíme vytvářet prohlížeč ručně.
+
+17
+00:01:18,001 --> 00:01:20,205
+Za definicí musí být dvojtečka.
+
+18
+00:01:21,236 --> 00:01:24,574
+Příkazy, které za chvíli přidáme, odsadíme.
+
+19
+00:01:25,605 --> 00:01:29,265
+Odsazené příkazy budou patřit do právě
+napsaného testu,
+
+20
+00:01:29,612 --> 00:01:30,682
+nikoli mimo něj.
+
+21
+00:01:31,806 --> 00:01:34,421
+Do těla funkce přidám první skutečný krok,
+
+22
+00:01:34,834 --> 00:01:36,574
+page.goto s cestou login.
+
+23
+00:01:37,631 --> 00:01:42,322
+Relativní adresu doplní připravený
+testovací server našeho Starter Kitu.
+
+24
+00:01:43,314 --> 00:01:46,523
+Soubor teď uložím a vrátím se do
+prohlížeče.
+
+25
+00:01:47,541 --> 00:01:51,214
+Chci ukázat, podle čeho poznáme správný
+nadpis.
+
+26
+00:01:52,258 --> 00:01:56,446
+Otevřu vývojářské nástroje a vyberu přímo
+nadpis Přihlášení.
+
+27
+00:01:57,438 --> 00:02:00,724
+Ve skutečném DOM je vidět prvek h2 a jeho
+text.
+
+28
+00:02:01,756 --> 00:02:03,534
+Prvek h2 má roli heading;
+
+29
+00:02:03,869 --> 00:02:06,420
+názvem rozlišíme konkrétní nadpis.
+
+30
+00:02:07,451 --> 00:02:13,328
+Nepotřebujeme kopírovat dlouhou cestu přes
+vnořené kontejnery ani náhodné CSS třídy.
+
+31
+00:02:14,307 --> 00:02:19,681
+Výběr prvku teď spojujeme s tím, co má
+uživatel skutečně poznat na stránce.
+
+32
+00:02:20,789 --> 00:02:25,377
+Zpátky v editoru napíšu očekávání pro právě
+prohlédnutý nadpis.
+
+33
+00:02:26,397 --> 00:02:30,585
+Použiji get_by_role s rolí heading a
+přesným názvem Přihlášení.
+
+34
+00:02:31,577 --> 00:02:34,373
+Volba exact vyžaduje shodu celého názvu,
+
+35
+00:02:34,721 --> 00:02:36,190
+nikoli jen jeho části.
+
+36
+00:02:37,182 --> 00:02:41,886
+Za lokátor připojím to_be_visible, protože
+chceme nadpis opravdu vidět.
+
+37
+00:02:42,892 --> 00:02:46,835
+Potom přidám druhé očekávání pro tlačítko
+Přihlásit se.
+
+38
+00:02:47,853 --> 00:02:51,268
+Tady je rolí button a názvem text našeho
+tlačítka.
+
+39
+00:02:52,286 --> 00:02:56,770
+Vrátím se ještě k živému prvku v prohlížeči
+a vyberu tlačítko v DOM.
+
+40
+00:02:57,801 --> 00:03:01,139
+Obě kontroly tak mají oporu ve skutečné
+aplikaci.
+
+41
+00:03:02,157 --> 00:03:05,276
+Pouhé otevření adresy by nám ještě
+nepotvrdilo,
+
+42
+00:03:05,585 --> 00:03:07,724
+že se formulář správně zobrazil.
+
+43
+00:03:08,814 --> 00:03:13,453
+Než budeme věřit zelenému výsledku,
+vyzkoušíme kontrolovanou chybu.
+
+44
+00:03:14,433 --> 00:03:19,601
+V prvním očekávání teď změním pouze hledaný
+text na Neexistující nadpis.
+
+45
+00:03:20,619 --> 00:03:24,743
+Ostatní kroky i jméno testu nechám stejné a
+soubor uložím.
+
+46
+00:03:25,799 --> 00:03:28,840
+V terminálu spustím právě tento jeden test.
+
+47
+00:03:29,859 --> 00:03:34,743
+Přepínač headed zpřístupní skutečný
+prohlížeč a slowmo zpomalí ukázku.
+
+48
+00:03:35,709 --> 00:03:40,722
+Zpomalení je pomůcka pro sledování, nikoli
+řešení nestabilních testů.
+
+49
+00:03:41,753 --> 00:03:46,637
+V nahrávce prohlížeče z tohoto běhu se
+přihlašovací stránka opravdu načetla.
+
+50
+00:03:47,630 --> 00:03:50,877
+Test ale marně hledá text, který jsme si
+vymysleli.
+
+51
+00:03:51,895 --> 00:03:55,928
+Teď už terminál ukazuje selhání a návratový
+kód je jedna.
+
+52
+00:03:56,947 --> 00:04:01,006
+To je očekávaný výsledek našeho záměrně
+chybného zadání.
+
+53
+00:04:02,117 --> 00:04:06,550
+V chybovém výpisu najdu assertion a hledaný
+Neexistující nadpis.
+
+54
+00:04:07,583 --> 00:04:11,255
+Stránka má přitom stále správný nadpis
+Přihlášení.
+
+55
+00:04:12,261 --> 00:04:17,183
+Příčina je tedy v očekávání testu, nikoli v
+přihlašovacím formuláři.
+
+56
+00:04:18,188 --> 00:04:21,887
+V editoru teď opravím jen tuto jednu
+hodnotu na Přihlášení.
+
+57
+00:04:22,892 --> 00:04:28,086
+Kontrolu nemažu, nepřidávám xfail a
+nezvyšuji bez důvodu časový limit.
+
+58
+00:04:29,077 --> 00:04:32,711
+Soubor znovu uložím a stejný test spustím
+podruhé.
+
+59
+00:04:33,756 --> 00:04:39,104
+Mění se pouze složka s reportem, aby nám
+původní chyba zůstala jako důkaz.
+
+60
+00:04:40,135 --> 00:04:43,897
+Také druhý záznam browseru pochází ze
+skutečného běhu.
+
+61
+00:04:44,928 --> 00:04:50,753
+Nyní obě očekávání odpovídají stránce a
+terminál ukazuje jeden úspěšný test.
+
+62
+00:04:51,771 --> 00:04:55,392
+Zelené číslo už umíme vysvětlit konkrétní
+opravou.
+
+63
+00:04:56,598 --> 00:05:00,399
+Nakonec otevřu skutečný HTML report druhého
+běhu.
+
+64
+00:05:01,431 --> 00:05:05,516
+V přehledu je jeden úspěšný případ a
+dohledáme jeho název.
+
+65
+00:05:06,496 --> 00:05:11,341
+Rozbalím podrobnosti, abychom výsledek
+spojili s právě napsaným souborem.
+
+66
+00:05:12,385 --> 00:05:16,972
+Report neříká, že jsme prověřili celé
+přihlašování nebo celou aplikaci.
+
+67
+00:05:17,991 --> 00:05:22,153
+Potvrzuje pouze naše dva viditelné prvky na
+přihlašovací stránce.
+
+68
+00:05:23,158 --> 00:05:27,075
+V editoru si teď ještě jednou projdeme
+výsledný krátký test.
+
+69
+00:05:28,081 --> 00:05:33,300
+Má import, vlastní funkci, navigaci a dvě
+jasná očekávání.
+
+70
+00:05:34,305 --> 00:05:39,421
+Pro samostatné procvičení přidejte kontrolu
+přítomnosti e-mailového pole a test
+
+71
+00:05:39,447 --> 00:05:40,388
+znovu spusťte.
+
+72
+00:05:41,380 --> 00:05:44,692
+Nejdřív si vlastnost ověřte ručně a potom
+vysvětlete,
+
+73
+00:05:45,066 --> 00:05:47,437
+co zelený výsledek skutečně dokazuje.

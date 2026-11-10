@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Přihlášení{% endblock %}
+{% block content %}
+<div class="login-layout"><section class="login-intro"><p class="eyebrow">OD PRVNÍHO KLIKNUTÍ K REGRESI</p><h1>Malý portál.<br>Skutečné testování.</h1><p>Bezpečné místo pro váš první automatizovaný test.<br>Procvičte přihlášení, formuláře i práci s výsledky.</p><div class="pills"><span>Python</span><span>pytest</span><span>Playwright</span></div></section>
+<section class="card login-card" aria-label="Přihlášení do portálu"><span class="tag">VÍTEJTE V ACADEMY</span><h2>Přihlášení</h2><p class="muted">Pokračujte do svého QA workspace.</p>
+{% if error %}<p role="alert" class="error">{{ error }}</p>{% endif %}
+<form method="post" novalidate><input type="hidden" name="csrf" value="{{ session.csrf }}">
+<label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="username" placeholder="tester@example.test" required>
+<label for="password">Heslo</label><input id="password" name="password" type="password" autocomplete="current-password" required>
+<button class="primary wide" type="submit">Přihlásit se →</button></form>
+<div class="demo-hint"><strong>Veřejný výukový účet</strong><br>tester@example.test<br><code>Academy123!</code><p>Údaje jsou smyšlené a patří pouze tomuto lokálnímu demu.</p></div>
+</section></div>
+{% endblock %}
+

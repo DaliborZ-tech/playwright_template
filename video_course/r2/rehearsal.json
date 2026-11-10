@@ -1,0 +1,280 @@
+[
+  {
+    "shot": "01_open",
+    "proof": {
+      "url": "http://127.0.0.1:5000/login",
+      "heading": [
+        "Malý portál.Skutečné testování.",
+        "Přihlášení"
+      ],
+      "email_label": "E-mail"
+    }
+  },
+  {
+    "shot": "01_email",
+    "proof": {
+      "actual_value": "tester@example.test"
+    }
+  },
+  {
+    "shot": "01_password",
+    "proof": {
+      "email_empty": true,
+      "password_empty": true
+    }
+  },
+  {
+    "shot": "02_blank",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "actual_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "shot": "02_import",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "sha256": "79ab483329af7105af214eb169ee9a2bbf874547d66dcadf9196d999ca9ce567",
+      "text": "\"\"\"Výsledek souboru vytvořeného od prázdné stránky během videokurzu.\"\"\"\n\nfrom playwright.sync_api import Page, expect\n"
+    }
+  },
+  {
+    "shot": "02_function",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "sha256": "072cca823e287d5a33ebfd34b6d05f150458f5df5833ee3d19c4aaf3aa61c58e",
+      "text": "\"\"\"Výsledek souboru vytvořeného od prázdné stránky během videokurzu.\"\"\"\n\nfrom playwright.sync_api import Page, expect\n\n\ndef test_video_login_form(page: Page) -> None:\n"
+    }
+  },
+  {
+    "shot": "03_goto",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "sha256": "fd1e55438fd58321ffb684f509430276482ca4eab07da3d0157661232a44ecec",
+      "text": "\"\"\"Výsledek souboru vytvořeného od prázdné stránky během videokurzu.\"\"\"\n\nfrom playwright.sync_api import Page, expect\n\n\ndef test_video_login_form(page: Page) -> None:\n    page.goto(\"/login\")\n"
+    }
+  },
+  {
+    "shot": "03_save",
+    "proof": {
+      "sha256": "fd1e55438fd58321ffb684f509430276482ca4eab07da3d0157661232a44ecec",
+      "file": "tests/examples/test_video_created.py"
+    }
+  },
+  {
+    "shot": "03_dom",
+    "proof": {
+      "role": "heading",
+      "name": "Přihlášení",
+      "actual_dom": "<h2>Přihlášení</h2>",
+      "node_name": "H2",
+      "selected_devtools_rows": [
+        "<h2> ​Přihlášení​ </h2> ​"
+      ],
+      "selection": "Actual DevTools element picker, selected accessible DOM row and real outerHTML"
+    }
+  },
+  {
+    "shot": "04_heading",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "sha256": "3ca0668ad8ad387096da970e046db7ab14b672e1f3292f62143c8a7b2558d1f3",
+      "text": "\"\"\"Výsledek souboru vytvořeného od prázdné stránky během videokurzu.\"\"\"\n\nfrom playwright.sync_api import Page, expect\n\n\ndef test_video_login_form(page: Page) -> None:\n    page.goto(\"/login\")\n    expect(page.get_by_role(\"heading\", name=\"Přihlášení\", exact=True)).to_be_visible()\n"
+    }
+  },
+  {
+    "shot": "04_button",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "sha256": "4a5df8d0ef9572e3d0f670ba93750ccb2ccf2c78c49c7f473bd1d77a9fac98e0",
+      "text": "\"\"\"Výsledek souboru vytvořeného od prázdné stránky během videokurzu.\"\"\"\n\nfrom playwright.sync_api import Page, expect\n\n\ndef test_video_login_form(page: Page) -> None:\n    page.goto(\"/login\")\n    expect(page.get_by_role(\"heading\", name=\"Přihlášení\", exact=True)).to_be_visible()\n    expect(page.get_by_role(\"button\", name=\"Přihlásit se\")).to_be_visible()\n"
+    }
+  },
+  {
+    "shot": "04_button_dom",
+    "proof": {
+      "role": "button",
+      "name": "Přihlásit se",
+      "actual_dom": "<button class=\"primary wide\" type=\"submit\">Přihlásit se →</button>",
+      "node_name": "BUTTON",
+      "selected_devtools_rows": [
+        "<button class=\"primary wide\" type=\"submit\"> ​Přihlásit se →​ </button> ​"
+      ],
+      "selection": "Actual DevTools element picker, selected accessible DOM row and real outerHTML"
+    }
+  },
+  {
+    "shot": "05_wrong",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "before": "name=\"Přihlášení\"",
+      "after": "name=\"Neexistující nadpis\"",
+      "sha256": "764a67dcad37b5844eeece6255824dff38b9e8452b4c5ce8e8dc297355a12ff8",
+      "text": "\"\"\"Výsledek souboru vytvořeného od prázdné stránky během videokurzu.\"\"\"\n\nfrom playwright.sync_api import Page, expect\n\n\ndef test_video_login_form(page: Page) -> None:\n    page.goto(\"/login\")\n    expect(page.get_by_role(\"heading\", name=\"Neexistující nadpis\", exact=True)).to_be_visible()\n    expect(page.get_by_role(\"button\", name=\"Přihlásit se\")).to_be_visible()\n"
+    }
+  },
+  {
+    "shot": "05_red_command",
+    "proof": {
+      "command": ".\\.venv\\Scripts\\python.exe -m pytest tests/examples/test_video_created.py::test_video_login_form -q --headed --slowmo=400 --video=on --tracing=off --output=reports/r2/rehearsal_1794309318/red/artifacts --html=reports/r2/rehearsal_1794309318/red/report.html --junitxml=reports/r2/rehearsal_1794309318/red/junit.xml",
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form"
+    }
+  },
+  {
+    "shot": "05_red_run",
+    "proof": {
+      "exit_code": 1,
+      "testcases": 1,
+      "failures": 1,
+      "errors": 0,
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form",
+      "actual_junit_nodeid": "tests/examples/test_video_created.py::test_video_login_form[chromium]",
+      "classname": "tests.examples.test_video_created",
+      "name": "test_video_login_form[chromium]",
+      "source_sha256": "764a67dcad37b5844eeece6255824dff38b9e8452b4c5ce8e8dc297355a12ff8",
+      "junit": "video_course\\r2\\evidence\\rehearsal_1794309318\\red\\junit.xml",
+      "junit_sha256": "d866d384da201c3161db6b033b915d9be2394fcd662f4bce7ad8c8794bc5f7bd",
+      "browser_video": "video_course\\r2\\evidence\\rehearsal_1794309318\\red\\artifacts\\tests-examples-test-video-created-py-test-video-login-form-chromium\\video.webm",
+      "browser_video_sha256": "3ee31832952614de5c11547f08f8599f64920aa7a193984c379437edd1406db7",
+      "report": "video_course\\r2\\evidence\\rehearsal_1794309318\\red\\report.html",
+      "report_sha256": "f072661d325c6bde51e830dd6afba05294ec3f9ca9c9db9595d07fb6d3e2dc9d",
+      "capture_unix_time": 1794309403.7609625
+    }
+  },
+  {
+    "shot": "05_red_result",
+    "proof": {
+      "exit_code": 1,
+      "testcases": 1,
+      "failures": 1,
+      "errors": 0,
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form",
+      "actual_junit_nodeid": "tests/examples/test_video_created.py::test_video_login_form[chromium]",
+      "classname": "tests.examples.test_video_created",
+      "name": "test_video_login_form[chromium]",
+      "source_sha256": "764a67dcad37b5844eeece6255824dff38b9e8452b4c5ce8e8dc297355a12ff8",
+      "junit": "video_course\\r2\\evidence\\rehearsal_1794309318\\red\\junit.xml",
+      "junit_sha256": "d866d384da201c3161db6b033b915d9be2394fcd662f4bce7ad8c8794bc5f7bd",
+      "browser_video": "video_course\\r2\\evidence\\rehearsal_1794309318\\red\\artifacts\\tests-examples-test-video-created-py-test-video-login-form-chromium\\video.webm",
+      "browser_video_sha256": "3ee31832952614de5c11547f08f8599f64920aa7a193984c379437edd1406db7",
+      "report": "video_course\\r2\\evidence\\rehearsal_1794309318\\red\\report.html",
+      "report_sha256": "f072661d325c6bde51e830dd6afba05294ec3f9ca9c9db9595d07fb6d3e2dc9d",
+      "capture_unix_time": 1794309403.7609625
+    }
+  },
+  {
+    "shot": "06_failure_detail",
+    "proof": {
+      "exit_code": 1,
+      "testcases": 1,
+      "failures": 1,
+      "errors": 0,
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form",
+      "actual_junit_nodeid": "tests/examples/test_video_created.py::test_video_login_form[chromium]",
+      "classname": "tests.examples.test_video_created",
+      "name": "test_video_login_form[chromium]",
+      "source_sha256": "764a67dcad37b5844eeece6255824dff38b9e8452b4c5ce8e8dc297355a12ff8",
+      "junit": "video_course\\r2\\evidence\\rehearsal_1794309318\\red\\junit.xml",
+      "junit_sha256": "d866d384da201c3161db6b033b915d9be2394fcd662f4bce7ad8c8794bc5f7bd",
+      "browser_video": "video_course\\r2\\evidence\\rehearsal_1794309318\\red\\artifacts\\tests-examples-test-video-created-py-test-video-login-form-chromium\\video.webm",
+      "browser_video_sha256": "3ee31832952614de5c11547f08f8599f64920aa7a193984c379437edd1406db7",
+      "report": "video_course\\r2\\evidence\\rehearsal_1794309318\\red\\report.html",
+      "report_sha256": "f072661d325c6bde51e830dd6afba05294ec3f9ca9c9db9595d07fb6d3e2dc9d",
+      "capture_unix_time": 1794309403.7609625
+    }
+  },
+  {
+    "shot": "06_fix",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "before": "name=\"Neexistující nadpis\"",
+      "after": "name=\"Přihlášení\"",
+      "sha256": "4a5df8d0ef9572e3d0f670ba93750ccb2ccf2c78c49c7f473bd1d77a9fac98e0",
+      "text": "\"\"\"Výsledek souboru vytvořeného od prázdné stránky během videokurzu.\"\"\"\n\nfrom playwright.sync_api import Page, expect\n\n\ndef test_video_login_form(page: Page) -> None:\n    page.goto(\"/login\")\n    expect(page.get_by_role(\"heading\", name=\"Přihlášení\", exact=True)).to_be_visible()\n    expect(page.get_by_role(\"button\", name=\"Přihlásit se\")).to_be_visible()\n"
+    }
+  },
+  {
+    "shot": "06_green_command",
+    "proof": {
+      "command": ".\\.venv\\Scripts\\python.exe -m pytest tests/examples/test_video_created.py::test_video_login_form -q --headed --slowmo=400 --video=on --tracing=off --output=reports/r2/rehearsal_1794309318/green/artifacts --html=reports/r2/rehearsal_1794309318/green/report.html --junitxml=reports/r2/rehearsal_1794309318/green/junit.xml",
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form"
+    }
+  },
+  {
+    "shot": "06_green_run",
+    "proof": {
+      "exit_code": 0,
+      "testcases": 1,
+      "failures": 0,
+      "errors": 0,
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form",
+      "actual_junit_nodeid": "tests/examples/test_video_created.py::test_video_login_form[chromium]",
+      "classname": "tests.examples.test_video_created",
+      "name": "test_video_login_form[chromium]",
+      "source_sha256": "4a5df8d0ef9572e3d0f670ba93750ccb2ccf2c78c49c7f473bd1d77a9fac98e0",
+      "junit": "video_course\\r2\\evidence\\rehearsal_1794309318\\green\\junit.xml",
+      "junit_sha256": "188070e3d63b6f646f651567169927c11aa452415b49f75ccd3cbca6edc7200e",
+      "browser_video": "video_course\\r2\\evidence\\rehearsal_1794309318\\green\\artifacts\\tests-examples-test-video-created-py-test-video-login-form-chromium\\video.webm",
+      "browser_video_sha256": "dc43d8c8010a44c0f6756fced52d9fcc175a00774a930c6dc803a7d719c89fd3",
+      "report": "video_course\\r2\\evidence\\rehearsal_1794309318\\green\\report.html",
+      "report_sha256": "a5228853be5e8bd61da947b772bbd5ff3f1bf2e39b0c06b2dd303fe0031fab6b",
+      "capture_unix_time": 1794309438.4464207
+    }
+  },
+  {
+    "shot": "06_green_result",
+    "proof": {
+      "exit_code": 0,
+      "testcases": 1,
+      "failures": 0,
+      "errors": 0,
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form",
+      "actual_junit_nodeid": "tests/examples/test_video_created.py::test_video_login_form[chromium]",
+      "classname": "tests.examples.test_video_created",
+      "name": "test_video_login_form[chromium]",
+      "source_sha256": "4a5df8d0ef9572e3d0f670ba93750ccb2ccf2c78c49c7f473bd1d77a9fac98e0",
+      "junit": "video_course\\r2\\evidence\\rehearsal_1794309318\\green\\junit.xml",
+      "junit_sha256": "188070e3d63b6f646f651567169927c11aa452415b49f75ccd3cbca6edc7200e",
+      "browser_video": "video_course\\r2\\evidence\\rehearsal_1794309318\\green\\artifacts\\tests-examples-test-video-created-py-test-video-login-form-chromium\\video.webm",
+      "browser_video_sha256": "dc43d8c8010a44c0f6756fced52d9fcc175a00774a930c6dc803a7d719c89fd3",
+      "report": "video_course\\r2\\evidence\\rehearsal_1794309318\\green\\report.html",
+      "report_sha256": "a5228853be5e8bd61da947b772bbd5ff3f1bf2e39b0c06b2dd303fe0031fab6b",
+      "capture_unix_time": 1794309438.4464207
+    }
+  },
+  {
+    "shot": "07_report",
+    "proof": {
+      "report_sha256": "a5228853be5e8bd61da947b772bbd5ff3f1bf2e39b0c06b2dd303fe0031fab6b",
+      "title": "report.html",
+      "actual_text": "report.html\n\nReport generated on 10-Nov-2026 at 12:17:23 by pytest-html v4.2.0\n\nEnvironment\nPython\t\n3.12.15\n\nPlatform\t\nWindows-11-10.0.26300-SP0\n\nPackages\t\npytest: 9.2.0\npluggy: 1.7.0\n\nPlugins\t\nhtml: 4.2.0\nmetadata: 3.1.1\nplaywright: 0.10.0\nSummary\n\n1 test took 00:00:05.\n\n(Un)check the boxes to filter the results.\n\n0 Failed,\n1 Passed,\n0 Skipped,\n0 Expected failures,\n0 Unexpected passes,\n0 Errors,\n0 Reruns\n0 Retried,\nShow all details\n / \nHide all details\nResult\tTest\tDuration\tLinks\nPassed\ttests/examples/test_video_created.py::test_video_login_form[chromium]\t00:00:05\t"
+    }
+  },
+  {
+    "shot": "07_details",
+    "proof": {
+      "actual_text": "report.html\n\nReport generated on 10-Nov-2026 at 12:17:23 by pytest-html v4.2.0\n\nEnvironment\nPython\t\n3.12.15\n\nPlatform\t\nWindows-11-10.0.26300-SP0\n\nPackages\t\npytest: 9.2.0\npluggy: 1.7.0\n\nPlugins\t\nhtml: 4.2.0\nmetadata: 3.1.1\nplaywright: 0.10.0\nSummary\n\n1 test took 00:00:05.\n\n(Un)check the boxes to filter the results.\n\n0 Failed,\n1 Passed,\n0 Skipped,\n0 Expected failures,\n0 Unexpected passes,\n0 Errors,\n0 Reruns\n0 Retried,\nShow all details\n / \nHide all details\nResult\tTest\tDuration\tLinks\nPassed\ttests/examples/test_video_created.py::test_video_login_form[chromium]\t00:00:05\t\n\n<\n>\nVideo\n1 / 1\nNo log output captured.",
+      "expected_case": "test_video_login_form"
+    }
+  },
+  {
+    "shot": "07_final_code",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "matches_frozen_reference": true,
+      "sha256": "4a5df8d0ef9572e3d0f670ba93750ccb2ccf2c78c49c7f473bd1d77a9fac98e0"
+    }
+  },
+  {
+    "shot": "07_exercise",
+    "proof": {
+      "url": "http://127.0.0.1:5000/login",
+      "heading": [
+        "Malý portál.Skutečné testování.",
+        "Přihlášení"
+      ],
+      "email_label": "E-mail"
+    }
+  }
+]

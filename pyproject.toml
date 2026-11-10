@@ -1,0 +1,31 @@
+[project]
+name = "playwright-academy"
+version = "1.0.0"
+description = "Český Python Starter Kit pro manuální QA testery"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "playwright==1.64.1", "pytest==9.2.0", "pytest-playwright==0.10.0",
+  "pytest-html==4.2.0", "python-dotenv==1.2.4", "Flask==3.1.3",
+  "waitress==3.0.2", "ruff==0.17.4",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers --browser chromium --html=reports/report.html --self-contained-html --junitxml=reports/junit.xml --tracing=retain-on-failure --screenshot=only-on-failure --video=retain-on-failure --output=reports/artifacts"
+markers = [
+  "smoke: rychlé ověření dostupnosti a přihlášení",
+  "regression: běžné regresní scénáře",
+  "validation: formuláře a chybové stavy",
+  "advanced: Page Object a síťové požadavky",
+  "teaching_failure: izolované záměrně chybné očekávání",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+exclude = [".venv", ".tools", "reports", "evidence", "dist"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "cg_open",
+    "on_screen_action": "cg_open",
+    "duration": 12,
+    "view": "browser",
+    "action_offset": 0.5,
+    "voice_cue": "cg_open",
+    "expected_visible_state": "Actual generated Python source",
+    "status": "captured",
+    "human_review": "pending",
+    "run_group": "codegen_1794313681",
+    "contract_sha256": "12cdcab9a609643c9ccde2d6a6021d28a4181c8bde519895d54a5cdfd853b662",
+    "action_started": 0.5,
+    "proof": {
+      "method": "Actual playwright codegen CLI, actual browser input, native Inspector",
+      "cli": [
+        "-m",
+        "playwright",
+        "codegen",
+        "--target=python-pytest",
+        "--viewport-size=1100,900",
+        "--output=reports/r21-codegen/draft.py",
+        "http://127.0.0.1:5000/login"
+      ],
+      "owned_process_pid": 63184,
+      "generated_source": "video_course\\r21\\evidence\\codegen\\cg_open.py",
+      "generated_sha256": "4624755bb1a134d9a19055060b67acb0e64d8d1234006dfe18d59604e1864598",
+      "generated_text": "import pytest\nimport re\nfrom playwright.sync_api import Page, expect\n\n\n@pytest.fixture(scope=\"session\")\ndef browser_context_args(browser_context_args, playwright):\n    return {\"viewport\": {\"width\":1100,\"height\":900}}\n\n\ndef test_example(page: Page) -> None:\n    page.goto(\"http://127.0.0.1:5000/login\")\n    page.locator(\"body\").press(\"Escape\")\n",
+      "public_synthetic_account": true
+    },
+    "action_finished": 1.0619999999180436,
+    "capture_method": "real_own_application_desktop_capture",
+    "actual_duration": 12.4,
+    "clip": "video_course\\r21\\recordings\\cg_open.mp4",
+    "clip_sha256": "aa36bcb5365edc34306a03c0d7e4c5c2f0525fbf978158fca9af80904ad5889e"
+  },
+  {
+    "id": "cg_fill",
+    "on_screen_action": "cg_fill",
+    "duration": 12,
+    "view": "browser",
+    "action_offset": 0.5,
+    "voice_cue": "cg_fill",
+    "expected_visible_state": "Actual generated Python source",
+    "status": "captured",
+    "human_review": "pending",
+    "run_group": "codegen_1794313681",
+    "contract_sha256": "12cdcab9a609643c9ccde2d6a6021d28a4181c8bde519895d54a5cdfd853b662",
+    "action_started": 0.5,
+    "proof": {
+      "method": "Actual playwright codegen CLI, actual browser input, native Inspector",
+      "cli": [
+        "-m",
+        "playwright",
+        "codegen",
+        "--target=python-pytest",
+        "--viewport-size=1100,900",
+        "--output=reports/r21-codegen/draft.py",
+        "http://127.0.0.1:5000/login"
+      ],
+      "owned_process_pid": 63184,
+      "generated_source": "video_course\\r21\\evidence\\codegen\\cg_fill.py",
+      "generated_sha256": "41f0d15531ffda30b85ef801decc83c58d6a21a72f4a22260e9f94dbfa54affc",
+      "generated_text": "import pytest\nimport re\nfrom playwright.sync_api import Page, expect\n\n\n@pytest.fixture(scope=\"session\")\ndef browser_context_args(browser_context_args, playwright):\n    return {\"viewport\": {\"width\":1100,\"height\":900}}\n\n\ndef test_example(page: Page) -> None:\n    page.goto(\"http://127.0.0.1:5000/login\")\n    page.locator(\"body\").press(\"Escape\")\n    page.get_by_role(\"textbox\", name=\"E-mail\").click()\n    page.get_by_role(\"textbox\", name=\"E-mail\").fill(\"tester@example.test\")\n",
+      "public_synthetic_account": true
+    },
+    "action_finished": 1.875,
+    "capture_method": "real_own_application_desktop_capture",
+    "actual_duration": 12.44,
+    "clip": "video_course\\r21\\recordings\\cg_fill.mp4",
+    "clip_sha256": "86cce0bcfdcd4d27caeb64de37fd311249f5003b6f71b9e0871038a8d772e4b9"
+  },
+  {
+    "id": "cg_inspector",
+    "on_screen_action": "cg_inspector",
+    "duration": 24,
+    "view": "browser",
+    "action_offset": 0.5,
+    "voice_cue": "cg_inspector",
+    "expected_visible_state": "Actual generated Python source",
+    "status": "captured",
+    "human_review": "pending",
+    "run_group": "codegen_1794313681",
+    "contract_sha256": "12cdcab9a609643c9ccde2d6a6021d28a4181c8bde519895d54a5cdfd853b662",
+    "action_started": 0.5,
+    "proof": {
+      "method": "Actual playwright codegen CLI, actual browser input, native Inspector",
+      "cli": [
+        "-m",
+        "playwright",
+        "codegen",
+        "--target=python-pytest",
+        "--viewport-size=1100,900",
+        "--output=reports/r21-codegen/draft.py",
+        "http://127.0.0.1:5000/login"
+      ],
+      "owned_process_pid": 63184,
+      "generated_source": "video_course\\r21\\evidence\\codegen\\cg_inspector.py",
+      "generated_sha256": "41f0d15531ffda30b85ef801decc83c58d6a21a72f4a22260e9f94dbfa54affc",
+      "generated_text": "import pytest\nimport re\nfrom playwright.sync_api import Page, expect\n\n\n@pytest.fixture(scope=\"session\")\ndef browser_context_args(browser_context_args, playwright):\n    return {\"viewport\": {\"width\":1100,\"height\":900}}\n\n\ndef test_example(page: Page) -> None:\n    page.goto(\"http://127.0.0.1:5000/login\")\n    page.locator(\"body\").press(\"Escape\")\n    page.get_by_role(\"textbox\", name=\"E-mail\").click()\n    page.get_by_role(\"textbox\", name=\"E-mail\").fill(\"tester@example.test\")\n",
+      "public_synthetic_account": true
+    },
+    "action_finished": 0.859000000054948,
+    "capture_method": "real_own_application_desktop_capture",
+    "actual_duration": 24.28,
+    "clip": "video_course\\r21\\recordings\\cg_inspector.mp4",
+    "clip_sha256": "4ad5041843e70bc59bd13ecb2bf685fae31cbae061d513f1f4a24a7d5968f448"
+  }
+]

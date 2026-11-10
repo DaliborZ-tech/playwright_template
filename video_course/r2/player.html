@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="cs">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Playwright Academy · První vlastní test · R2</title>
+<style>
+  :root { color-scheme: dark; font: 17px/1.55 "Segoe UI", sans-serif; background:#0c1421; color:#edf4ff }
+  body { max-width:1280px; margin:28px auto; padding:0 20px }
+  h1 { font-size:1.8rem; margin-bottom:.25rem }
+  .brand { color:#8be2b4; letter-spacing:.12em; font-weight:700; font-size:.8rem }
+  video { width:100%; background:#000; border:1px solid #39506a; border-radius:8px }
+  video::cue { font-family:"Segoe UI",sans-serif; font-size:24px; color:white; background:rgba(0,0,0,.85) }
+  nav { display:flex; flex-wrap:wrap; gap:10px; margin:16px 0 }
+  button,a { color:#b4f7d0 }
+  button { border:1px solid #567564; border-radius:6px; padding:10px 14px; background:#132e23; cursor:pointer; font:inherit }
+  button:focus-visible { outline:3px solid white }
+  .note { color:#bbc8d8; max-width:900px }
+</style>
+<div class="brand">PLAYWRIGHT ACADEMY / REFERENČNÍ KAPITOLA R2</div>
+<h1>První vlastní test</h1>
+<p class="note">Od prázdného souboru přes skutečný DOM a neúspěšný test až po opravu a HTML report.</p>
+<video id="lesson" controls preload="metadata">
+  <source src="Playwright_Academy_R2_Prvni_Test.mp4" type="video/mp4">
+  <track id="czech" kind="subtitles" src="subtitles_cs.vtt" srclang="cs" label="Čeština" default>
+</video>
+<nav aria-label="Ovládání kapitoly">
+  <button id="captions" aria-pressed="true">České titulky: zapnuté</button>
+  <button data-seek="0">Začátek</button>
+  <button id="middle">Střed kapitoly</button>
+  <button id="ending">Závěrečný úkol</button>
+</nav>
+<p class="note">Pokud váš přehrávač přepínatelné titulky nezobrazí, otevřete
+  <a href="Playwright_Academy_R2_Prvni_Test_Titulky.mp4">MP4 s vypálenými českými titulky</a>.
+  Samostatně: <a href="subtitles_cs.srt" download>SRT</a> · <a href="subtitles_cs.vtt" download>VTT</a>.
+</p>
+<p class="note">Referenční kapitola čeká na úplné zhlédnutí, poslech a schválení vlastníkem kurzu.</p>
+<script>
+const video = document.querySelector('#lesson');
+const button = document.querySelector('#captions');
+const track = document.querySelector('#czech').track;
+track.mode = 'showing';
+button.onclick = () => {
+  const showing = track.mode !== 'showing';
+  track.mode = showing ? 'showing' : 'hidden';
+  button.setAttribute('aria-pressed', String(showing));
+  button.textContent = 'České titulky: ' + (showing ? 'zapnuté' : 'vypnuté');
+};
+document.querySelector('[data-seek]').onclick = () => video.currentTime = 0;
+document.querySelector('#middle').onclick = () => video.currentTime = video.duration / 2;
+document.querySelector('#ending').onclick = () => video.currentTime = Math.max(0, video.duration - 24);
+</script>
+</html>

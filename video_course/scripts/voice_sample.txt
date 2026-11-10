@@ -1,0 +1,1 @@
+Vítejte v Playwright Academy. Společně projdeme cestu od ručního testování k první regresní sadě v Pythonu. Teď otevřeme přihlašovací stránku našeho lokálního portálu. Vyplníme syntetický e-mail a heslo, stiskneme tlačítko a ověříme, že se opravdu zobrazil dashboard. Kliknutí je akce. Kontrola výsledku je samostatné ověření. Tento rozdíl budeme používat v celém kurzu.

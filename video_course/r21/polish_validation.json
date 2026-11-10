@@ -1,0 +1,207 @@
+{
+  "revision": "R2.1",
+  "movie_sha256": "6c53aeb9e0b0bc7828e115c2868399b6f2a54411835c92a8ab0893a882d42b20",
+  "caption_gaps_before": {
+    "count": 72,
+    "median": 1.0180414999999527,
+    "sum": 67.55447900000001,
+    "between_0_85_and_1_20": 62
+  },
+  "caption_gaps_after": {
+    "count": 72,
+    "median": 0.37675000000000036,
+    "sum": 30.241270833333047,
+    "between_0_85_and_1_20": 0
+  },
+  "actual_long_silences_before": 64,
+  "actual_long_silences_after": 0,
+  "silence_measurement": "ffmpeg silencedetect, -45dB, at least0.7s, decoded PCM",
+  "removed_audio_max_absolute_int16": 46,
+  "audio_stretch_or_voice_overlap": false,
+  "decoded_audio_hash_both_variants": "SHA256=e29927932bcea5b173187db48cd415e9834f63495b83fefd977f0036ec83ee10",
+  "short_cues_under_one_second": 0,
+  "orphan_cues_under_three_words": 0,
+  "caption_scene_crossings_over_40ms": 0,
+  "frozen_source_files_verified": 78,
+  "frozen_commit": "129d317771d91da04e31e8150a2111188f9ae51f",
+  "human_audio_sample_review": {
+    "scope": "Actual owner listening review of the 30-second after sample only",
+    "reviewer": "Product Owner / user",
+    "decision": "APPROVED_AUDIO_SAMPLE",
+    "user_statement": "Rytmus po úpravě je v pořádku, slova nejsou useknutá.",
+    "after_sample_sha256": "e3d016e919fd14c5951bf65e56962d73d6bcda66ceaa37415107bc46dc73ba0b",
+    "before_sample_sha256": "9b20f202c47cb71f2a679ce4053d09f09588f91f77ed43eda30d0b805b4690cd",
+    "whole_chapter_visual_and_listening_approval": "PENDING",
+    "full_course_build_authorized": false
+  },
+  "static_targets": [
+    {
+      "shot": "02_function",
+      "before": 26.24,
+      "after": 23.08,
+      "semantic_focus": {
+        "zoom": 1.38,
+        "target_x_fraction": 0.72,
+        "target_y_fraction": 0.15,
+        "ease_seconds": 2.4,
+        "purpose": "Funkce test_video_login_form(page: Page)",
+        "code_focus_line": 6,
+        "keyframes": [
+          {
+            "t": 0,
+            "zoom": 1.0
+          },
+          {
+            "t": 4.710354166666669,
+            "zoom": 1.0
+          },
+          {
+            "t": 7.110354166666669,
+            "zoom": 1.38
+          },
+          {
+            "t": 20.479999999999997,
+            "zoom": 1.38
+          },
+          {
+            "t": 22.879999999999995,
+            "zoom": 1.0
+          }
+        ],
+        "focus_subject": "Argument page: Page uvnitř celé definice funkce",
+        "zoom_in_interval": [
+          4.710354166666669,
+          7.110354166666669
+        ],
+        "return_interval": [
+          20.479999999999997,
+          22.879999999999995
+        ],
+        "semantic_notes": [
+          [
+            4.710354166666669,
+            "page: Page · fixture připraví kartu prohlížeče"
+          ],
+          [
+            11.196000000000005,
+            "Dvojtečka ukončí definici; příští příkazy odsadíme"
+          ]
+        ]
+      }
+    },
+    {
+      "shot": "03_dom",
+      "before": 28.44,
+      "after": 25.32,
+      "semantic_focus": {
+        "zoom": 1.62,
+        "target_x_fraction": 1.0,
+        "target_y_fraction": 0.18,
+        "ease_seconds": 2.4,
+        "purpose": "Živý DOM a vybraný h2 s textem Přihlášení",
+        "code_focus_line": null,
+        "keyframes": [
+          {
+            "t": 0,
+            "zoom": 1.0
+          },
+          {
+            "t": 8.137875000000008,
+            "zoom": 1.0
+          },
+          {
+            "t": 10.537875000000009,
+            "zoom": 1.62
+          },
+          {
+            "t": 22.72,
+            "zoom": 1.62
+          },
+          {
+            "t": 25.119999999999997,
+            "zoom": 1.0
+          }
+        ],
+        "focus_subject": "Vybraný h2 v DOM a odpovídající nadpis živého formuláře",
+        "zoom_in_interval": [
+          8.137875000000008,
+          10.537875000000009
+        ],
+        "return_interval": [
+          22.72,
+          25.119999999999997
+        ],
+        "semantic_notes": [
+          [
+            4.538145833333331,
+            "Vybraný skutečný h2 · text Přihlášení"
+          ],
+          [
+            8.137875000000008,
+            "h2 → role heading · přístupný název je text nadpisu"
+          ],
+          [
+            13.17691666666667,
+            "Role + název místo dlouhé CSS cesty"
+          ]
+        ]
+      }
+    },
+    {
+      "shot": "04_heading",
+      "before": 22.2,
+      "after": 19.56,
+      "semantic_focus": {
+        "zoom": 1.38,
+        "target_x_fraction": 0.72,
+        "target_y_fraction": 0.15,
+        "ease_seconds": 2.4,
+        "purpose": "Přibyl locator heading a očekávání viditelnosti",
+        "code_focus_line": 8,
+        "keyframes": [
+          {
+            "t": 0,
+            "zoom": 1.0
+          },
+          {
+            "t": 5.001291666666646,
+            "zoom": 1.0
+          },
+          {
+            "t": 7.401291666666646,
+            "zoom": 1.38
+          },
+          {
+            "t": 16.959999999999997,
+            "zoom": 1.38
+          },
+          {
+            "t": 19.359999999999996,
+            "zoom": 1.0
+          }
+        ],
+        "focus_subject": "Od navigace page.goto k roli, názvu a očekávání nadpisu",
+        "zoom_in_interval": [
+          5.001291666666646,
+          7.401291666666646
+        ],
+        "return_interval": [
+          16.959999999999997,
+          19.359999999999996
+        ],
+        "semantic_notes": [
+          [
+            5.001291666666646,
+            "get_by_role(\"heading\", name=\"Přihlášení\", exact=True)"
+          ],
+          [
+            14.434499999999986,
+            "to_be_visible() · skutečné očekávání viditelnosti"
+          ]
+        ]
+      }
+    }
+  ],
+  "whole_chapter_human_review": "PENDING",
+  "full_course_build_authorized": false
+}

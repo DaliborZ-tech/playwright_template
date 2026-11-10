@@ -1,0 +1,317 @@
+{
+  "status": "TECHNICAL_AND_EVIDENCE_CHECKS_COMPLETE",
+  "movie_sha256": "b79944263185898aa562779aea10c11d7cee0ec3417aeaf71cdb188ba99456fa",
+  "duration": 348.48,
+  "shots": 27,
+  "voice": "cs-CZ-VlastaNeural",
+  "uninterrupted_original_pcm": "PASS",
+  "canonical_captions_utf8_timing": "PASS",
+  "same_actual_junit_nodeid": "tests/examples/test_video_created.py::test_video_login_form[chromium]",
+  "red_exit": 1,
+  "green_exit": 0,
+  "single_expected_value_change": "PASS",
+  "final_code_matches_frozen_starter": "PASS",
+  "activity": [
+    {
+      "shot": "01_open",
+      "duration": 17.04,
+      "longest_low_change_seconds": 16.5,
+      "actual_action_interval": [
+        5.344000000040978,
+        5.828000000095926
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "01_email",
+      "duration": 5.08,
+      "longest_low_change_seconds": 4.0,
+      "actual_action_interval": [
+        17.44599999995902,
+        17.93099999994505
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "01_password",
+      "duration": 15.4,
+      "longest_low_change_seconds": 12.5,
+      "actual_action_interval": [
+        22.52599999995902,
+        25.13599999994505
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "02_blank",
+      "duration": 16.88,
+      "longest_low_change_seconds": 16.5,
+      "actual_action_interval": [
+        37.92599999995902,
+        37.92599999995902
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "02_import",
+      "duration": 11.08,
+      "longest_low_change_seconds": 4.0,
+      "actual_action_interval": [
+        54.79100000006146,
+        62.54100000006146
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "02_function",
+      "duration": 26.24,
+      "longest_low_change_seconds": 21.0,
+      "actual_action_interval": [
+        65.88599999995901,
+        70.19899999992455
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "03_goto",
+      "duration": 11.6,
+      "longest_low_change_seconds": 8.5,
+      "actual_action_interval": [
+        92.1270000000065,
+        94.61100000006145
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "03_save",
+      "duration": 8.92,
+      "longest_low_change_seconds": 9.0,
+      "actual_action_interval": [
+        103.72600000007542,
+        103.81999999999998
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "03_dom",
+      "duration": 28.44,
+      "longest_low_change_seconds": 25.5,
+      "actual_action_interval": [
+        112.645999999959,
+        115.88099999994503
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "04_heading",
+      "duration": 22.2,
+      "longest_low_change_seconds": 17.5,
+      "actual_action_interval": [
+        141.08600000007542,
+        144.47700000002047
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "04_button",
+      "duration": 9.4,
+      "longest_low_change_seconds": 5.5,
+      "actual_action_interval": [
+        163.27100000006143,
+        166.6620000000065
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "04_button_dom",
+      "duration": 16.44,
+      "longest_low_change_seconds": 12.0,
+      "actual_action_interval": [
+        172.685999999959,
+        176.95099999997296
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "05_wrong",
+      "duration": 17.08,
+      "longest_low_change_seconds": 6.5,
+      "actual_action_interval": [
+        194.43900000004095,
+        199.9079999999655
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "05_red_command",
+      "duration": 4.04,
+      "longest_low_change_seconds": 3.5,
+      "actual_action_interval": [
+        206.20700000000647,
+        206.20700000000647
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "05_red_run",
+      "duration": 11.92,
+      "longest_low_change_seconds": 10.0,
+      "actual_action_interval": [
+        210.24600000007538,
+        221.13700000002044
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "05_red_browser",
+      "duration": 10.12,
+      "longest_low_change_seconds": 9.5,
+      "actual_action_interval": [
+        221.75999999999993,
+        229.11999999999995
+      ],
+      "capture_method": "actual_pytest_browser_recording"
+    },
+    {
+      "shot": "05_red_result",
+      "duration": 10.12,
+      "longest_low_change_seconds": 10.0,
+      "actual_action_interval": [
+        232.28700000000646,
+        232.37999999999994
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "06_failure_detail",
+      "duration": 16.2,
+      "longest_low_change_seconds": 15.0,
+      "actual_action_interval": [
+        242.40700000000646,
+        242.85999999998597
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "06_fix",
+      "duration": 10.88,
+      "longest_low_change_seconds": 6.0,
+      "actual_action_interval": [
+        258.60700000000645,
+        264.0910000000614
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "06_green_command",
+      "duration": 4.68,
+      "longest_low_change_seconds": 4.5,
+      "actual_action_interval": [
+        269.48599999995895,
+        269.48599999995895
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "06_green_run",
+      "duration": 6.36,
+      "longest_low_change_seconds": 5.0,
+      "actual_action_interval": [
+        274.16599999995896,
+        279.83799999997944
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "06_green_browser",
+      "duration": 4.8,
+      "longest_low_change_seconds": 4.5,
+      "actual_action_interval": [
+        280.11999999999995,
+        281.55999999999995
+      ],
+      "capture_method": "actual_pytest_browser_recording"
+    },
+    {
+      "shot": "06_green_result",
+      "duration": 11.56,
+      "longest_low_change_seconds": 11.5,
+      "actual_action_interval": [
+        285.3260000000754,
+        285.41999999999996
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "07_report",
+      "duration": 10.0,
+      "longest_low_change_seconds": 9.5,
+      "actual_action_interval": [
+        296.87100000006143,
+        297.57400000004094
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "07_details",
+      "duration": 16.68,
+      "longest_low_change_seconds": 16.0,
+      "actual_action_interval": [
+        306.90199999990404,
+        307.385999999959
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "07_final_code",
+      "duration": 11.16,
+      "longest_low_change_seconds": 11.0,
+      "actual_action_interval": [
+        323.55100000006144,
+        323.65999999999997
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    },
+    {
+      "shot": "07_exercise",
+      "duration": 14.16,
+      "longest_low_change_seconds": 13.0,
+      "actual_action_interval": [
+        334.71100000006146,
+        335.83600000006146
+      ],
+      "capture_method": "real_own_application_desktop_capture"
+    }
+  ],
+  "low_change_review_flags": [
+    {
+      "shot": "02_function",
+      "duration": 26.24,
+      "longest_low_change_seconds": 21.0,
+      "actual_action_interval": [
+        65.88599999995901,
+        70.19899999992455
+      ],
+      "capture_method": "real_own_application_desktop_capture",
+      "status": "REQUIRES_CONTENT_REVIEW",
+      "visible_subject": "Funkce test_video_login_form(page: Page)",
+      "warning": "Camera, text overlays, mouse and metadata are not teaching activity."
+    },
+    {
+      "shot": "03_dom",
+      "duration": 28.44,
+      "longest_low_change_seconds": 25.5,
+      "actual_action_interval": [
+        112.645999999959,
+        115.88099999994503
+      ],
+      "capture_method": "real_own_application_desktop_capture",
+      "status": "REQUIRES_CONTENT_REVIEW",
+      "visible_subject": "Živý DOM a vybraný h2 s textem Přihlášení",
+      "warning": "Camera, text overlays, mouse and metadata are not teaching activity."
+    }
+  ],
+  "visual_watch_and_listen": "OWNER_REVIEW_REQUIRED",
+  "po_approval": "PENDING",
+  "full_course_build_authorized": false
+}

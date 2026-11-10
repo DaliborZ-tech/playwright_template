@@ -1,0 +1,5321 @@
+{
+  "revision": "R2.1",
+  "voice": "cs-CZ-VlastaNeural",
+  "title": "První vlastní test: od prázdného souboru k RED a GREEN",
+  "duration": 348.456,
+  "sections": [
+    {
+      "id": "r2_01",
+      "title": "Nejdřív si ověříme zadání",
+      "paragraph": "Naším cílem je první samostatný test přihlašovacího formuláře. Nejdříve otevřu skutečnou aplikaci a společně si pojmenujeme očekávaný výsledek. Na stránce má být nadpis Přihlášení a tlačítko Přihlásit se. Do e-mailového pole teď napíšu náš veřejný testovací účet. Potom vyplním syntetické heslo a oba údaje zase odstraním. Samotné přihlášení dnes ještě automatizovat nebudeme. Náš první test zkontroluje zobrazení stránky a obou uvedených prvků.",
+      "voice": "cs-CZ-VlastaNeural",
+      "stage": "manual",
+      "audio": "video_course\\r2\\narration\\r2_01_88e072ffebbc.mp3",
+      "start": 0.0,
+      "duration": 37.512,
+      "audio_sha256": "ddae365908e4bd7196707f7c9a81136d570c1163b5db98f7a54a3220a7a6ee19",
+      "words": [
+        {
+          "left": 0,
+          "right": 5,
+          "start": 0.10154166666666667,
+          "end": 0.5267916666666667,
+          "text": "Naším"
+        },
+        {
+          "left": 6,
+          "right": 11,
+          "start": 0.5267916666666667,
+          "end": 1.0165,
+          "text": "cílem"
+        },
+        {
+          "left": 12,
+          "right": 14,
+          "start": 1.0165,
+          "end": 1.1195833333333334,
+          "text": "je"
+        },
+        {
+          "left": 15,
+          "right": 20,
+          "start": 1.1195833333333334,
+          "end": 1.4804166666666667,
+          "text": "první"
+        },
+        {
+          "left": 21,
+          "right": 31,
+          "start": 1.4804166666666667,
+          "end": 2.2278333333333333,
+          "text": "samostatný"
+        },
+        {
+          "left": 32,
+          "right": 36,
+          "start": 2.2407083333333335,
+          "end": 2.55,
+          "text": "test"
+        },
+        {
+          "left": 37,
+          "right": 51,
+          "start": 2.5757916666666665,
+          "end": 3.54225,
+          "text": "přihlašovacího"
+        },
+        {
+          "left": 52,
+          "right": 61,
+          "start": 3.54225,
+          "end": 4.341208333333333,
+          "text": "formuláře."
+        },
+        {
+          "left": 63,
+          "right": 71,
+          "start": 4.862895833333333,
+          "end": 5.494354166666667,
+          "text": "Nejdříve"
+        },
+        {
+          "left": 72,
+          "right": 78,
+          "start": 5.558770833333333,
+          "end": 5.932479166666667,
+          "text": "otevřu"
+        },
+        {
+          "left": 79,
+          "right": 88,
+          "start": 5.932479166666667,
+          "end": 6.551020833333333,
+          "text": "skutečnou"
+        },
+        {
+          "left": 89,
+          "right": 97,
+          "start": 6.5896875,
+          "end": 7.2726875,
+          "text": "aplikaci"
+        },
+        {
+          "left": 98,
+          "right": 99,
+          "start": 7.2726875,
+          "end": 7.362895833333333,
+          "text": "a"
+        },
+        {
+          "left": 100,
+          "right": 108,
+          "start": 7.388645833333333,
+          "end": 7.9556458333333335,
+          "text": "společně"
+        },
+        {
+          "left": 109,
+          "right": 111,
+          "start": 7.9556458333333335,
+          "end": 8.110270833333333,
+          "text": "si"
+        },
+        {
+          "left": 112,
+          "right": 123,
+          "start": 8.1103125,
+          "end": 8.767520833333334,
+          "text": "pojmenujeme"
+        },
+        {
+          "left": 124,
+          "right": 133,
+          "start": 8.844854166666666,
+          "end": 9.630895833333334,
+          "text": "očekávaný"
+        },
+        {
+          "left": 134,
+          "right": 142,
+          "start": 9.630895833333334,
+          "end": 10.288104166666667,
+          "text": "výsledek."
+        },
+        {
+          "left": 144,
+          "right": 146,
+          "start": 10.666875,
+          "end": 10.782875,
+          "text": "Na"
+        },
+        {
+          "left": 147,
+          "right": 154,
+          "start": 10.795708333333334,
+          "end": 11.3885,
+          "text": "stránce"
+        },
+        {
+          "left": 155,
+          "right": 157,
+          "start": 11.3885,
+          "end": 11.581791666666666,
+          "text": "má"
+        },
+        {
+          "left": 158,
+          "right": 161,
+          "start": 11.581791666666666,
+          "end": 11.81375,
+          "text": "být"
+        },
+        {
+          "left": 162,
+          "right": 168,
+          "start": 11.839541666666667,
+          "end": 12.264791666666667,
+          "text": "nadpis"
+        },
+        {
+          "left": 169,
+          "right": 179,
+          "start": 12.277666666666667,
+          "end": 13.166833333333333,
+          "text": "Přihlášení"
+        },
+        {
+          "left": 180,
+          "right": 181,
+          "start": 13.17975,
+          "end": 13.257083333333334,
+          "text": "a"
+        },
+        {
+          "left": 182,
+          "right": 190,
+          "start": 13.308625,
+          "end": 13.940041666666668,
+          "text": "tlačítko"
+        },
+        {
+          "left": 191,
+          "right": 200,
+          "start": 13.940041666666668,
+          "end": 14.610125,
+          "text": "Přihlásit"
+        },
+        {
+          "left": 201,
+          "right": 203,
+          "start": 14.623041666666667,
+          "end": 14.880791666666667,
+          "text": "se."
+        },
+        {
+          "left": 205,
+          "right": 207,
+          "start": 15.433729166666666,
+          "end": 15.549729166666667,
+          "text": "Do"
+        },
+        {
+          "left": 208,
+          "right": 219,
+          "start": 15.562604166666667,
+          "end": 16.3486875,
+          "text": "e-mailového"
+        },
+        {
+          "left": 220,
+          "right": 224,
+          "start": 16.3486875,
+          "end": 16.606395833333334,
+          "text": "pole"
+        },
+        {
+          "left": 225,
+          "right": 228,
+          "start": 16.606395833333334,
+          "end": 16.8125625,
+          "text": "teď"
+        },
+        {
+          "left": 229,
+          "right": 235,
+          "start": 16.838354166666665,
+          "end": 17.3666875,
+          "text": "napíšu"
+        },
+        {
+          "left": 236,
+          "right": 239,
+          "start": 17.366729166666666,
+          "end": 17.688895833333333,
+          "text": "náš"
+        },
+        {
+          "left": 240,
+          "right": 247,
+          "start": 17.688895833333333,
+          "end": 18.1656875,
+          "text": "veřejný"
+        },
+        {
+          "left": 248,
+          "right": 257,
+          "start": 18.191479166666667,
+          "end": 18.887354166666668,
+          "text": "testovací"
+        },
+        {
+          "left": 258,
+          "right": 262,
+          "start": 18.964645833333332,
+          "end": 19.505895833333334,
+          "text": "účet."
+        },
+        {
+          "left": 264,
+          "right": 269,
+          "start": 19.959041666666668,
+          "end": 20.345625,
+          "text": "Potom"
+        },
+        {
+          "left": 270,
+          "right": 277,
+          "start": 20.345625,
+          "end": 20.809541666666668,
+          "text": "vyplním"
+        },
+        {
+          "left": 278,
+          "right": 288,
+          "start": 20.809541666666668,
+          "end": 21.56983333333333,
+          "text": "syntetické"
+        },
+        {
+          "left": 289,
+          "right": 294,
+          "start": 21.56983333333333,
+          "end": 21.982208333333332,
+          "text": "heslo"
+        },
+        {
+          "left": 295,
+          "right": 296,
+          "start": 21.995125,
+          "end": 22.072458333333334,
+          "text": "a"
+        },
+        {
+          "left": 297,
+          "right": 300,
+          "start": 22.201291666666666,
+          "end": 22.420375,
+          "text": "oba"
+        },
+        {
+          "left": 301,
+          "right": 306,
+          "start": 22.510583333333333,
+          "end": 22.935833333333335,
+          "text": "údaje"
+        },
+        {
+          "left": 307,
+          "right": 311,
+          "start": 22.935833333333335,
+          "end": 23.245125,
+          "text": "zase"
+        },
+        {
+          "left": 312,
+          "right": 321,
+          "start": 23.309541666666668,
+          "end": 24.031208333333332,
+          "text": "odstraním."
+        },
+        {
+          "left": 323,
+          "right": 330,
+          "start": 24.4059375,
+          "end": 24.998729166666667,
+          "text": "Samotné"
+        },
+        {
+          "left": 331,
+          "right": 341,
+          "start": 25.011604166666668,
+          "end": 25.862104166666665,
+          "text": "přihlášení"
+        },
+        {
+          "left": 342,
+          "right": 346,
+          "start": 25.862104166666665,
+          "end": 26.132729166666667,
+          "text": "dnes"
+        },
+        {
+          "left": 347,
+          "right": 352,
+          "start": 26.132729166666667,
+          "end": 26.45489583333333,
+          "text": "ještě"
+        },
+        {
+          "left": 353,
+          "right": 366,
+          "start": 26.467770833333333,
+          "end": 27.3698125,
+          "text": "automatizovat"
+        },
+        {
+          "left": 367,
+          "right": 375,
+          "start": 27.408520833333334,
+          "end": 27.962645833333333,
+          "text": "nebudeme."
+        },
+        {
+          "left": 377,
+          "right": 380,
+          "start": 28.303145833333332,
+          "end": 28.6124375,
+          "text": "Náš"
+        },
+        {
+          "left": 381,
+          "right": 386,
+          "start": 28.6253125,
+          "end": 28.999020833333333,
+          "text": "první"
+        },
+        {
+          "left": 387,
+          "right": 391,
+          "start": 28.999020833333333,
+          "end": 29.295395833333334,
+          "text": "test"
+        },
+        {
+          "left": 392,
+          "right": 403,
+          "start": 29.3211875,
+          "end": 30.0428125,
+          "text": "zkontroluje"
+        },
+        {
+          "left": 404,
+          "right": 413,
+          "start": 30.0428125,
+          "end": 30.648479166666668,
+          "text": "zobrazení"
+        },
+        {
+          "left": 414,
+          "right": 421,
+          "start": 30.648520833333333,
+          "end": 31.305729166666666,
+          "text": "stránky"
+        },
+        {
+          "left": 422,
+          "right": 423,
+          "start": 31.305729166666666,
+          "end": 31.357270833333335,
+          "text": "a"
+        },
+        {
+          "left": 424,
+          "right": 428,
+          "start": 31.524770833333335,
+          "end": 31.821145833333333,
+          "text": "obou"
+        },
+        {
+          "left": 429,
+          "right": 438,
+          "start": 31.898520833333333,
+          "end": 32.413979166666664,
+          "text": "uvedených"
+        },
+        {
+          "left": 439,
+          "right": 444,
+          "start": 32.413979166666664,
+          "end": 32.95522916666667,
+          "text": "prvků."
+        }
+      ]
+    },
+    {
+      "id": "r2_02",
+      "title": "Test vzniká od prázdného souboru",
+      "paragraph": "V editoru teď otevřu prázdný soubor pro náš příklad. Jmenuje se test_video_created.py a leží ve složce tests, examples. Začátek názvu test je důležitý, protože podle něj pytest soubor najde. Nejprve napíšu import objektu Page a funkce expect. Page nám umožní ovládat kartu prohlížeče a expect zapisuje očekávání. Pod importem založím vlastní testovací funkci s argumentem page. Tento argument připraví naše existující fixture, nemusíme vytvářet prohlížeč ručně. Za definicí musí být dvojtečka. Příkazy, které za chvíli přidáme, odsadíme. Odsazené příkazy budou patřit do právě napsaného testu, nikoli mimo něj.",
+      "voice": "cs-CZ-VlastaNeural",
+      "stage": "editor",
+      "audio": "video_course\\r2\\narration\\r2_02_876a6f6a8545.mp3",
+      "start": 33.60491666666667,
+      "duration": 54.192,
+      "audio_sha256": "db4b67521252c20dff39ca563dbde5e3ad052e587789297b180547ce3bfa4651",
+      "words": [
+        {
+          "left": 0,
+          "right": 1,
+          "start": 33.70608333333333,
+          "end": 33.79629166666667,
+          "text": "V"
+        },
+        {
+          "left": 2,
+          "right": 9,
+          "start": 33.80916666666667,
+          "end": 34.324625,
+          "text": "editoru"
+        },
+        {
+          "left": 10,
+          "right": 13,
+          "start": 34.324625,
+          "end": 34.517916666666665,
+          "text": "teď"
+        },
+        {
+          "left": 14,
+          "right": 20,
+          "start": 34.543708333333335,
+          "end": 34.95608333333333,
+          "text": "otevřu"
+        },
+        {
+          "left": 21,
+          "right": 28,
+          "start": 34.95608333333333,
+          "end": 35.536,
+          "text": "prázdný"
+        },
+        {
+          "left": 29,
+          "right": 35,
+          "start": 35.548875,
+          "end": 36.012791666666665,
+          "text": "soubor"
+        },
+        {
+          "left": 36,
+          "right": 39,
+          "start": 36.03854166666667,
+          "end": 36.231833333333334,
+          "text": "pro"
+        },
+        {
+          "left": 40,
+          "right": 43,
+          "start": 36.231833333333334,
+          "end": 36.52820833333333,
+          "text": "náš"
+        },
+        {
+          "left": 44,
+          "right": 51,
+          "start": 36.52825,
+          "end": 37.172583333333336,
+          "text": "příklad."
+        },
+        {
+          "left": 53,
+          "right": 60,
+          "start": 37.553958333333334,
+          "end": 38.05654166666667,
+          "text": "Jmenuje"
+        },
+        {
+          "left": 61,
+          "right": 63,
+          "start": 38.05654166666667,
+          "end": 38.211166666666664,
+          "text": "se"
+        },
+        {
+          "left": 64,
+          "right": 85,
+          "start": 38.21120833333333,
+          "end": 40.208625,
+          "text": "test_video_created.py"
+        },
+        {
+          "left": 86,
+          "right": 87,
+          "start": 40.2215,
+          "end": 40.311708333333335,
+          "text": "a"
+        },
+        {
+          "left": 88,
+          "right": 92,
+          "start": 40.350375,
+          "end": 40.67254166666667,
+          "text": "leží"
+        },
+        {
+          "left": 93,
+          "right": 95,
+          "start": 40.68541666666667,
+          "end": 40.7885,
+          "text": "ve"
+        },
+        {
+          "left": 96,
+          "right": 102,
+          "start": 40.7885,
+          "end": 41.23954166666667,
+          "text": "složce"
+        },
+        {
+          "left": 103,
+          "right": 108,
+          "start": 41.23954166666667,
+          "end": 41.767875,
+          "text": "tests,"
+        },
+        {
+          "left": 110,
+          "right": 118,
+          "start": 42.07716666666666,
+          "end": 42.86325,
+          "text": "examples."
+        },
+        {
+          "left": 120,
+          "right": 127,
+          "start": 43.21639583333333,
+          "end": 43.8220625,
+          "text": "Začátek"
+        },
+        {
+          "left": 128,
+          "right": 133,
+          "start": 43.83497916666666,
+          "end": 44.26022916666667,
+          "text": "názvu"
+        },
+        {
+          "left": 134,
+          "right": 138,
+          "start": 44.26022916666667,
+          "end": 44.530854166666664,
+          "text": "test"
+        },
+        {
+          "left": 139,
+          "right": 141,
+          "start": 44.530854166666664,
+          "end": 44.659729166666665,
+          "text": "je"
+        },
+        {
+          "left": 142,
+          "right": 150,
+          "start": 44.659729166666665,
+          "end": 45.4329375,
+          "text": "důležitý,"
+        },
+        {
+          "left": 152,
+          "right": 159,
+          "start": 45.76797916666667,
+          "end": 46.23189583333333,
+          "text": "protože"
+        },
+        {
+          "left": 160,
+          "right": 165,
+          "start": 46.23189583333333,
+          "end": 46.5540625,
+          "text": "podle"
+        },
+        {
+          "left": 166,
+          "right": 169,
+          "start": 46.5540625,
+          "end": 46.73447916666667,
+          "text": "něj"
+        },
+        {
+          "left": 170,
+          "right": 176,
+          "start": 46.76022916666667,
+          "end": 47.23702083333333,
+          "text": "pytest"
+        },
+        {
+          "left": 177,
+          "right": 183,
+          "start": 47.2499375,
+          "end": 47.6880625,
+          "text": "soubor"
+        },
+        {
+          "left": 184,
+          "right": 189,
+          "start": 47.7009375,
+          "end": 48.177729166666666,
+          "text": "najde."
+        },
+        {
+          "left": 191,
+          "right": 198,
+          "start": 48.678625,
+          "end": 49.18120833333333,
+          "text": "Nejprve"
+        },
+        {
+          "left": 199,
+          "right": 205,
+          "start": 49.18120833333333,
+          "end": 49.70954166666667,
+          "text": "napíšu"
+        },
+        {
+          "left": 206,
+          "right": 212,
+          "start": 49.761125,
+          "end": 50.160625,
+          "text": "import"
+        },
+        {
+          "left": 213,
+          "right": 220,
+          "start": 50.22504166666667,
+          "end": 50.70183333333333,
+          "text": "objektu"
+        },
+        {
+          "left": 221,
+          "right": 225,
+          "start": 50.70183333333333,
+          "end": 51.08841666666667,
+          "text": "Page"
+        },
+        {
+          "left": 226,
+          "right": 227,
+          "start": 51.191541666666666,
+          "end": 51.25595833333333,
+          "text": "a"
+        },
+        {
+          "left": 228,
+          "right": 234,
+          "start": 51.3075,
+          "end": 51.83583333333333,
+          "text": "funkce"
+        },
+        {
+          "left": 235,
+          "right": 241,
+          "start": 51.88741666666667,
+          "end": 52.49308333333333,
+          "text": "expect."
+        },
+        {
+          "left": 243,
+          "right": 247,
+          "start": 52.805770833333334,
+          "end": 53.140229166666664,
+          "text": "Page"
+        },
+        {
+          "left": 248,
+          "right": 251,
+          "start": 53.140229166666664,
+          "end": 53.43660416666667,
+          "text": "nám"
+        },
+        {
+          "left": 252,
+          "right": 258,
+          "start": 53.46239583333333,
+          "end": 53.9263125,
+          "text": "umožní"
+        },
+        {
+          "left": 259,
+          "right": 266,
+          "start": 53.9263125,
+          "end": 54.506229166666664,
+          "text": "ovládat"
+        },
+        {
+          "left": 267,
+          "right": 272,
+          "start": 54.532020833333334,
+          "end": 54.90572916666667,
+          "text": "kartu"
+        },
+        {
+          "left": 273,
+          "right": 283,
+          "start": 54.90572916666667,
+          "end": 55.7046875,
+          "text": "prohlížeče"
+        },
+        {
+          "left": 284,
+          "right": 285,
+          "start": 55.7046875,
+          "end": 55.794895833333335,
+          "text": "a"
+        },
+        {
+          "left": 286,
+          "right": 292,
+          "start": 55.885104166666665,
+          "end": 56.33614583333333,
+          "text": "expect"
+        },
+        {
+          "left": 293,
+          "right": 301,
+          "start": 56.361895833333335,
+          "end": 56.9546875,
+          "text": "zapisuje"
+        },
+        {
+          "left": 302,
+          "right": 311,
+          "start": 57.032020833333334,
+          "end": 58.0500625,
+          "text": "očekávání."
+        },
+        {
+          "left": 313,
+          "right": 316,
+          "start": 58.47991666666667,
+          "end": 58.673208333333335,
+          "text": "Pod"
+        },
+        {
+          "left": 317,
+          "right": 325,
+          "start": 58.75054166666666,
+          "end": 59.356208333333335,
+          "text": "importem"
+        },
+        {
+          "left": 326,
+          "right": 333,
+          "start": 59.356208333333335,
+          "end": 59.833,
+          "text": "založím"
+        },
+        {
+          "left": 334,
+          "right": 341,
+          "start": 59.833,
+          "end": 60.29691666666667,
+          "text": "vlastní"
+        },
+        {
+          "left": 342,
+          "right": 351,
+          "start": 60.30979166666667,
+          "end": 60.967,
+          "text": "testovací"
+        },
+        {
+          "left": 352,
+          "right": 358,
+          "start": 60.99279166666667,
+          "end": 61.46958333333333,
+          "text": "funkci"
+        },
+        {
+          "left": 359,
+          "right": 360,
+          "start": 61.469625,
+          "end": 61.5985,
+          "text": "s"
+        },
+        {
+          "left": 361,
+          "right": 371,
+          "start": 61.637125,
+          "end": 62.35879166666667,
+          "text": "argumentem"
+        },
+        {
+          "left": 372,
+          "right": 376,
+          "start": 62.35879166666667,
+          "end": 62.82270833333333,
+          "text": "page."
+        },
+        {
+          "left": 378,
+          "right": 383,
+          "start": 63.190354166666665,
+          "end": 63.51252083333333,
+          "text": "Tento"
+        },
+        {
+          "left": 384,
+          "right": 392,
+          "start": 63.525395833333334,
+          "end": 64.1439375,
+          "text": "argument"
+        },
+        {
+          "left": 393,
+          "right": 401,
+          "start": 64.18260416666666,
+          "end": 64.72385416666667,
+          "text": "připraví"
+        },
+        {
+          "left": 402,
+          "right": 406,
+          "start": 64.72385416666667,
+          "end": 65.02022916666667,
+          "text": "naše"
+        },
+        {
+          "left": 407,
+          "right": 417,
+          "start": 65.03314583333334,
+          "end": 65.84502083333334,
+          "text": "existující"
+        },
+        {
+          "left": 418,
+          "right": 425,
+          "start": 65.88364583333333,
+          "end": 66.4635625,
+          "text": "fixture,"
+        },
+        {
+          "left": 427,
+          "right": 435,
+          "start": 66.9016875,
+          "end": 67.54602083333333,
+          "text": "nemusíme"
+        },
+        {
+          "left": 436,
+          "right": 444,
+          "start": 67.54602083333333,
+          "end": 68.17747916666667,
+          "text": "vytvářet"
+        },
+        {
+          "left": 445,
+          "right": 454,
+          "start": 68.20322916666667,
+          "end": 68.8346875,
+          "text": "prohlížeč"
+        },
+        {
+          "left": 455,
+          "right": 460,
+          "start": 68.89910416666666,
+          "end": 69.33722916666666,
+          "text": "ručně."
+        },
+        {
+          "left": 462,
+          "right": 464,
+          "start": 69.676,
+          "end": 69.830625,
+          "text": "Za"
+        },
+        {
+          "left": 465,
+          "right": 473,
+          "start": 69.86929166666667,
+          "end": 70.539375,
+          "text": "definicí"
+        },
+        {
+          "left": 474,
+          "right": 478,
+          "start": 70.53941666666667,
+          "end": 70.887375,
+          "text": "musí"
+        },
+        {
+          "left": 479,
+          "right": 482,
+          "start": 70.90025,
+          "end": 71.13220833333334,
+          "text": "být"
+        },
+        {
+          "left": 483,
+          "right": 492,
+          "start": 71.15795833333334,
+          "end": 71.879625,
+          "text": "dvojtečka."
+        },
+        {
+          "left": 494,
+          "right": 501,
+          "start": 72.16079166666667,
+          "end": 72.83725,
+          "text": "Příkazy,"
+        },
+        {
+          "left": 503,
+          "right": 508,
+          "start": 72.87591666666667,
+          "end": 73.2625,
+          "text": "které"
+        },
+        {
+          "left": 509,
+          "right": 511,
+          "start": 73.26254166666666,
+          "end": 73.391375,
+          "text": "za"
+        },
+        {
+          "left": 512,
+          "right": 518,
+          "start": 73.391375,
+          "end": 73.77795833333333,
+          "text": "chvíli"
+        },
+        {
+          "left": 519,
+          "right": 526,
+          "start": 73.778,
+          "end": 74.44808333333333,
+          "text": "přidáme,"
+        },
+        {
+          "left": 528,
+          "right": 536,
+          "start": 74.7445,
+          "end": 75.47904166666666,
+          "text": "odsadíme."
+        },
+        {
+          "left": 538,
+          "right": 546,
+          "start": 75.80733333333333,
+          "end": 76.43879166666666,
+          "text": "Odsazené"
+        },
+        {
+          "left": 547,
+          "right": 554,
+          "start": 76.45166666666667,
+          "end": 77.01866666666666,
+          "text": "příkazy"
+        },
+        {
+          "left": 555,
+          "right": 560,
+          "start": 77.01866666666666,
+          "end": 77.28929166666667,
+          "text": "budou"
+        },
+        {
+          "left": 561,
+          "right": 567,
+          "start": 77.31504166666667,
+          "end": 77.74029166666666,
+          "text": "patřit"
+        },
+        {
+          "left": 568,
+          "right": 570,
+          "start": 77.76608333333333,
+          "end": 77.89495833333334,
+          "text": "do"
+        },
+        {
+          "left": 571,
+          "right": 576,
+          "start": 77.89495833333334,
+          "end": 78.346,
+          "text": "právě"
+        },
+        {
+          "left": 577,
+          "right": 586,
+          "start": 78.346,
+          "end": 78.99029166666666,
+          "text": "napsaného"
+        },
+        {
+          "left": 587,
+          "right": 592,
+          "start": 78.99029166666666,
+          "end": 79.46708333333333,
+          "text": "testu,"
+        },
+        {
+          "left": 594,
+          "right": 600,
+          "start": 79.81504166666667,
+          "end": 80.29183333333333,
+          "text": "nikoli"
+        },
+        {
+          "left": 601,
+          "right": 605,
+          "start": 80.291875,
+          "end": 80.575375,
+          "text": "mimo"
+        },
+        {
+          "left": 606,
+          "right": 609,
+          "start": 80.575375,
+          "end": 80.88466666666666,
+          "text": "něj."
+        }
+      ]
+    },
+    {
+      "id": "r2_03",
+      "title": "Navigace a skutečný DOM",
+      "paragraph": "Do těla funkce přidám první skutečný krok, page.goto s cestou login. Relativní adresu doplní připravený testovací server našeho Starter Kitu. Soubor teď uložím a vrátím se do prohlížeče. Chci ukázat, podle čeho poznáme správný nadpis. Otevřu vývojářské nástroje a vyberu přímo nadpis Přihlášení. Ve skutečném DOM je vidět prvek h2 a jeho text. Prvek h2 má roli heading; názvem rozlišíme konkrétní nadpis. Nepotřebujeme kopírovat dlouhou cestu přes vnořené kontejnery ani náhodné CSS třídy. Výběr prvku teď spojujeme s tím, co má uživatel skutečně poznat na stránce.",
+      "voice": "cs-CZ-VlastaNeural",
+      "stage": "browser",
+      "audio": "video_course\\r2\\narration\\r2_03_b4dea77002b2.mp3",
+      "start": 81.52470833333334,
+      "duration": 48.984,
+      "audio_sha256": "502c1a4a126598b72ac70bede41c9c3f28883c47550f19e0ae5b274da112456c",
+      "words": [
+        {
+          "left": 0,
+          "right": 2,
+          "start": 81.62625,
+          "end": 81.755125,
+          "text": "Do"
+        },
+        {
+          "left": 3,
+          "right": 7,
+          "start": 81.768,
+          "end": 82.07729166666667,
+          "text": "těla"
+        },
+        {
+          "left": 8,
+          "right": 14,
+          "start": 82.07729166666667,
+          "end": 82.52833333333334,
+          "text": "funkce"
+        },
+        {
+          "left": 15,
+          "right": 21,
+          "start": 82.52833333333334,
+          "end": 82.95358333333333,
+          "text": "přidám"
+        },
+        {
+          "left": 22,
+          "right": 27,
+          "start": 82.95358333333333,
+          "end": 83.288625,
+          "text": "první"
+        },
+        {
+          "left": 28,
+          "right": 36,
+          "start": 83.288625,
+          "end": 83.89429166666666,
+          "text": "skutečný"
+        },
+        {
+          "left": 37,
+          "right": 41,
+          "start": 83.90716666666667,
+          "end": 84.24220833333334,
+          "text": "krok,"
+        },
+        {
+          "left": 43,
+          "right": 52,
+          "start": 84.654625,
+          "end": 85.37625,
+          "text": "page.goto"
+        },
+        {
+          "left": 53,
+          "right": 54,
+          "start": 85.37625,
+          "end": 85.46645833333334,
+          "text": "s"
+        },
+        {
+          "left": 55,
+          "right": 61,
+          "start": 85.46645833333334,
+          "end": 85.930375,
+          "text": "cestou"
+        },
+        {
+          "left": 62,
+          "right": 67,
+          "start": 85.95616666666666,
+          "end": 86.39429166666666,
+          "text": "login."
+        },
+        {
+          "left": 69,
+          "right": 78,
+          "start": 86.75564583333333,
+          "end": 87.3870625,
+          "text": "Relativní"
+        },
+        {
+          "left": 79,
+          "right": 85,
+          "start": 87.3870625,
+          "end": 87.90252083333333,
+          "text": "adresu"
+        },
+        {
+          "left": 86,
+          "right": 92,
+          "start": 87.9025625,
+          "end": 88.3406875,
+          "text": "doplní"
+        },
+        {
+          "left": 93,
+          "right": 103,
+          "start": 88.3406875,
+          "end": 88.99789583333333,
+          "text": "připravený"
+        },
+        {
+          "left": 104,
+          "right": 113,
+          "start": 89.0236875,
+          "end": 89.64222916666667,
+          "text": "testovací"
+        },
+        {
+          "left": 114,
+          "right": 120,
+          "start": 89.66802083333333,
+          "end": 90.05460416666666,
+          "text": "server"
+        },
+        {
+          "left": 121,
+          "right": 127,
+          "start": 90.05460416666666,
+          "end": 90.45410416666667,
+          "text": "našeho"
+        },
+        {
+          "left": 128,
+          "right": 135,
+          "start": 90.45410416666667,
+          "end": 90.9438125,
+          "text": "Starter"
+        },
+        {
+          "left": 136,
+          "right": 140,
+          "start": 90.95664583333334,
+          "end": 91.44635416666667,
+          "text": "Kitu."
+        },
+        {
+          "left": 142,
+          "right": 148,
+          "start": 91.96120833333333,
+          "end": 92.425125,
+          "text": "Soubor"
+        },
+        {
+          "left": 149,
+          "right": 152,
+          "start": 92.43804166666666,
+          "end": 92.67,
+          "text": "teď"
+        },
+        {
+          "left": 153,
+          "right": 159,
+          "start": 92.73441666666666,
+          "end": 93.27566666666667,
+          "text": "uložím"
+        },
+        {
+          "left": 160,
+          "right": 161,
+          "start": 93.28854166666666,
+          "end": 93.40454166666666,
+          "text": "a"
+        },
+        {
+          "left": 162,
+          "right": 168,
+          "start": 93.44316666666667,
+          "end": 94.01016666666666,
+          "text": "vrátím"
+        },
+        {
+          "left": 169,
+          "right": 171,
+          "start": 94.01020833333334,
+          "end": 94.2035,
+          "text": "se"
+        },
+        {
+          "left": 172,
+          "right": 174,
+          "start": 94.2035,
+          "end": 94.31945833333333,
+          "text": "do"
+        },
+        {
+          "left": 175,
+          "right": 185,
+          "start": 94.31945833333333,
+          "end": 95.16995833333333,
+          "text": "prohlížeče."
+        },
+        {
+          "left": 187,
+          "right": 191,
+          "start": 95.52035416666666,
+          "end": 95.77810416666667,
+          "text": "Chci"
+        },
+        {
+          "left": 192,
+          "right": 198,
+          "start": 95.85539583333333,
+          "end": 96.4739375,
+          "text": "ukázat,"
+        },
+        {
+          "left": 200,
+          "right": 205,
+          "start": 96.78322916666667,
+          "end": 97.10539583333333,
+          "text": "podle"
+        },
+        {
+          "left": 206,
+          "right": 210,
+          "start": 97.10539583333333,
+          "end": 97.38889583333334,
+          "text": "čeho"
+        },
+        {
+          "left": 211,
+          "right": 218,
+          "start": 97.38889583333334,
+          "end": 97.9816875,
+          "text": "poznáme"
+        },
+        {
+          "left": 219,
+          "right": 226,
+          "start": 97.9816875,
+          "end": 98.58735416666667,
+          "text": "správný"
+        },
+        {
+          "left": 227,
+          "right": 233,
+          "start": 98.60022916666667,
+          "end": 99.19302083333334,
+          "text": "nadpis."
+        },
+        {
+          "left": 235,
+          "right": 241,
+          "start": 99.74820833333334,
+          "end": 100.17345833333333,
+          "text": "Otevřu"
+        },
+        {
+          "left": 242,
+          "right": 252,
+          "start": 100.17345833333333,
+          "end": 100.94666666666667,
+          "text": "vývojářské"
+        },
+        {
+          "left": 253,
+          "right": 261,
+          "start": 100.94666666666667,
+          "end": 101.603875,
+          "text": "nástroje"
+        },
+        {
+          "left": 262,
+          "right": 263,
+          "start": 101.603875,
+          "end": 101.745625,
+          "text": "a"
+        },
+        {
+          "left": 264,
+          "right": 270,
+          "start": 101.77141666666667,
+          "end": 102.13220833333334,
+          "text": "vyberu"
+        },
+        {
+          "left": 271,
+          "right": 276,
+          "start": 102.13220833333334,
+          "end": 102.55745833333333,
+          "text": "přímo"
+        },
+        {
+          "left": 277,
+          "right": 283,
+          "start": 102.5575,
+          "end": 102.969875,
+          "text": "nadpis"
+        },
+        {
+          "left": 284,
+          "right": 294,
+          "start": 102.98275,
+          "end": 103.936375,
+          "text": "Přihlášení."
+        },
+        {
+          "left": 296,
+          "right": 298,
+          "start": 104.25814583333333,
+          "end": 104.38702083333334,
+          "text": "Ve"
+        },
+        {
+          "left": 299,
+          "right": 308,
+          "start": 104.39989583333333,
+          "end": 105.12152083333334,
+          "text": "skutečném"
+        },
+        {
+          "left": 309,
+          "right": 312,
+          "start": 105.12152083333334,
+          "end": 105.3148125,
+          "text": "DOM"
+        },
+        {
+          "left": 313,
+          "right": 315,
+          "start": 105.3148125,
+          "end": 105.4308125,
+          "text": "je"
+        },
+        {
+          "left": 316,
+          "right": 321,
+          "start": 105.4308125,
+          "end": 105.74010416666667,
+          "text": "vidět"
+        },
+        {
+          "left": 322,
+          "right": 327,
+          "start": 105.76585416666667,
+          "end": 106.10089583333334,
+          "text": "prvek"
+        },
+        {
+          "left": 328,
+          "right": 330,
+          "start": 106.10089583333334,
+          "end": 106.62927083333334,
+          "text": "h2"
+        },
+        {
+          "left": 331,
+          "right": 332,
+          "start": 106.6808125,
+          "end": 106.71947916666667,
+          "text": "a"
+        },
+        {
+          "left": 333,
+          "right": 337,
+          "start": 106.77102083333334,
+          "end": 107.01585416666667,
+          "text": "jeho"
+        },
+        {
+          "left": 338,
+          "right": 342,
+          "start": 107.02872916666666,
+          "end": 107.5441875,
+          "text": "text."
+        },
+        {
+          "left": 344,
+          "right": 349,
+          "start": 107.857875,
+          "end": 108.20808333333333,
+          "text": "Prvek"
+        },
+        {
+          "left": 350,
+          "right": 352,
+          "start": 108.20808333333333,
+          "end": 108.64620833333333,
+          "text": "h2"
+        },
+        {
+          "left": 353,
+          "right": 355,
+          "start": 108.64625,
+          "end": 108.89108333333333,
+          "text": "má"
+        },
+        {
+          "left": 356,
+          "right": 360,
+          "start": 108.89108333333333,
+          "end": 109.09725,
+          "text": "roli"
+        },
+        {
+          "left": 361,
+          "right": 368,
+          "start": 109.09725,
+          "end": 109.61270833333333,
+          "text": "heading;"
+        },
+        {
+          "left": 370,
+          "right": 376,
+          "start": 109.94779166666666,
+          "end": 110.54054166666667,
+          "text": "názvem"
+        },
+        {
+          "left": 377,
+          "right": 386,
+          "start": 110.54054166666667,
+          "end": 111.184875,
+          "text": "rozlišíme"
+        },
+        {
+          "left": 387,
+          "right": 396,
+          "start": 111.184875,
+          "end": 111.93229166666667,
+          "text": "konkrétní"
+        },
+        {
+          "left": 397,
+          "right": 403,
+          "start": 111.94520833333333,
+          "end": 112.49933333333334,
+          "text": "nadpis."
+        },
+        {
+          "left": 405,
+          "right": 418,
+          "start": 112.89691666666667,
+          "end": 113.695875,
+          "text": "Nepotřebujeme"
+        },
+        {
+          "left": 419,
+          "right": 428,
+          "start": 113.695875,
+          "end": 114.31441666666667,
+          "text": "kopírovat"
+        },
+        {
+          "left": 429,
+          "right": 436,
+          "start": 114.34020833333334,
+          "end": 114.68816666666666,
+          "text": "dlouhou"
+        },
+        {
+          "left": 437,
+          "right": 442,
+          "start": 114.73970833333334,
+          "end": 115.13916666666667,
+          "text": "cestu"
+        },
+        {
+          "left": 443,
+          "right": 447,
+          "start": 115.13916666666667,
+          "end": 115.44845833333333,
+          "text": "přes"
+        },
+        {
+          "left": 448,
+          "right": 455,
+          "start": 115.44845833333333,
+          "end": 115.92525,
+          "text": "vnořené"
+        },
+        {
+          "left": 456,
+          "right": 466,
+          "start": 115.93816666666666,
+          "end": 116.67270833333333,
+          "text": "kontejnery"
+        },
+        {
+          "left": 467,
+          "right": 470,
+          "start": 116.68558333333333,
+          "end": 116.93041666666667,
+          "text": "ani"
+        },
+        {
+          "left": 471,
+          "right": 478,
+          "start": 116.93041666666667,
+          "end": 117.57475,
+          "text": "náhodné"
+        },
+        {
+          "left": 479,
+          "right": 482,
+          "start": 117.57475,
+          "end": 118.25775,
+          "text": "CSS"
+        },
+        {
+          "left": 483,
+          "right": 488,
+          "start": 118.25775,
+          "end": 118.77320833333333,
+          "text": "třídy."
+        },
+        {
+          "left": 490,
+          "right": 495,
+          "start": 119.07095833333334,
+          "end": 119.534875,
+          "text": "Výběr"
+        },
+        {
+          "left": 496,
+          "right": 501,
+          "start": 119.56066666666666,
+          "end": 119.94725,
+          "text": "prvku"
+        },
+        {
+          "left": 502,
+          "right": 505,
+          "start": 119.94725,
+          "end": 120.14054166666666,
+          "text": "teď"
+        },
+        {
+          "left": 506,
+          "right": 515,
+          "start": 120.15345833333333,
+          "end": 120.73333333333333,
+          "text": "spojujeme"
+        },
+        {
+          "left": 516,
+          "right": 517,
+          "start": 120.73333333333333,
+          "end": 120.83641666666666,
+          "text": "s"
+        },
+        {
+          "left": 518,
+          "right": 521,
+          "start": 120.83641666666666,
+          "end": 121.19725,
+          "text": "tím,"
+        },
+        {
+          "left": 523,
+          "right": 525,
+          "start": 121.59675,
+          "end": 121.77716666666667,
+          "text": "co"
+        },
+        {
+          "left": 526,
+          "right": 528,
+          "start": 121.77716666666667,
+          "end": 122.009125,
+          "text": "má"
+        },
+        {
+          "left": 529,
+          "right": 537,
+          "start": 122.09933333333333,
+          "end": 122.589,
+          "text": "uživatel"
+        },
+        {
+          "left": 538,
+          "right": 546,
+          "start": 122.589,
+          "end": 123.16891666666666,
+          "text": "skutečně"
+        },
+        {
+          "left": 547,
+          "right": 553,
+          "start": 123.16891666666666,
+          "end": 123.61995833333333,
+          "text": "poznat"
+        },
+        {
+          "left": 554,
+          "right": 556,
+          "start": 123.64570833333333,
+          "end": 123.76166666666667,
+          "text": "na"
+        },
+        {
+          "left": 557,
+          "right": 564,
+          "start": 123.76166666666667,
+          "end": 124.44466666666666,
+          "text": "stránce."
+        }
+      ]
+    },
+    {
+      "id": "r21_codegen",
+      "title": "Codegen vytvoří návrh, tester určí očekávání",
+      "paragraph": "Než lokátor zapíšeme ručně, krátce si ukážeme pomocníka Codegen. Tady běží jeho skutečný prohlížeč a vedle něj Inspector. Do e-mailového pole napíšu náš veřejný testovací účet. Inspector z provedené akce vytvoří návrh kódu v Pythonu. V návrhu je navigace, nalezený textbox a vyplnění hodnoty. Záznam samotného klikání ale ještě neříká, co má test ověřovat. Návrh proto vždy přečteme a doplníme vlastní očekávání. Teď se vrátíme k našemu krátkému testu, kde nadpis i tlačítko ověříme vědomě.",
+      "start": 125.0599375,
+      "voice": "cs-CZ-VlastaNeural",
+      "audio": "video_course\\r21\\narration\\r21_codegen_8645cd5b1bb6.mp3",
+      "words": [
+        {
+          "left": 0,
+          "right": 3,
+          "start": 125.16147916666667,
+          "end": 125.4063125,
+          "text": "Než"
+        },
+        {
+          "left": 4,
+          "right": 11,
+          "start": 125.41922916666667,
+          "end": 125.93468750000001,
+          "text": "lokátor"
+        },
+        {
+          "left": 12,
+          "right": 20,
+          "start": 125.93468750000001,
+          "end": 126.59189583333334,
+          "text": "zapíšeme"
+        },
+        {
+          "left": 21,
+          "right": 26,
+          "start": 126.59189583333334,
+          "end": 127.03002083333334,
+          "text": "ručně,"
+        },
+        {
+          "left": 28,
+          "right": 34,
+          "start": 127.28777083333334,
+          "end": 127.8676875,
+          "text": "krátce"
+        },
+        {
+          "left": 35,
+          "right": 37,
+          "start": 127.8676875,
+          "end": 128.04810416666666,
+          "text": "si"
+        },
+        {
+          "left": 38,
+          "right": 45,
+          "start": 128.09964583333334,
+          "end": 128.64085416666666,
+          "text": "ukážeme"
+        },
+        {
+          "left": 46,
+          "right": 55,
+          "start": 128.64085416666666,
+          "end": 129.33672916666666,
+          "text": "pomocníka"
+        },
+        {
+          "left": 56,
+          "right": 63,
+          "start": 129.33672916666666,
+          "end": 129.9810625,
+          "text": "Codegen."
+        },
+        {
+          "left": 65,
+          "right": 69,
+          "start": 130.34947916666667,
+          "end": 130.62010416666666,
+          "text": "Tady"
+        },
+        {
+          "left": 70,
+          "right": 74,
+          "start": 130.62010416666666,
+          "end": 131.03247916666666,
+          "text": "běží"
+        },
+        {
+          "left": 75,
+          "right": 79,
+          "start": 131.03247916666666,
+          "end": 131.22577083333334,
+          "text": "jeho"
+        },
+        {
+          "left": 80,
+          "right": 88,
+          "start": 131.22577083333334,
+          "end": 131.8185625,
+          "text": "skutečný"
+        },
+        {
+          "left": 89,
+          "right": 98,
+          "start": 131.8443125,
+          "end": 132.5530625,
+          "text": "prohlížeč"
+        },
+        {
+          "left": 99,
+          "right": 100,
+          "start": 132.63039583333332,
+          "end": 132.73347916666668,
+          "text": "a"
+        },
+        {
+          "left": 101,
+          "right": 106,
+          "start": 132.77214583333333,
+          "end": 133.12010416666666,
+          "text": "vedle"
+        },
+        {
+          "left": 107,
+          "right": 110,
+          "start": 133.12010416666666,
+          "end": 133.3649375,
+          "text": "něj"
+        },
+        {
+          "left": 111,
+          "right": 120,
+          "start": 133.39072916666666,
+          "end": 134.0608125,
+          "text": "Inspector."
+        },
+        {
+          "left": 122,
+          "right": 124,
+          "start": 134.5,
+          "end": 134.628875,
+          "text": "Do"
+        },
+        {
+          "left": 125,
+          "right": 136,
+          "start": 134.64175,
+          "end": 135.44070833333333,
+          "text": "e-mailového"
+        },
+        {
+          "left": 137,
+          "right": 141,
+          "start": 135.44070833333333,
+          "end": 135.71133333333333,
+          "text": "pole"
+        },
+        {
+          "left": 142,
+          "right": 148,
+          "start": 135.71133333333333,
+          "end": 136.22679166666666,
+          "text": "napíšu"
+        },
+        {
+          "left": 149,
+          "right": 152,
+          "start": 136.22679166666666,
+          "end": 136.54895833333333,
+          "text": "náš"
+        },
+        {
+          "left": 153,
+          "right": 160,
+          "start": 136.54895833333333,
+          "end": 137.02575000000002,
+          "text": "veřejný"
+        },
+        {
+          "left": 161,
+          "right": 170,
+          "start": 137.05154166666668,
+          "end": 137.76029166666666,
+          "text": "testovací"
+        },
+        {
+          "left": 171,
+          "right": 175,
+          "start": 137.837625,
+          "end": 138.39175,
+          "text": "účet."
+        },
+        {
+          "left": 177,
+          "right": 186,
+          "start": 138.80645833333332,
+          "end": 139.425,
+          "text": "Inspector"
+        },
+        {
+          "left": 187,
+          "right": 188,
+          "start": 139.437875,
+          "end": 139.56675,
+          "text": "z"
+        },
+        {
+          "left": 189,
+          "right": 198,
+          "start": 139.56675,
+          "end": 140.15954166666668,
+          "text": "provedené"
+        },
+        {
+          "left": 199,
+          "right": 203,
+          "start": 140.15954166666668,
+          "end": 140.54612500000002,
+          "text": "akce"
+        },
+        {
+          "left": 204,
+          "right": 211,
+          "start": 140.54612500000002,
+          "end": 141.07445833333333,
+          "text": "vytvoří"
+        },
+        {
+          "left": 212,
+          "right": 217,
+          "start": 141.0745,
+          "end": 141.57704166666667,
+          "text": "návrh"
+        },
+        {
+          "left": 218,
+          "right": 222,
+          "start": 141.57704166666667,
+          "end": 141.925,
+          "text": "kódu"
+        },
+        {
+          "left": 223,
+          "right": 224,
+          "start": 141.925,
+          "end": 142.02808333333334,
+          "text": "v"
+        },
+        {
+          "left": 225,
+          "right": 232,
+          "start": 142.02808333333334,
+          "end": 142.59508333333335,
+          "text": "Pythonu."
+        },
+        {
+          "left": 234,
+          "right": 235,
+          "start": 142.936625,
+          "end": 143.03970833333335,
+          "text": "V"
+        },
+        {
+          "left": 236,
+          "right": 242,
+          "start": 143.03970833333335,
+          "end": 143.58095833333334,
+          "text": "návrhu"
+        },
+        {
+          "left": 243,
+          "right": 245,
+          "start": 143.58095833333334,
+          "end": 143.70983333333334,
+          "text": "je"
+        },
+        {
+          "left": 246,
+          "right": 254,
+          "start": 143.70983333333334,
+          "end": 144.37991666666667,
+          "text": "navigace,"
+        },
+        {
+          "left": 256,
+          "right": 264,
+          "start": 144.68920833333334,
+          "end": 145.33354166666666,
+          "text": "nalezený"
+        },
+        {
+          "left": 265,
+          "right": 272,
+          "start": 145.34641666666667,
+          "end": 146.08091666666667,
+          "text": "textbox"
+        },
+        {
+          "left": 273,
+          "right": 274,
+          "start": 146.17116666666666,
+          "end": 146.23558333333335,
+          "text": "a"
+        },
+        {
+          "left": 275,
+          "right": 283,
+          "start": 146.287125,
+          "end": 146.854125,
+          "text": "vyplnění"
+        },
+        {
+          "left": 284,
+          "right": 291,
+          "start": 146.86704166666667,
+          "end": 147.42116666666666,
+          "text": "hodnoty."
+        },
+        {
+          "left": 293,
+          "right": 299,
+          "start": 147.79472916666668,
+          "end": 148.34885416666668,
+          "text": "Záznam"
+        },
+        {
+          "left": 300,
+          "right": 309,
+          "start": 148.34885416666668,
+          "end": 149.0060625,
+          "text": "samotného"
+        },
+        {
+          "left": 310,
+          "right": 317,
+          "start": 149.0060625,
+          "end": 149.66327083333334,
+          "text": "klikání"
+        },
+        {
+          "left": 318,
+          "right": 321,
+          "start": 149.66331250000002,
+          "end": 149.90814583333332,
+          "text": "ale"
+        },
+        {
+          "left": 322,
+          "right": 327,
+          "start": 149.90814583333332,
+          "end": 150.2560625,
+          "text": "ještě"
+        },
+        {
+          "left": 328,
+          "right": 334,
+          "start": 150.2560625,
+          "end": 150.9519375,
+          "text": "neříká,"
+        },
+        {
+          "left": 336,
+          "right": 338,
+          "start": 151.29989583333332,
+          "end": 151.5060625,
+          "text": "co"
+        },
+        {
+          "left": 339,
+          "right": 341,
+          "start": 151.5060625,
+          "end": 151.72514583333333,
+          "text": "má"
+        },
+        {
+          "left": 342,
+          "right": 346,
+          "start": 151.73802083333334,
+          "end": 152.03439583333335,
+          "text": "test"
+        },
+        {
+          "left": 347,
+          "right": 355,
+          "start": 152.11172916666666,
+          "end": 152.7818125,
+          "text": "ověřovat."
+        },
+        {
+          "left": 357,
+          "right": 362,
+          "start": 153.1926875,
+          "end": 153.68239583333335,
+          "text": "Návrh"
+        },
+        {
+          "left": 363,
+          "right": 368,
+          "start": 153.68239583333335,
+          "end": 154.0174375,
+          "text": "proto"
+        },
+        {
+          "left": 369,
+          "right": 373,
+          "start": 154.0174375,
+          "end": 154.26227083333333,
+          "text": "vždy"
+        },
+        {
+          "left": 374,
+          "right": 382,
+          "start": 154.26227083333333,
+          "end": 154.90660416666668,
+          "text": "přečteme"
+        },
+        {
+          "left": 383,
+          "right": 384,
+          "start": 154.91947916666666,
+          "end": 155.0225625,
+          "text": "a"
+        },
+        {
+          "left": 385,
+          "right": 393,
+          "start": 155.06122916666666,
+          "end": 155.64114583333333,
+          "text": "doplníme"
+        },
+        {
+          "left": 394,
+          "right": 401,
+          "start": 155.64114583333333,
+          "end": 156.14372916666667,
+          "text": "vlastní"
+        },
+        {
+          "left": 402,
+          "right": 411,
+          "start": 156.15660416666668,
+          "end": 157.2390625,
+          "text": "očekávání."
+        },
+        {
+          "left": 413,
+          "right": 416,
+          "start": 157.5969375,
+          "end": 157.76447916666666,
+          "text": "Teď"
+        },
+        {
+          "left": 417,
+          "right": 419,
+          "start": 157.79022916666668,
+          "end": 157.97064583333332,
+          "text": "se"
+        },
+        {
+          "left": 420,
+          "right": 427,
+          "start": 157.97064583333332,
+          "end": 158.5505625,
+          "text": "vrátíme"
+        },
+        {
+          "left": 428,
+          "right": 429,
+          "start": 158.5505625,
+          "end": 158.62789583333333,
+          "text": "k"
+        },
+        {
+          "left": 430,
+          "right": 436,
+          "start": 158.64077083333333,
+          "end": 159.04022916666668,
+          "text": "našemu"
+        },
+        {
+          "left": 437,
+          "right": 445,
+          "start": 159.04022916666668,
+          "end": 159.73610416666668,
+          "text": "krátkému"
+        },
+        {
+          "left": 446,
+          "right": 451,
+          "start": 159.73610416666668,
+          "end": 160.20002083333333,
+          "text": "testu,"
+        },
+        {
+          "left": 453,
+          "right": 456,
+          "start": 160.39335416666665,
+          "end": 160.6510625,
+          "text": "kde"
+        },
+        {
+          "left": 457,
+          "right": 463,
+          "start": 160.6510625,
+          "end": 161.11497916666667,
+          "text": "nadpis"
+        },
+        {
+          "left": 464,
+          "right": 465,
+          "start": 161.1923125,
+          "end": 161.21810416666668,
+          "text": "i"
+        },
+        {
+          "left": 466,
+          "right": 474,
+          "start": 161.25672916666667,
+          "end": 161.9010625,
+          "text": "tlačítko"
+        },
+        {
+          "left": 475,
+          "right": 482,
+          "start": 161.96552083333333,
+          "end": 162.51964583333333,
+          "text": "ověříme"
+        },
+        {
+          "left": 483,
+          "right": 489,
+          "start": 162.51964583333333,
+          "end": 163.07377083333333,
+          "text": "vědomě."
+        }
+      ]
+    },
+    {
+      "id": "r2_04",
+      "title": "Z nalezeného prvku vzniká očekávání",
+      "paragraph": "Zpátky v editoru napíšu očekávání pro právě prohlédnutý nadpis. Použiji get_by_role s rolí heading a přesným názvem Přihlášení. Volba exact vyžaduje shodu celého názvu, nikoli jen jeho části. Za lokátor připojím to_be_visible, protože chceme nadpis opravdu vidět. Potom přidám druhé očekávání pro tlačítko Přihlásit se. Tady je rolí button a názvem text našeho tlačítka. Vrátím se ještě k živému prvku v prohlížeči a vyberu tlačítko v DOM. Obě kontroly tak mají oporu ve skutečné aplikaci. Pouhé otevření adresy by nám ještě nepotvrdilo, že se formulář správně zobrazil.",
+      "voice": "cs-CZ-VlastaNeural",
+      "stage": "editor",
+      "audio": "video_course\\r2\\narration\\r2_04_3bc3c9788ec8.mp3",
+      "start": 163.53241666666668,
+      "duration": 48.024,
+      "audio_sha256": "7f0de8be4068264bdc782543277b7ac5e994499c6135d99f3431b8d186a753b8",
+      "words": [
+        {
+          "left": 0,
+          "right": 6,
+          "start": 163.63358333333332,
+          "end": 164.17483333333334,
+          "text": "Zpátky"
+        },
+        {
+          "left": 7,
+          "right": 8,
+          "start": 164.17483333333334,
+          "end": 164.25216666666665,
+          "text": "v"
+        },
+        {
+          "left": 9,
+          "right": 16,
+          "start": 164.265,
+          "end": 164.78045833333334,
+          "text": "editoru"
+        },
+        {
+          "left": 17,
+          "right": 23,
+          "start": 164.7805,
+          "end": 165.27020833333333,
+          "text": "napíšu"
+        },
+        {
+          "left": 24,
+          "right": 33,
+          "start": 165.29595833333335,
+          "end": 166.210875,
+          "text": "očekávání"
+        },
+        {
+          "left": 34,
+          "right": 37,
+          "start": 166.210875,
+          "end": 166.39129166666666,
+          "text": "pro"
+        },
+        {
+          "left": 38,
+          "right": 43,
+          "start": 166.39129166666666,
+          "end": 166.881,
+          "text": "právě"
+        },
+        {
+          "left": 44,
+          "right": 55,
+          "start": 166.881,
+          "end": 167.66708333333332,
+          "text": "prohlédnutý"
+        },
+        {
+          "left": 56,
+          "right": 62,
+          "start": 167.66708333333332,
+          "end": 168.22120833333332,
+          "text": "nadpis."
+        },
+        {
+          "left": 64,
+          "right": 71,
+          "start": 168.52129166666666,
+          "end": 168.999,
+          "text": "Použiji"
+        },
+        {
+          "left": 72,
+          "right": 83,
+          "start": 168.999,
+          "end": 169.63041666666666,
+          "text": "get_by_role"
+        },
+        {
+          "left": 84,
+          "right": 85,
+          "start": 169.63045833333334,
+          "end": 169.74641666666665,
+          "text": "s"
+        },
+        {
+          "left": 86,
+          "right": 90,
+          "start": 169.74641666666665,
+          "end": 170.02991666666665,
+          "text": "rolí"
+        },
+        {
+          "left": 91,
+          "right": 98,
+          "start": 170.04283333333333,
+          "end": 170.493875,
+          "text": "heading"
+        },
+        {
+          "left": 99,
+          "right": 100,
+          "start": 170.50674999999998,
+          "end": 170.6098333333333,
+          "text": "a"
+        },
+        {
+          "left": 101,
+          "right": 108,
+          "start": 170.63558333333333,
+          "end": 171.2155,
+          "text": "přesným"
+        },
+        {
+          "left": 109,
+          "right": 115,
+          "start": 171.2155,
+          "end": 171.75674999999998,
+          "text": "názvem"
+        },
+        {
+          "left": 116,
+          "right": 126,
+          "start": 171.75674999999998,
+          "end": 172.68458333333334,
+          "text": "Přihlášení."
+        },
+        {
+          "left": 128,
+          "right": 133,
+          "start": 173.01024999999998,
+          "end": 173.40975,
+          "text": "Volba"
+        },
+        {
+          "left": 134,
+          "right": 139,
+          "start": 173.47416666666666,
+          "end": 173.91229166666665,
+          "text": "exact"
+        },
+        {
+          "left": 140,
+          "right": 148,
+          "start": 173.95095833333332,
+          "end": 174.414875,
+          "text": "vyžaduje"
+        },
+        {
+          "left": 149,
+          "right": 154,
+          "start": 174.414875,
+          "end": 174.76283333333333,
+          "text": "shodu"
+        },
+        {
+          "left": 155,
+          "right": 161,
+          "start": 174.76283333333333,
+          "end": 175.2525,
+          "text": "celého"
+        },
+        {
+          "left": 162,
+          "right": 167,
+          "start": 175.2525,
+          "end": 175.806625,
+          "text": "názvu,"
+        },
+        {
+          "left": 169,
+          "right": 175,
+          "start": 176.15458333333333,
+          "end": 176.61849999999998,
+          "text": "nikoli"
+        },
+        {
+          "left": 176,
+          "right": 179,
+          "start": 176.61849999999998,
+          "end": 176.83758333333333,
+          "text": "jen"
+        },
+        {
+          "left": 180,
+          "right": 184,
+          "start": 176.83758333333333,
+          "end": 177.04375,
+          "text": "jeho"
+        },
+        {
+          "left": 185,
+          "right": 190,
+          "start": 177.056625,
+          "end": 177.623625,
+          "text": "části."
+        },
+        {
+          "left": 192,
+          "right": 194,
+          "start": 177.9545,
+          "end": 178.109125,
+          "text": "Za"
+        },
+        {
+          "left": 195,
+          "right": 202,
+          "start": 178.13491666666667,
+          "end": 178.68904166666667,
+          "text": "lokátor"
+        },
+        {
+          "left": 203,
+          "right": 211,
+          "start": 178.70191666666665,
+          "end": 179.25604166666665,
+          "text": "připojím"
+        },
+        {
+          "left": 212,
+          "right": 225,
+          "start": 179.25604166666665,
+          "end": 180.06791666666666,
+          "text": "to_be_visible,"
+        },
+        {
+          "left": 227,
+          "right": 234,
+          "start": 180.467375,
+          "end": 180.866875,
+          "text": "protože"
+        },
+        {
+          "left": 235,
+          "right": 241,
+          "start": 180.866875,
+          "end": 181.25345833333333,
+          "text": "chceme"
+        },
+        {
+          "left": 242,
+          "right": 248,
+          "start": 181.25345833333333,
+          "end": 181.66583333333332,
+          "text": "nadpis"
+        },
+        {
+          "left": 249,
+          "right": 256,
+          "start": 181.75604166666665,
+          "end": 182.21995833333332,
+          "text": "opravdu"
+        },
+        {
+          "left": 257,
+          "right": 262,
+          "start": 182.21995833333332,
+          "end": 182.65808333333334,
+          "text": "vidět."
+        },
+        {
+          "left": 264,
+          "right": 269,
+          "start": 183.10379166666667,
+          "end": 183.490375,
+          "text": "Potom"
+        },
+        {
+          "left": 270,
+          "right": 276,
+          "start": 183.490375,
+          "end": 183.94141666666667,
+          "text": "přidám"
+        },
+        {
+          "left": 277,
+          "right": 282,
+          "start": 183.94141666666667,
+          "end": 184.35379166666667,
+          "text": "druhé"
+        },
+        {
+          "left": 283,
+          "right": 292,
+          "start": 184.40533333333332,
+          "end": 185.2945,
+          "text": "očekávání"
+        },
+        {
+          "left": 293,
+          "right": 296,
+          "start": 185.2945,
+          "end": 185.47491666666667,
+          "text": "pro"
+        },
+        {
+          "left": 297,
+          "right": 305,
+          "start": 185.48779166666665,
+          "end": 186.09345833333333,
+          "text": "tlačítko"
+        },
+        {
+          "left": 306,
+          "right": 315,
+          "start": 186.09345833333333,
+          "end": 186.77645833333332,
+          "text": "Přihlásit"
+        },
+        {
+          "left": 316,
+          "right": 318,
+          "start": 186.78933333333333,
+          "end": 187.04708333333332,
+          "text": "se."
+        },
+        {
+          "left": 320,
+          "right": 324,
+          "start": 187.32231249999998,
+          "end": 187.6080625,
+          "text": "Tady"
+        },
+        {
+          "left": 325,
+          "right": 327,
+          "start": 187.6080625,
+          "end": 187.7626875,
+          "text": "je"
+        },
+        {
+          "left": 328,
+          "right": 332,
+          "start": 187.76272916666665,
+          "end": 188.04622916666665,
+          "text": "rolí"
+        },
+        {
+          "left": 333,
+          "right": 339,
+          "start": 188.05910416666666,
+          "end": 188.45860416666665,
+          "text": "button"
+        },
+        {
+          "left": 340,
+          "right": 341,
+          "start": 188.51014583333333,
+          "end": 188.62614583333334,
+          "text": "a"
+        },
+        {
+          "left": 342,
+          "right": 348,
+          "start": 188.65189583333333,
+          "end": 189.18022916666666,
+          "text": "názvem"
+        },
+        {
+          "left": 349,
+          "right": 353,
+          "start": 189.18022916666666,
+          "end": 189.54106249999998,
+          "text": "text"
+        },
+        {
+          "left": 354,
+          "right": 360,
+          "start": 189.5539375,
+          "end": 189.95343749999998,
+          "text": "našeho"
+        },
+        {
+          "left": 361,
+          "right": 369,
+          "start": 189.9663125,
+          "end": 190.71372916666667,
+          "text": "tlačítka."
+        },
+        {
+          "left": 371,
+          "right": 377,
+          "start": 191.2559375,
+          "end": 191.8229375,
+          "text": "Vrátím"
+        },
+        {
+          "left": 378,
+          "right": 380,
+          "start": 191.8229375,
+          "end": 191.99047916666666,
+          "text": "se"
+        },
+        {
+          "left": 381,
+          "right": 386,
+          "start": 191.99047916666666,
+          "end": 192.29977083333333,
+          "text": "ještě"
+        },
+        {
+          "left": 387,
+          "right": 388,
+          "start": 192.29977083333333,
+          "end": 192.3770625,
+          "text": "k"
+        },
+        {
+          "left": 389,
+          "right": 395,
+          "start": 192.3770625,
+          "end": 192.82810416666666,
+          "text": "živému"
+        },
+        {
+          "left": 396,
+          "right": 401,
+          "start": 192.82810416666666,
+          "end": 193.2018125,
+          "text": "prvku"
+        },
+        {
+          "left": 402,
+          "right": 403,
+          "start": 193.2018125,
+          "end": 193.30489583333332,
+          "text": "v"
+        },
+        {
+          "left": 404,
+          "right": 414,
+          "start": 193.30489583333332,
+          "end": 194.10385416666665,
+          "text": "prohlížeči"
+        },
+        {
+          "left": 415,
+          "right": 416,
+          "start": 194.10389583333333,
+          "end": 194.20697916666666,
+          "text": "a"
+        },
+        {
+          "left": 417,
+          "right": 423,
+          "start": 194.25852083333334,
+          "end": 194.67089583333333,
+          "text": "vyberu"
+        },
+        {
+          "left": 424,
+          "right": 432,
+          "start": 194.67089583333333,
+          "end": 195.2894375,
+          "text": "tlačítko"
+        },
+        {
+          "left": 433,
+          "right": 434,
+          "start": 195.2894375,
+          "end": 195.39252083333332,
+          "text": "v"
+        },
+        {
+          "left": 435,
+          "right": 438,
+          "start": 195.3925625,
+          "end": 195.74052083333333,
+          "text": "DOM."
+        },
+        {
+          "left": 440,
+          "right": 443,
+          "start": 196.06320833333334,
+          "end": 196.33379166666666,
+          "text": "Obě"
+        },
+        {
+          "left": 444,
+          "right": 452,
+          "start": 196.33379166666666,
+          "end": 196.862125,
+          "text": "kontroly"
+        },
+        {
+          "left": 453,
+          "right": 456,
+          "start": 196.86216666666667,
+          "end": 197.06833333333333,
+          "text": "tak"
+        },
+        {
+          "left": 457,
+          "right": 461,
+          "start": 197.094125,
+          "end": 197.377625,
+          "text": "mají"
+        },
+        {
+          "left": 462,
+          "right": 467,
+          "start": 197.3905,
+          "end": 197.84154166666667,
+          "text": "oporu"
+        },
+        {
+          "left": 468,
+          "right": 470,
+          "start": 197.84154166666667,
+          "end": 197.97041666666667,
+          "text": "ve"
+        },
+        {
+          "left": 471,
+          "right": 479,
+          "start": 197.97041666666667,
+          "end": 198.67916666666665,
+          "text": "skutečné"
+        },
+        {
+          "left": 480,
+          "right": 488,
+          "start": 198.70495833333334,
+          "end": 199.40083333333334,
+          "text": "aplikaci."
+        },
+        {
+          "left": 490,
+          "right": 495,
+          "start": 199.67504166666666,
+          "end": 200.0816875,
+          "text": "Pouhé"
+        },
+        {
+          "left": 496,
+          "right": 504,
+          "start": 200.14610416666665,
+          "end": 200.7775625,
+          "text": "otevření"
+        },
+        {
+          "left": 505,
+          "right": 511,
+          "start": 200.7775625,
+          "end": 201.26722916666665,
+          "text": "adresy"
+        },
+        {
+          "left": 512,
+          "right": 514,
+          "start": 201.26722916666665,
+          "end": 201.38322916666667,
+          "text": "by"
+        },
+        {
+          "left": 515,
+          "right": 518,
+          "start": 201.38322916666667,
+          "end": 201.65385416666666,
+          "text": "nám"
+        },
+        {
+          "left": 519,
+          "right": 524,
+          "start": 201.65385416666666,
+          "end": 201.97602083333334,
+          "text": "ještě"
+        },
+        {
+          "left": 525,
+          "right": 536,
+          "start": 201.97602083333334,
+          "end": 202.77497916666667,
+          "text": "nepotvrdilo,"
+        },
+        {
+          "left": 538,
+          "right": 540,
+          "start": 203.08427083333333,
+          "end": 203.18735416666667,
+          "text": "že"
+        },
+        {
+          "left": 541,
+          "right": 543,
+          "start": 203.18735416666667,
+          "end": 203.36777083333334,
+          "text": "se"
+        },
+        {
+          "left": 544,
+          "right": 552,
+          "start": 203.36777083333334,
+          "end": 203.96056249999998,
+          "text": "formulář"
+        },
+        {
+          "left": 553,
+          "right": 560,
+          "start": 203.9734375,
+          "end": 204.51468749999998,
+          "text": "správně"
+        },
+        {
+          "left": 561,
+          "right": 569,
+          "start": 204.51468749999998,
+          "end": 205.2234375,
+          "text": "zobrazil."
+        }
+      ]
+    },
+    {
+      "id": "r2_05",
+      "title": "Nejdřív ověříme, že test umí selhat",
+      "paragraph": "Než budeme věřit zelenému výsledku, vyzkoušíme kontrolovanou chybu. V prvním očekávání teď změním pouze hledaný text na Neexistující nadpis. Ostatní kroky i jméno testu nechám stejné a soubor uložím. V terminálu spustím právě tento jeden test. Přepínač headed zpřístupní skutečný prohlížeč a slowmo zpomalí ukázku. Zpomalení je pomůcka pro sledování, nikoli řešení nestabilních testů. V nahrávce prohlížeče z tohoto běhu se přihlašovací stránka opravdu načetla. Test ale marně hledá text, který jsme si vymysleli. Teď už terminál ukazuje selhání a návratový kód je jedna. To je očekávaný výsledek našeho záměrně chybného zadání.",
+      "voice": "cs-CZ-VlastaNeural",
+      "stage": "red",
+      "audio": "video_course\\r2\\narration\\r2_05_512339f050af.mp3",
+      "start": 205.82485416666665,
+      "duration": 53.304,
+      "audio_sha256": "359bef44809a2478fcaf0290ef1470c511e80627373811df0519337c54cd3093",
+      "words": [
+        {
+          "left": 0,
+          "right": 3,
+          "start": 205.92639583333332,
+          "end": 206.17122916666665,
+          "text": "Než"
+        },
+        {
+          "left": 4,
+          "right": 10,
+          "start": 206.18414583333333,
+          "end": 206.55785416666666,
+          "text": "budeme"
+        },
+        {
+          "left": 11,
+          "right": 16,
+          "start": 206.55785416666666,
+          "end": 206.93156249999998,
+          "text": "věřit"
+        },
+        {
+          "left": 17,
+          "right": 25,
+          "start": 206.9573125,
+          "end": 207.56297916666665,
+          "text": "zelenému"
+        },
+        {
+          "left": 26,
+          "right": 34,
+          "start": 207.56297916666665,
+          "end": 208.25885416666665,
+          "text": "výsledku,"
+        },
+        {
+          "left": 36,
+          "right": 46,
+          "start": 208.58102083333333,
+          "end": 209.35422916666667,
+          "text": "vyzkoušíme"
+        },
+        {
+          "left": 47,
+          "right": 60,
+          "start": 209.35422916666667,
+          "end": 210.16610416666666,
+          "text": "kontrolovanou"
+        },
+        {
+          "left": 61,
+          "right": 66,
+          "start": 210.17897916666666,
+          "end": 210.5655625,
+          "text": "chybu."
+        },
+        {
+          "left": 68,
+          "right": 69,
+          "start": 211.0555,
+          "end": 211.15858333333333,
+          "text": "V"
+        },
+        {
+          "left": 70,
+          "right": 76,
+          "start": 211.158625,
+          "end": 211.583875,
+          "text": "prvním"
+        },
+        {
+          "left": 77,
+          "right": 86,
+          "start": 211.59675,
+          "end": 212.51170833333333,
+          "text": "očekávání"
+        },
+        {
+          "left": 87,
+          "right": 90,
+          "start": 212.51170833333333,
+          "end": 212.73079166666665,
+          "text": "teď"
+        },
+        {
+          "left": 91,
+          "right": 97,
+          "start": 212.74366666666666,
+          "end": 213.20758333333333,
+          "text": "změním"
+        },
+        {
+          "left": 98,
+          "right": 103,
+          "start": 213.20758333333333,
+          "end": 213.58129166666666,
+          "text": "pouze"
+        },
+        {
+          "left": 104,
+          "right": 111,
+          "start": 213.58129166666666,
+          "end": 214.083875,
+          "text": "hledaný"
+        },
+        {
+          "left": 112,
+          "right": 116,
+          "start": 214.09675,
+          "end": 214.4704583333333,
+          "text": "text"
+        },
+        {
+          "left": 117,
+          "right": 119,
+          "start": 214.49625,
+          "end": 214.62508333333332,
+          "text": "na"
+        },
+        {
+          "left": 120,
+          "right": 132,
+          "start": 214.62508333333332,
+          "end": 215.643125,
+          "text": "Neexistující"
+        },
+        {
+          "left": 133,
+          "right": 139,
+          "start": 215.65604166666665,
+          "end": 216.22304166666666,
+          "text": "nadpis."
+        },
+        {
+          "left": 141,
+          "right": 148,
+          "start": 216.58129166666666,
+          "end": 217.09675,
+          "text": "Ostatní"
+        },
+        {
+          "left": 149,
+          "right": 154,
+          "start": 217.09675,
+          "end": 217.48333333333332,
+          "text": "kroky"
+        },
+        {
+          "left": 155,
+          "right": 156,
+          "start": 217.49625,
+          "end": 217.58645833333333,
+          "text": "i"
+        },
+        {
+          "left": 157,
+          "right": 162,
+          "start": 217.58645833333333,
+          "end": 218.02458333333334,
+          "text": "jméno"
+        },
+        {
+          "left": 163,
+          "right": 168,
+          "start": 218.02458333333334,
+          "end": 218.42408333333333,
+          "text": "testu"
+        },
+        {
+          "left": 169,
+          "right": 175,
+          "start": 218.42408333333333,
+          "end": 218.78491666666665,
+          "text": "nechám"
+        },
+        {
+          "left": 176,
+          "right": 182,
+          "start": 218.78491666666665,
+          "end": 219.35191666666665,
+          "text": "stejné"
+        },
+        {
+          "left": 183,
+          "right": 184,
+          "start": 219.39058333333332,
+          "end": 219.442125,
+          "text": "a"
+        },
+        {
+          "left": 185,
+          "right": 191,
+          "start": 219.48079166666665,
+          "end": 219.9705,
+          "text": "soubor"
+        },
+        {
+          "left": 192,
+          "right": 198,
+          "start": 220.07358333333332,
+          "end": 220.70504166666666,
+          "text": "uložím."
+        },
+        {
+          "left": 200,
+          "right": 201,
+          "start": 221.2408125,
+          "end": 221.33102083333333,
+          "text": "V"
+        },
+        {
+          "left": 202,
+          "right": 211,
+          "start": 221.33102083333333,
+          "end": 222.03977083333334,
+          "text": "terminálu"
+        },
+        {
+          "left": 212,
+          "right": 219,
+          "start": 222.03977083333334,
+          "end": 222.56810416666667,
+          "text": "spustím"
+        },
+        {
+          "left": 220,
+          "right": 225,
+          "start": 222.56810416666667,
+          "end": 223.04489583333333,
+          "text": "právě"
+        },
+        {
+          "left": 226,
+          "right": 231,
+          "start": 223.0449375,
+          "end": 223.44439583333332,
+          "text": "tento"
+        },
+        {
+          "left": 232,
+          "right": 237,
+          "start": 223.44439583333332,
+          "end": 223.81810416666667,
+          "text": "jeden"
+        },
+        {
+          "left": 238,
+          "right": 242,
+          "start": 223.81810416666667,
+          "end": 224.28202083333332,
+          "text": "test."
+        },
+        {
+          "left": 244,
+          "right": 252,
+          "start": 224.74016666666665,
+          "end": 225.42316666666665,
+          "text": "Přepínač"
+        },
+        {
+          "left": 253,
+          "right": 259,
+          "start": 225.43604166666665,
+          "end": 225.73241666666667,
+          "text": "headed"
+        },
+        {
+          "left": 260,
+          "right": 270,
+          "start": 225.74529166666665,
+          "end": 226.49270833333333,
+          "text": "zpřístupní"
+        },
+        {
+          "left": 271,
+          "right": 279,
+          "start": 226.49275,
+          "end": 227.05974999999998,
+          "text": "skutečný"
+        },
+        {
+          "left": 280,
+          "right": 289,
+          "start": 227.0855,
+          "end": 227.75558333333333,
+          "text": "prohlížeč"
+        },
+        {
+          "left": 290,
+          "right": 291,
+          "start": 227.82004166666667,
+          "end": 227.89737499999998,
+          "text": "a"
+        },
+        {
+          "left": 292,
+          "right": 298,
+          "start": 227.923125,
+          "end": 228.38704166666665,
+          "text": "slowmo"
+        },
+        {
+          "left": 299,
+          "right": 306,
+          "start": 228.38704166666665,
+          "end": 228.889625,
+          "text": "zpomalí"
+        },
+        {
+          "left": 307,
+          "right": 313,
+          "start": 228.95408333333333,
+          "end": 229.62416666666667,
+          "text": "ukázku."
+        },
+        {
+          "left": 315,
+          "right": 324,
+          "start": 229.93472916666667,
+          "end": 230.63060416666667,
+          "text": "Zpomalení"
+        },
+        {
+          "left": 325,
+          "right": 327,
+          "start": 230.63060416666667,
+          "end": 230.70793749999999,
+          "text": "je"
+        },
+        {
+          "left": 328,
+          "right": 335,
+          "start": 230.70793749999999,
+          "end": 231.26202083333334,
+          "text": "pomůcka"
+        },
+        {
+          "left": 336,
+          "right": 339,
+          "start": 231.26202083333334,
+          "end": 231.4295625,
+          "text": "pro"
+        },
+        {
+          "left": 340,
+          "right": 349,
+          "start": 231.4295625,
+          "end": 232.35739583333333,
+          "text": "sledování,"
+        },
+        {
+          "left": 351,
+          "right": 357,
+          "start": 232.71822916666665,
+          "end": 233.18214583333332,
+          "text": "nikoli"
+        },
+        {
+          "left": 358,
+          "right": 364,
+          "start": 233.18214583333332,
+          "end": 233.65893749999998,
+          "text": "řešení"
+        },
+        {
+          "left": 365,
+          "right": 377,
+          "start": 233.65893749999998,
+          "end": 234.40635416666666,
+          "text": "nestabilních"
+        },
+        {
+          "left": 378,
+          "right": 383,
+          "start": 234.40635416666666,
+          "end": 234.94760416666665,
+          "text": "testů."
+        },
+        {
+          "left": 385,
+          "right": 386,
+          "start": 235.47847916666666,
+          "end": 235.5815625,
+          "text": "V"
+        },
+        {
+          "left": 387,
+          "right": 395,
+          "start": 235.58160416666666,
+          "end": 236.20014583333332,
+          "text": "nahrávce"
+        },
+        {
+          "left": 396,
+          "right": 406,
+          "start": 236.20014583333332,
+          "end": 236.88314583333332,
+          "text": "prohlížeče"
+        },
+        {
+          "left": 407,
+          "right": 408,
+          "start": 236.88314583333332,
+          "end": 236.96043749999998,
+          "text": "z"
+        },
+        {
+          "left": 409,
+          "right": 415,
+          "start": 236.96043749999998,
+          "end": 237.34702083333332,
+          "text": "tohoto"
+        },
+        {
+          "left": 416,
+          "right": 420,
+          "start": 237.3470625,
+          "end": 237.6434375,
+          "text": "běhu"
+        },
+        {
+          "left": 421,
+          "right": 423,
+          "start": 237.65631249999998,
+          "end": 237.8109375,
+          "text": "se"
+        },
+        {
+          "left": 424,
+          "right": 436,
+          "start": 237.81097916666667,
+          "end": 238.55839583333332,
+          "text": "přihlašovací"
+        },
+        {
+          "left": 437,
+          "right": 444,
+          "start": 238.58414583333334,
+          "end": 239.22847916666666,
+          "text": "stránka"
+        },
+        {
+          "left": 445,
+          "right": 452,
+          "start": 239.33160416666666,
+          "end": 239.80839583333332,
+          "text": "opravdu"
+        },
+        {
+          "left": 453,
+          "right": 460,
+          "start": 239.80839583333332,
+          "end": 240.36252083333332,
+          "text": "načetla."
+        },
+        {
+          "left": 462,
+          "right": 466,
+          "start": 240.64704166666667,
+          "end": 240.94341666666665,
+          "text": "Test"
+        },
+        {
+          "left": 467,
+          "right": 470,
+          "start": 240.96916666666667,
+          "end": 241.23979166666666,
+          "text": "ale"
+        },
+        {
+          "left": 471,
+          "right": 476,
+          "start": 241.23979166666666,
+          "end": 241.56195833333334,
+          "text": "marně"
+        },
+        {
+          "left": 477,
+          "right": 482,
+          "start": 241.56195833333334,
+          "end": 241.96145833333333,
+          "text": "hledá"
+        },
+        {
+          "left": 483,
+          "right": 487,
+          "start": 241.97433333333333,
+          "end": 242.37383333333332,
+          "text": "text,"
+        },
+        {
+          "left": 489,
+          "right": 494,
+          "start": 242.46404166666665,
+          "end": 242.88929166666665,
+          "text": "který"
+        },
+        {
+          "left": 495,
+          "right": 499,
+          "start": 242.88929166666665,
+          "end": 243.108375,
+          "text": "jsme"
+        },
+        {
+          "left": 500,
+          "right": 502,
+          "start": 243.108375,
+          "end": 243.28879166666667,
+          "text": "si"
+        },
+        {
+          "left": 503,
+          "right": 512,
+          "start": 243.28879166666667,
+          "end": 243.89445833333332,
+          "text": "vymysleli."
+        },
+        {
+          "left": 514,
+          "right": 517,
+          "start": 244.41312499999998,
+          "end": 244.58066666666667,
+          "text": "Teď"
+        },
+        {
+          "left": 518,
+          "right": 520,
+          "start": 244.6579583333333,
+          "end": 244.81258333333332,
+          "text": "už"
+        },
+        {
+          "left": 521,
+          "right": 529,
+          "start": 244.81258333333332,
+          "end": 245.405375,
+          "text": "terminál"
+        },
+        {
+          "left": 530,
+          "right": 537,
+          "start": 245.45691666666667,
+          "end": 245.93370833333333,
+          "text": "ukazuje"
+        },
+        {
+          "left": 538,
+          "right": 545,
+          "start": 245.93375,
+          "end": 246.70691666666667,
+          "text": "selhání"
+        },
+        {
+          "left": 546,
+          "right": 547,
+          "start": 246.70691666666667,
+          "end": 246.797125,
+          "text": "a"
+        },
+        {
+          "left": 548,
+          "right": 557,
+          "start": 246.82291666666666,
+          "end": 247.55745833333333,
+          "text": "návratový"
+        },
+        {
+          "left": 558,
+          "right": 561,
+          "start": 247.57033333333334,
+          "end": 247.879625,
+          "text": "kód"
+        },
+        {
+          "left": 562,
+          "right": 564,
+          "start": 247.905375,
+          "end": 248.03425,
+          "text": "je"
+        },
+        {
+          "left": 565,
+          "right": 570,
+          "start": 248.03425,
+          "end": 248.44662499999998,
+          "text": "jedna."
+        },
+        {
+          "left": 572,
+          "right": 574,
+          "start": 248.72614583333333,
+          "end": 248.86789583333334,
+          "text": "To"
+        },
+        {
+          "left": 575,
+          "right": 577,
+          "start": 248.86789583333334,
+          "end": 248.99677083333333,
+          "text": "je"
+        },
+        {
+          "left": 578,
+          "right": 587,
+          "start": 249.0740625,
+          "end": 249.83435416666666,
+          "text": "očekávaný"
+        },
+        {
+          "left": 588,
+          "right": 596,
+          "start": 249.83439583333333,
+          "end": 250.40139583333334,
+          "text": "výsledek"
+        },
+        {
+          "left": 597,
+          "right": 603,
+          "start": 250.41427083333332,
+          "end": 250.82664583333332,
+          "text": "našeho"
+        },
+        {
+          "left": 604,
+          "right": 611,
+          "start": 250.82664583333332,
+          "end": 251.48385416666665,
+          "text": "záměrně"
+        },
+        {
+          "left": 612,
+          "right": 620,
+          "start": 251.48385416666665,
+          "end": 252.05085416666665,
+          "text": "chybného"
+        },
+        {
+          "left": 621,
+          "right": 627,
+          "start": 252.05089583333333,
+          "end": 252.7854375,
+          "text": "zadání."
+        }
+      ]
+    },
+    {
+      "id": "r2_06",
+      "title": "Chybu vysvětlíme a opravíme tentýž test",
+      "paragraph": "V chybovém výpisu najdu assertion a hledaný Neexistující nadpis. Stránka má přitom stále správný nadpis Přihlášení. Příčina je tedy v očekávání testu, nikoli v přihlašovacím formuláři. V editoru teď opravím jen tuto jednu hodnotu na Přihlášení. Kontrolu nemažu, nepřidávám xfail a nezvyšuji bez důvodu časový limit. Soubor znovu uložím a stejný test spustím podruhé. Mění se pouze složka s reportem, aby nám původní chyba zůstala jako důkaz. Také druhý záznam browseru pochází ze skutečného běhu. Nyní obě očekávání odpovídají stránce a terminál ukazuje jeden úspěšný test. Zelené číslo už umíme vysvětlit konkrétní opravou.",
+      "voice": "cs-CZ-VlastaNeural",
+      "stage": "green",
+      "audio": "video_course\\r2\\narration\\r2_06_6e40c665b282.mp3",
+      "start": 253.38672916666667,
+      "duration": 54.48,
+      "audio_sha256": "9bfa9994a45163d2a15cd944da733e1eaef82a587d25a7f7ff4f2d58121e9860",
+      "words": [
+        {
+          "left": 0,
+          "right": 1,
+          "start": 253.4878958333333,
+          "end": 253.5523125,
+          "text": "V"
+        },
+        {
+          "left": 2,
+          "right": 10,
+          "start": 253.5523125,
+          "end": 254.1064375,
+          "text": "chybovém"
+        },
+        {
+          "left": 11,
+          "right": 17,
+          "start": 254.1064375,
+          "end": 254.6476875,
+          "text": "výpisu"
+        },
+        {
+          "left": 18,
+          "right": 23,
+          "start": 254.6476875,
+          "end": 254.96985416666666,
+          "text": "najdu"
+        },
+        {
+          "left": 24,
+          "right": 33,
+          "start": 254.98272916666667,
+          "end": 255.65281249999998,
+          "text": "assertion"
+        },
+        {
+          "left": 34,
+          "right": 35,
+          "start": 255.69147916666665,
+          "end": 255.79456249999998,
+          "text": "a"
+        },
+        {
+          "left": 36,
+          "right": 43,
+          "start": 255.82035416666665,
+          "end": 256.33581250000003,
+          "text": "hledaný"
+        },
+        {
+          "left": 44,
+          "right": 56,
+          "start": 256.33581250000003,
+          "end": 257.3667291666667,
+          "text": "Neexistující"
+        },
+        {
+          "left": 57,
+          "right": 63,
+          "start": 257.3796458333333,
+          "end": 257.92089583333336,
+          "text": "nadpis."
+        },
+        {
+          "left": 65,
+          "right": 72,
+          "start": 258.3139375,
+          "end": 258.91960416666666,
+          "text": "Stránka"
+        },
+        {
+          "left": 73,
+          "right": 75,
+          "start": 258.91960416666666,
+          "end": 259.10002083333336,
+          "text": "má"
+        },
+        {
+          "left": 76,
+          "right": 82,
+          "start": 259.10002083333336,
+          "end": 259.49952083333335,
+          "text": "přitom"
+        },
+        {
+          "left": 83,
+          "right": 88,
+          "start": 259.49952083333335,
+          "end": 259.93764583333336,
+          "text": "stále"
+        },
+        {
+          "left": 89,
+          "right": 96,
+          "start": 259.93764583333336,
+          "end": 260.5561875,
+          "text": "správný"
+        },
+        {
+          "left": 97,
+          "right": 103,
+          "start": 260.5561875,
+          "end": 261.02010416666667,
+          "text": "nadpis"
+        },
+        {
+          "left": 104,
+          "right": 114,
+          "start": 261.03302083333335,
+          "end": 261.98664583333334,
+          "text": "Přihlášení."
+        },
+        {
+          "left": 116,
+          "right": 123,
+          "start": 262.23372916666665,
+          "end": 262.83927083333333,
+          "text": "Příčina"
+        },
+        {
+          "left": 124,
+          "right": 126,
+          "start": 262.8393125,
+          "end": 262.92952083333336,
+          "text": "je"
+        },
+        {
+          "left": 127,
+          "right": 131,
+          "start": 262.92952083333336,
+          "end": 263.17435416666666,
+          "text": "tedy"
+        },
+        {
+          "left": 132,
+          "right": 133,
+          "start": 263.17435416666666,
+          "end": 263.2387708333333,
+          "text": "v"
+        },
+        {
+          "left": 134,
+          "right": 143,
+          "start": 263.2516875,
+          "end": 264.12793750000003,
+          "text": "očekávání"
+        },
+        {
+          "left": 144,
+          "right": 149,
+          "start": 264.12793750000003,
+          "end": 264.6176458333333,
+          "text": "testu,"
+        },
+        {
+          "left": 151,
+          "right": 157,
+          "start": 264.97847916666666,
+          "end": 265.39085416666666,
+          "text": "nikoli"
+        },
+        {
+          "left": 158,
+          "right": 159,
+          "start": 265.39085416666666,
+          "end": 265.4810625,
+          "text": "v"
+        },
+        {
+          "left": 160,
+          "right": 173,
+          "start": 265.4810625,
+          "end": 266.3444375,
+          "text": "přihlašovacím"
+        },
+        {
+          "left": 174,
+          "right": 183,
+          "start": 266.3444375,
+          "end": 267.14339583333333,
+          "text": "formuláři."
+        },
+        {
+          "left": 185,
+          "right": 186,
+          "start": 267.63827083333337,
+          "end": 267.72847916666666,
+          "text": "V"
+        },
+        {
+          "left": 187,
+          "right": 194,
+          "start": 267.74135416666667,
+          "end": 268.2439375,
+          "text": "editoru"
+        },
+        {
+          "left": 195,
+          "right": 198,
+          "start": 268.2439375,
+          "end": 268.42435416666666,
+          "text": "teď"
+        },
+        {
+          "left": 199,
+          "right": 206,
+          "start": 268.46302083333336,
+          "end": 268.96560416666665,
+          "text": "opravím"
+        },
+        {
+          "left": 207,
+          "right": 210,
+          "start": 268.96560416666665,
+          "end": 269.13310416666667,
+          "text": "jen"
+        },
+        {
+          "left": 211,
+          "right": 215,
+          "start": 269.13310416666667,
+          "end": 269.44239583333336,
+          "text": "tuto"
+        },
+        {
+          "left": 216,
+          "right": 221,
+          "start": 269.44239583333336,
+          "end": 269.7774375,
+          "text": "jednu"
+        },
+        {
+          "left": 222,
+          "right": 229,
+          "start": 269.7774375,
+          "end": 270.28002083333337,
+          "text": "hodnotu"
+        },
+        {
+          "left": 230,
+          "right": 232,
+          "start": 270.28002083333337,
+          "end": 270.39602083333335,
+          "text": "na"
+        },
+        {
+          "left": 233,
+          "right": 243,
+          "start": 270.39602083333335,
+          "end": 271.33672916666666,
+          "text": "Přihlášení."
+        },
+        {
+          "left": 245,
+          "right": 253,
+          "start": 271.6494166666667,
+          "end": 272.2035416666667,
+          "text": "Kontrolu"
+        },
+        {
+          "left": 254,
+          "right": 260,
+          "start": 272.2035416666667,
+          "end": 272.706125,
+          "text": "nemažu,"
+        },
+        {
+          "left": 262,
+          "right": 272,
+          "start": 272.989625,
+          "end": 273.814375,
+          "text": "nepřidávám"
+        },
+        {
+          "left": 273,
+          "right": 278,
+          "start": 273.814375,
+          "end": 274.4071666666667,
+          "text": "xfail"
+        },
+        {
+          "left": 279,
+          "right": 280,
+          "start": 274.45870833333333,
+          "end": 274.5747083333333,
+          "text": "a"
+        },
+        {
+          "left": 281,
+          "right": 290,
+          "start": 274.60045833333334,
+          "end": 275.18033333333335,
+          "text": "nezvyšuji"
+        },
+        {
+          "left": 291,
+          "right": 294,
+          "start": 275.18033333333335,
+          "end": 275.42516666666666,
+          "text": "bez"
+        },
+        {
+          "left": 295,
+          "right": 301,
+          "start": 275.42516666666666,
+          "end": 275.88908333333336,
+          "text": "důvodu"
+        },
+        {
+          "left": 302,
+          "right": 308,
+          "start": 275.88908333333336,
+          "end": 276.40454166666666,
+          "text": "časový"
+        },
+        {
+          "left": 309,
+          "right": 314,
+          "start": 276.41745833333334,
+          "end": 276.84270833333335,
+          "text": "limit."
+        },
+        {
+          "left": 316,
+          "right": 322,
+          "start": 277.36910416666666,
+          "end": 277.8458958333333,
+          "text": "Soubor"
+        },
+        {
+          "left": 323,
+          "right": 328,
+          "start": 277.8588125,
+          "end": 278.2711875,
+          "text": "znovu"
+        },
+        {
+          "left": 329,
+          "right": 335,
+          "start": 278.3098541666667,
+          "end": 278.79952083333336,
+          "text": "uložím"
+        },
+        {
+          "left": 336,
+          "right": 337,
+          "start": 278.79952083333336,
+          "end": 278.90260416666666,
+          "text": "a"
+        },
+        {
+          "left": 338,
+          "right": 344,
+          "start": 278.91552083333335,
+          "end": 279.4052291666667,
+          "text": "stejný"
+        },
+        {
+          "left": 345,
+          "right": 349,
+          "start": 279.4180625,
+          "end": 279.72735416666666,
+          "text": "test"
+        },
+        {
+          "left": 350,
+          "right": 357,
+          "start": 279.76602083333336,
+          "end": 280.3458958333333,
+          "text": "spustím"
+        },
+        {
+          "left": 358,
+          "right": 365,
+          "start": 280.3458958333333,
+          "end": 281.0031041666667,
+          "text": "podruhé."
+        },
+        {
+          "left": 367,
+          "right": 371,
+          "start": 281.531,
+          "end": 281.9304583333333,
+          "text": "Mění"
+        },
+        {
+          "left": 372,
+          "right": 374,
+          "start": 281.9304583333333,
+          "end": 282.098,
+          "text": "se"
+        },
+        {
+          "left": 375,
+          "right": 380,
+          "start": 282.098,
+          "end": 282.4459166666667,
+          "text": "pouze"
+        },
+        {
+          "left": 381,
+          "right": 387,
+          "start": 282.4459166666667,
+          "end": 282.8840416666667,
+          "text": "složka"
+        },
+        {
+          "left": 388,
+          "right": 389,
+          "start": 282.88408333333336,
+          "end": 282.98716666666667,
+          "text": "s"
+        },
+        {
+          "left": 390,
+          "right": 398,
+          "start": 282.98716666666667,
+          "end": 283.618625,
+          "text": "reportem,"
+        },
+        {
+          "left": 400,
+          "right": 403,
+          "start": 284.0180833333333,
+          "end": 284.27583333333337,
+          "text": "aby"
+        },
+        {
+          "left": 404,
+          "right": 407,
+          "start": 284.27583333333337,
+          "end": 284.5335416666667,
+          "text": "nám"
+        },
+        {
+          "left": 408,
+          "right": 415,
+          "start": 284.5335416666667,
+          "end": 285.13920833333333,
+          "text": "původní"
+        },
+        {
+          "left": 416,
+          "right": 421,
+          "start": 285.13920833333333,
+          "end": 285.4485,
+          "text": "chyba"
+        },
+        {
+          "left": 422,
+          "right": 429,
+          "start": 285.4485,
+          "end": 286.01550000000003,
+          "text": "zůstala"
+        },
+        {
+          "left": 430,
+          "right": 434,
+          "start": 286.01550000000003,
+          "end": 286.299,
+          "text": "jako"
+        },
+        {
+          "left": 435,
+          "right": 440,
+          "start": 286.299,
+          "end": 286.87891666666667,
+          "text": "důkaz."
+        },
+        {
+          "left": 442,
+          "right": 446,
+          "start": 287.37314583333335,
+          "end": 287.75972916666666,
+          "text": "Také"
+        },
+        {
+          "left": 447,
+          "right": 452,
+          "start": 287.77264583333334,
+          "end": 288.18502083333334,
+          "text": "druhý"
+        },
+        {
+          "left": 453,
+          "right": 459,
+          "start": 288.19789583333335,
+          "end": 288.73914583333334,
+          "text": "záznam"
+        },
+        {
+          "left": 460,
+          "right": 468,
+          "start": 288.73914583333334,
+          "end": 289.2159375,
+          "text": "browseru"
+        },
+        {
+          "left": 469,
+          "right": 476,
+          "start": 289.2159375,
+          "end": 289.83447916666665,
+          "text": "pochází"
+        },
+        {
+          "left": 477,
+          "right": 479,
+          "start": 289.84739583333334,
+          "end": 289.97622916666666,
+          "text": "ze"
+        },
+        {
+          "left": 480,
+          "right": 490,
+          "start": 289.97622916666666,
+          "end": 290.7623125,
+          "text": "skutečného"
+        },
+        {
+          "left": 491,
+          "right": 495,
+          "start": 290.7623125,
+          "end": 291.13602083333336,
+          "text": "běhu."
+        },
+        {
+          "left": 497,
+          "right": 501,
+          "start": 291.6482916666667,
+          "end": 292.034875,
+          "text": "Nyní"
+        },
+        {
+          "left": 502,
+          "right": 505,
+          "start": 292.04775,
+          "end": 292.35704166666665,
+          "text": "obě"
+        },
+        {
+          "left": 506,
+          "right": 515,
+          "start": 292.4215,
+          "end": 293.272,
+          "text": "očekávání"
+        },
+        {
+          "left": 516,
+          "right": 526,
+          "start": 293.272,
+          "end": 294.03229166666665,
+          "text": "odpovídají"
+        },
+        {
+          "left": 527,
+          "right": 534,
+          "start": 294.03229166666665,
+          "end": 294.66375,
+          "text": "stránce"
+        },
+        {
+          "left": 535,
+          "right": 536,
+          "start": 294.66375,
+          "end": 294.76683333333335,
+          "text": "a"
+        },
+        {
+          "left": 537,
+          "right": 545,
+          "start": 294.8055,
+          "end": 295.4111666666667,
+          "text": "terminál"
+        },
+        {
+          "left": 546,
+          "right": 553,
+          "start": 295.47558333333336,
+          "end": 295.9781666666667,
+          "text": "ukazuje"
+        },
+        {
+          "left": 554,
+          "right": 559,
+          "start": 295.9781666666667,
+          "end": 296.28745833333335,
+          "text": "jeden"
+        },
+        {
+          "left": 560,
+          "right": 567,
+          "start": 296.3647916666667,
+          "end": 296.98333333333335,
+          "text": "úspěšný"
+        },
+        {
+          "left": 568,
+          "right": 572,
+          "start": 297.00912500000004,
+          "end": 297.4730416666667,
+          "text": "test."
+        },
+        {
+          "left": 574,
+          "right": 580,
+          "start": 297.84122916666666,
+          "end": 298.3824791666667,
+          "text": "Zelené"
+        },
+        {
+          "left": 581,
+          "right": 586,
+          "start": 298.3824791666667,
+          "end": 298.83352083333335,
+          "text": "číslo"
+        },
+        {
+          "left": 587,
+          "right": 589,
+          "start": 298.8721875,
+          "end": 299.0139375,
+          "text": "už"
+        },
+        {
+          "left": 590,
+          "right": 595,
+          "start": 299.0783541666667,
+          "end": 299.4649375,
+          "text": "umíme"
+        },
+        {
+          "left": 596,
+          "right": 605,
+          "start": 299.4649375,
+          "end": 300.0319375,
+          "text": "vysvětlit"
+        },
+        {
+          "left": 606,
+          "right": 615,
+          "start": 300.05772916666666,
+          "end": 300.8309375,
+          "text": "konkrétní"
+        },
+        {
+          "left": 616,
+          "right": 623,
+          "start": 300.8566875,
+          "end": 301.46235416666667,
+          "text": "opravou."
+        }
+      ]
+    },
+    {
+      "id": "r2_07",
+      "title": "Výsledek dohledáme a test zopakujeme",
+      "paragraph": "Nakonec otevřu skutečný HTML report druhého běhu. V přehledu je jeden úspěšný případ a dohledáme jeho název. Rozbalím podrobnosti, abychom výsledek spojili s právě napsaným souborem. Report neříká, že jsme prověřili celé přihlašování nebo celou aplikaci. Potvrzuje pouze naše dva viditelné prvky na přihlašovací stránce. V editoru si teď ještě jednou projdeme výsledný krátký test. Má import, vlastní funkci, navigaci a dvě jasná očekávání. Pro samostatné procvičení přidejte kontrolu přítomnosti e-mailového pole a test znovu spusťte. Nejdřív si vlastnost ověřte ručně a potom vysvětlete, co zelený výsledek skutečně dokazuje.",
+      "voice": "cs-CZ-VlastaNeural",
+      "stage": "report",
+      "audio": "video_course\\r2\\narration\\r2_07_929f4160dc24.mp3",
+      "start": 302.1343541666667,
+      "duration": 51.96,
+      "audio_sha256": "7f72d318708ed14fe98595f5d3e0b5690adcb2a2a2d88fb794914f5c8c0aafee",
+      "words": [
+        {
+          "left": 0,
+          "right": 7,
+          "start": 302.23589583333336,
+          "end": 302.7384791666667,
+          "text": "Nakonec"
+        },
+        {
+          "left": 8,
+          "right": 14,
+          "start": 302.8286875,
+          "end": 303.2410625,
+          "text": "otevřu"
+        },
+        {
+          "left": 15,
+          "right": 23,
+          "start": 303.2410625,
+          "end": 303.87247916666666,
+          "text": "skutečný"
+        },
+        {
+          "left": 24,
+          "right": 28,
+          "start": 303.87247916666666,
+          "end": 304.7616875,
+          "text": "HTML"
+        },
+        {
+          "left": 29,
+          "right": 35,
+          "start": 304.7616875,
+          "end": 305.13539583333335,
+          "text": "report"
+        },
+        {
+          "left": 36,
+          "right": 43,
+          "start": 305.16114583333336,
+          "end": 305.6637291666667,
+          "text": "druhého"
+        },
+        {
+          "left": 44,
+          "right": 48,
+          "start": 305.6637291666667,
+          "end": 306.0374375,
+          "text": "běhu."
+        },
+        {
+          "left": 50,
+          "right": 51,
+          "start": 306.3712291666667,
+          "end": 306.46143750000005,
+          "text": "V"
+        },
+        {
+          "left": 52,
+          "right": 60,
+          "start": 306.46143750000005,
+          "end": 307.01556250000004,
+          "text": "přehledu"
+        },
+        {
+          "left": 61,
+          "right": 63,
+          "start": 307.01556250000004,
+          "end": 307.13156250000003,
+          "text": "je"
+        },
+        {
+          "left": 64,
+          "right": 69,
+          "start": 307.13156250000003,
+          "end": 307.4021875,
+          "text": "jeden"
+        },
+        {
+          "left": 70,
+          "right": 77,
+          "start": 307.4794791666667,
+          "end": 308.08514583333334,
+          "text": "úspěšný"
+        },
+        {
+          "left": 78,
+          "right": 84,
+          "start": 308.11093750000003,
+          "end": 308.63927083333334,
+          "text": "případ"
+        },
+        {
+          "left": 85,
+          "right": 86,
+          "start": 308.7037291666667,
+          "end": 308.7552708333333,
+          "text": "a"
+        },
+        {
+          "left": 87,
+          "right": 96,
+          "start": 308.8325625,
+          "end": 309.5413125,
+          "text": "dohledáme"
+        },
+        {
+          "left": 97,
+          "right": 101,
+          "start": 309.5413541666667,
+          "end": 309.8248541666667,
+          "text": "jeho"
+        },
+        {
+          "left": 102,
+          "right": 107,
+          "start": 309.8248541666667,
+          "end": 310.4563125,
+          "text": "název."
+        },
+        {
+          "left": 109,
+          "right": 117,
+          "start": 310.9581041666667,
+          "end": 311.49931250000003,
+          "text": "Rozbalím"
+        },
+        {
+          "left": 118,
+          "right": 129,
+          "start": 311.49931250000003,
+          "end": 312.33693750000003,
+          "text": "podrobnosti,"
+        },
+        {
+          "left": 131,
+          "right": 138,
+          "start": 312.4787291666667,
+          "end": 313.0070625,
+          "text": "abychom"
+        },
+        {
+          "left": 139,
+          "right": 147,
+          "start": 313.0070625,
+          "end": 313.50964583333337,
+          "text": "výsledek"
+        },
+        {
+          "left": 148,
+          "right": 155,
+          "start": 313.50964583333337,
+          "end": 313.9606875,
+          "text": "spojili"
+        },
+        {
+          "left": 156,
+          "right": 157,
+          "start": 313.9606875,
+          "end": 314.0766458333334,
+          "text": "s"
+        },
+        {
+          "left": 158,
+          "right": 163,
+          "start": 314.0766458333334,
+          "end": 314.5405625,
+          "text": "právě"
+        },
+        {
+          "left": 164,
+          "right": 172,
+          "start": 314.5405625,
+          "end": 315.0946875,
+          "text": "napsaným"
+        },
+        {
+          "left": 173,
+          "right": 181,
+          "start": 315.0946875,
+          "end": 315.80343750000003,
+          "text": "souborem."
+        },
+        {
+          "left": 183,
+          "right": 189,
+          "start": 316.155125,
+          "end": 316.54170833333336,
+          "text": "Report"
+        },
+        {
+          "left": 190,
+          "right": 196,
+          "start": 316.55462500000004,
+          "end": 317.1731666666667,
+          "text": "neříká,"
+        },
+        {
+          "left": 198,
+          "right": 200,
+          "start": 317.23758333333336,
+          "end": 317.35358333333335,
+          "text": "že"
+        },
+        {
+          "left": 201,
+          "right": 205,
+          "start": 317.35358333333335,
+          "end": 317.55975,
+          "text": "jsme"
+        },
+        {
+          "left": 206,
+          "right": 215,
+          "start": 317.55975,
+          "end": 318.12675,
+          "text": "prověřili"
+        },
+        {
+          "left": 216,
+          "right": 220,
+          "start": 318.12675,
+          "end": 318.47470833333335,
+          "text": "celé"
+        },
+        {
+          "left": 221,
+          "right": 233,
+          "start": 318.47470833333335,
+          "end": 319.4025416666667,
+          "text": "přihlašování"
+        },
+        {
+          "left": 234,
+          "right": 238,
+          "start": 319.4025416666667,
+          "end": 319.6731666666667,
+          "text": "nebo"
+        },
+        {
+          "left": 239,
+          "right": 244,
+          "start": 319.6731666666667,
+          "end": 320.03400000000005,
+          "text": "celou"
+        },
+        {
+          "left": 245,
+          "right": 253,
+          "start": 320.0984166666667,
+          "end": 320.74275,
+          "text": "aplikaci."
+        },
+        {
+          "left": 255,
+          "right": 264,
+          "start": 321.0343541666667,
+          "end": 321.6537083333333,
+          "text": "Potvrzuje"
+        },
+        {
+          "left": 265,
+          "right": 270,
+          "start": 321.6537083333333,
+          "end": 322.0274166666667,
+          "text": "pouze"
+        },
+        {
+          "left": 271,
+          "right": 275,
+          "start": 322.02745833333336,
+          "end": 322.31095833333336,
+          "text": "naše"
+        },
+        {
+          "left": 276,
+          "right": 279,
+          "start": 322.31095833333336,
+          "end": 322.50425,
+          "text": "dva"
+        },
+        {
+          "left": 280,
+          "right": 289,
+          "start": 322.50425,
+          "end": 323.12279166666667,
+          "text": "viditelné"
+        },
+        {
+          "left": 290,
+          "right": 295,
+          "start": 323.1356666666667,
+          "end": 323.53516666666667,
+          "text": "prvky"
+        },
+        {
+          "left": 296,
+          "right": 298,
+          "start": 323.53516666666667,
+          "end": 323.66404166666666,
+          "text": "na"
+        },
+        {
+          "left": 299,
+          "right": 311,
+          "start": 323.66404166666666,
+          "end": 324.4759166666667,
+          "text": "přihlašovací"
+        },
+        {
+          "left": 312,
+          "right": 319,
+          "start": 324.50166666666667,
+          "end": 325.158875,
+          "text": "stránce."
+        },
+        {
+          "left": 321,
+          "right": 322,
+          "start": 325.6647916666667,
+          "end": 325.755,
+          "text": "V"
+        },
+        {
+          "left": 323,
+          "right": 330,
+          "start": 325.767875,
+          "end": 326.27045833333335,
+          "text": "editoru"
+        },
+        {
+          "left": 331,
+          "right": 333,
+          "start": 326.27045833333335,
+          "end": 326.42508333333336,
+          "text": "si"
+        },
+        {
+          "left": 334,
+          "right": 337,
+          "start": 326.42508333333336,
+          "end": 326.63125,
+          "text": "teď"
+        },
+        {
+          "left": 338,
+          "right": 343,
+          "start": 326.63125,
+          "end": 326.95341666666667,
+          "text": "ještě"
+        },
+        {
+          "left": 344,
+          "right": 350,
+          "start": 326.95341666666667,
+          "end": 327.327125,
+          "text": "jednou"
+        },
+        {
+          "left": 351,
+          "right": 359,
+          "start": 327.3400416666667,
+          "end": 327.868375,
+          "text": "projdeme"
+        },
+        {
+          "left": 360,
+          "right": 368,
+          "start": 327.868375,
+          "end": 328.4869166666667,
+          "text": "výsledný"
+        },
+        {
+          "left": 369,
+          "right": 375,
+          "start": 328.49983333333336,
+          "end": 329.092625,
+          "text": "krátký"
+        },
+        {
+          "left": 376,
+          "right": 380,
+          "start": 329.118375,
+          "end": 329.58229166666666,
+          "text": "test."
+        },
+        {
+          "left": 382,
+          "right": 384,
+          "start": 329.95120833333334,
+          "end": 330.1702916666667,
+          "text": "Má"
+        },
+        {
+          "left": 385,
+          "right": 391,
+          "start": 330.247625,
+          "end": 330.7630833333333,
+          "text": "import,"
+        },
+        {
+          "left": 393,
+          "right": 400,
+          "start": 331.05945833333334,
+          "end": 331.5877916666667,
+          "text": "vlastní"
+        },
+        {
+          "left": 401,
+          "right": 407,
+          "start": 331.5878333333334,
+          "end": 332.16775,
+          "text": "funkci,"
+        },
+        {
+          "left": 409,
+          "right": 417,
+          "start": 332.46408333333335,
+          "end": 333.198625,
+          "text": "navigaci"
+        },
+        {
+          "left": 418,
+          "right": 419,
+          "start": 333.2115416666667,
+          "end": 333.2630833333333,
+          "text": "a"
+        },
+        {
+          "left": 420,
+          "right": 423,
+          "start": 333.3661666666667,
+          "end": 333.59812500000004,
+          "text": "dvě"
+        },
+        {
+          "left": 424,
+          "right": 429,
+          "start": 333.59812500000004,
+          "end": 334.02337500000004,
+          "text": "jasná"
+        },
+        {
+          "left": 430,
+          "right": 439,
+          "start": 334.10070833333333,
+          "end": 335.1702916666667,
+          "text": "očekávání."
+        },
+        {
+          "left": 441,
+          "right": 444,
+          "start": 335.57320833333335,
+          "end": 335.753625,
+          "text": "Pro"
+        },
+        {
+          "left": 445,
+          "right": 455,
+          "start": 335.7665,
+          "end": 336.488125,
+          "text": "samostatné"
+        },
+        {
+          "left": 456,
+          "right": 466,
+          "start": 336.488125,
+          "end": 337.19687500000003,
+          "text": "procvičení"
+        },
+        {
+          "left": 467,
+          "right": 475,
+          "start": 337.1969166666667,
+          "end": 337.712375,
+          "text": "přidejte"
+        },
+        {
+          "left": 476,
+          "right": 484,
+          "start": 337.712375,
+          "end": 338.22783333333336,
+          "text": "kontrolu"
+        },
+        {
+          "left": 485,
+          "right": 496,
+          "start": 338.22783333333336,
+          "end": 339.01391666666666,
+          "text": "přítomnosti"
+        },
+        {
+          "left": 497,
+          "right": 508,
+          "start": 339.01391666666666,
+          "end": 339.7742083333334,
+          "text": "e-mailového"
+        },
+        {
+          "left": 509,
+          "right": 513,
+          "start": 339.7742083333334,
+          "end": 340.17370833333337,
+          "text": "pole"
+        },
+        {
+          "left": 514,
+          "right": 515,
+          "start": 340.238125,
+          "end": 340.26391666666666,
+          "text": "a"
+        },
+        {
+          "left": 516,
+          "right": 520,
+          "start": 340.367,
+          "end": 340.68916666666667,
+          "text": "test"
+        },
+        {
+          "left": 521,
+          "right": 526,
+          "start": 340.71495833333336,
+          "end": 341.0886666666667,
+          "text": "znovu"
+        },
+        {
+          "left": 527,
+          "right": 534,
+          "start": 341.0886666666667,
+          "end": 341.65566666666666,
+          "text": "spusťte."
+        },
+        {
+          "left": 536,
+          "right": 543,
+          "start": 341.9983541666667,
+          "end": 342.51381250000003,
+          "text": "Nejdřív"
+        },
+        {
+          "left": 544,
+          "right": 546,
+          "start": 342.5138541666667,
+          "end": 342.68135416666667,
+          "text": "si"
+        },
+        {
+          "left": 547,
+          "right": 556,
+          "start": 342.68135416666667,
+          "end": 343.2226041666667,
+          "text": "vlastnost"
+        },
+        {
+          "left": 557,
+          "right": 563,
+          "start": 343.27414583333336,
+          "end": 343.7251875,
+          "text": "ověřte"
+        },
+        {
+          "left": 564,
+          "right": 569,
+          "start": 343.7251875,
+          "end": 344.11177083333337,
+          "text": "ručně"
+        },
+        {
+          "left": 570,
+          "right": 571,
+          "start": 344.11177083333337,
+          "end": 344.21485416666667,
+          "text": "a"
+        },
+        {
+          "left": 572,
+          "right": 577,
+          "start": 344.22777083333335,
+          "end": 344.5499375,
+          "text": "potom"
+        },
+        {
+          "left": 578,
+          "right": 588,
+          "start": 344.5499375,
+          "end": 345.3102291666667,
+          "text": "vysvětlete,"
+        },
+        {
+          "left": 590,
+          "right": 592,
+          "start": 345.6839375,
+          "end": 345.8256875,
+          "text": "co"
+        },
+        {
+          "left": 593,
+          "right": 599,
+          "start": 345.8256875,
+          "end": 346.28960416666666,
+          "text": "zelený"
+        },
+        {
+          "left": 600,
+          "right": 608,
+          "start": 346.30247916666667,
+          "end": 346.83081250000004,
+          "text": "výsledek"
+        },
+        {
+          "left": 609,
+          "right": 617,
+          "start": 346.84372916666666,
+          "end": 347.43652083333336,
+          "text": "skutečně"
+        },
+        {
+          "left": 618,
+          "right": 626,
+          "start": 347.43652083333336,
+          "end": 348.0550625,
+          "text": "dokazuje."
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "01_open",
+      "voice_cue": "Nejdříve otevřu",
+      "on_screen_action": "open_login",
+      "view": "browser",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Přihlášení je viditelné",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 4.862895833333333,
+      "start": 0.0,
+      "section": "r2_01",
+      "section_title": "Nejdřív si ověříme zadání",
+      "end": 15.44,
+      "duration": 15.44,
+      "action_offset": 4.862895833333333,
+      "parent_id": "01_open"
+    },
+    {
+      "id": "01_email",
+      "voice_cue": "Do e-mailového",
+      "on_screen_action": "fill_email",
+      "view": "browser",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Ve formuláři je syntetický e-mail",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 15.433729166666666,
+      "start": 15.44,
+      "section": "r2_01",
+      "section_title": "Nejdřív si ověříme zadání",
+      "end": 19.96,
+      "duration": 4.52,
+      "action_offset": 0,
+      "parent_id": "01_email"
+    },
+    {
+      "id": "01_password",
+      "voice_cue": "Potom vyplním",
+      "on_screen_action": "fill_clear",
+      "view": "browser",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Vyplněné pole, následně prázdný formulář",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 19.959041666666668,
+      "start": 19.96,
+      "section": "r2_01",
+      "section_title": "Nejdřív si ověříme zadání",
+      "end": 33.6,
+      "duration": 13.64,
+      "action_offset": 0,
+      "parent_id": "01_password"
+    },
+    {
+      "id": "02_blank",
+      "voice_cue": "V editoru teď",
+      "on_screen_action": "blank",
+      "view": "editor",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Nový prázdný soubor v editoru",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 33.70608333333333,
+      "start": 33.6,
+      "section": "r2_02",
+      "section_title": "Test vzniká od prázdného souboru",
+      "end": 48.68,
+      "duration": 15.08,
+      "action_offset": 0.10608333333333064,
+      "parent_id": "02_blank"
+    },
+    {
+      "id": "02_import",
+      "voice_cue": "Nejprve napíšu",
+      "on_screen_action": "type_import",
+      "view": "editor",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Import skutečně přibývá v souboru",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 48.678625,
+      "start": 48.68,
+      "section": "r2_02",
+      "section_title": "Test vzniká od prázdného souboru",
+      "end": 58.48,
+      "duration": 9.8,
+      "action_offset": 0,
+      "parent_id": "02_import"
+    },
+    {
+      "id": "02_function",
+      "voice_cue": "Pod importem",
+      "on_screen_action": "type_function",
+      "view": "editor",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Funkce test_video_login_form(page: Page)",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 58.47991666666667,
+      "start": 58.48,
+      "section": "r2_02",
+      "section_title": "Test vzniká od prázdného souboru",
+      "end": 81.56,
+      "duration": 23.08,
+      "action_offset": 0,
+      "parent_id": "02_function"
+    },
+    {
+      "id": "03_goto",
+      "voice_cue": "Do těla funkce",
+      "on_screen_action": "type_goto",
+      "view": "editor",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Přibyl page.goto('/login')",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 81.62625,
+      "start": 81.56,
+      "section": "r2_03",
+      "section_title": "Navigace a skutečný DOM",
+      "end": 91.96,
+      "duration": 10.4,
+      "action_offset": 0.06624999999999659,
+      "parent_id": "03_goto"
+    },
+    {
+      "id": "03_save",
+      "voice_cue": "Soubor teď uložím",
+      "on_screen_action": "save",
+      "view": "editor",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Uložený skutečný Python soubor",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 91.96120833333333,
+      "start": 91.96,
+      "section": "r2_03",
+      "section_title": "Navigace a skutečný DOM",
+      "end": 99.72,
+      "duration": 7.76,
+      "action_offset": 0.0012083333333379187,
+      "parent_id": "03_save"
+    },
+    {
+      "id": "03_dom",
+      "voice_cue": "Otevřu vývojářské",
+      "on_screen_action": "inspect_heading",
+      "view": "browser",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Živý DOM a vybraný h2 s textem Přihlášení",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 99.74820833333334,
+      "start": 99.72,
+      "section": "r2_03",
+      "section_title": "Navigace a skutečný DOM",
+      "end": 125.04,
+      "duration": 25.32,
+      "action_offset": 0.028208333333338942,
+      "parent_id": "03_dom"
+    },
+    {
+      "id": "cg_open",
+      "on_screen_action": "cg_open",
+      "view": "codegen",
+      "start": 125.04,
+      "voice_at": 125.16147916666667,
+      "voice_cue": "Než lokátor",
+      "section": "r21_codegen",
+      "section_title": "Codegen vytvoří návrh, tester určí očekávání",
+      "expected_visible_state": "cg_open",
+      "camera_focus": "Actual Codegen browser input and emitted Python in Inspector",
+      "end": 134.48,
+      "duration": 9.44,
+      "action_offset": 0.12147916666665992
+    },
+    {
+      "id": "cg_fill",
+      "on_screen_action": "cg_fill",
+      "view": "codegen",
+      "start": 134.48,
+      "voice_at": 134.5,
+      "voice_cue": "Do e-mailového",
+      "section": "r21_codegen",
+      "section_title": "Codegen vytvoří návrh, tester určí očekávání",
+      "expected_visible_state": "cg_fill",
+      "camera_focus": "Actual Codegen browser input and emitted Python in Inspector",
+      "end": 142.92,
+      "duration": 8.44,
+      "action_offset": 0.020000000000010232
+    },
+    {
+      "id": "cg_inspector",
+      "on_screen_action": "cg_inspector",
+      "view": "codegen",
+      "start": 142.92,
+      "voice_at": 142.936625,
+      "voice_cue": "V návrhu",
+      "section": "r21_codegen",
+      "section_title": "Codegen vytvoří návrh, tester určí očekávání",
+      "expected_visible_state": "cg_inspector",
+      "camera_focus": "Actual Codegen browser input and emitted Python in Inspector",
+      "end": 163.52,
+      "duration": 20.6,
+      "action_offset": 0.016625000000004775
+    },
+    {
+      "id": "04_heading",
+      "voice_cue": "Zpátky v editoru",
+      "on_screen_action": "type_heading",
+      "view": "editor",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Přibyl locator heading a očekávání viditelnosti",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 163.63358333333332,
+      "start": 163.52,
+      "section": "r2_04",
+      "section_title": "Z nalezeného prvku vzniká očekávání",
+      "end": 183.08,
+      "duration": 19.56,
+      "action_offset": 0.11358333333330961,
+      "parent_id": "04_heading"
+    },
+    {
+      "id": "04_button",
+      "voice_cue": "Potom přidám",
+      "on_screen_action": "type_button",
+      "view": "editor",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Přibyl locator button a druhé očekávání",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 183.10379166666667,
+      "start": 183.08,
+      "section": "r2_04",
+      "section_title": "Z nalezeného prvku vzniká očekávání",
+      "end": 191.24,
+      "duration": 8.16,
+      "action_offset": 0.023791666666653555,
+      "parent_id": "04_button"
+    },
+    {
+      "id": "04_button_dom",
+      "voice_cue": "Vrátím se ještě",
+      "on_screen_action": "inspect_button",
+      "view": "browser",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Živý DOM vybraného tlačítka",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 191.2559375,
+      "start": 191.24,
+      "section": "r2_04",
+      "section_title": "Z nalezeného prvku vzniká očekávání",
+      "end": 205.84,
+      "duration": 14.6,
+      "action_offset": 0.0159374999999784,
+      "parent_id": "04_button_dom"
+    },
+    {
+      "id": "05_wrong",
+      "voice_cue": "V prvním očekávání teď",
+      "on_screen_action": "make_red",
+      "view": "editor",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Stejný test, pouze chybný očekávaný text",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 211.0555,
+      "start": 205.84,
+      "section": "r2_05",
+      "section_title": "Nejdřív ověříme, že test umí selhat",
+      "end": 221.24,
+      "duration": 15.4,
+      "action_offset": 5.215499999999992,
+      "parent_id": "05_wrong"
+    },
+    {
+      "id": "05_red_command",
+      "voice_cue": "V terminálu spustím",
+      "on_screen_action": "red_command",
+      "view": "terminal",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Skutečný příkaz pro stejný nodeid",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 221.2408125,
+      "start": 221.24,
+      "section": "r2_05",
+      "section_title": "Nejdřív ověříme, že test umí selhat",
+      "end": 224.72,
+      "duration": 3.48,
+      "action_offset": 0.0008124999999949978,
+      "parent_id": "05_red_command"
+    },
+    {
+      "id": "05_red_run",
+      "voice_cue": "Přepínač headed",
+      "on_screen_action": "red_run",
+      "view": "terminal",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Skutečný pytest běh a jeho RED výsledek",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 224.74016666666665,
+      "start": 224.72,
+      "section": "r2_05",
+      "section_title": "Nejdřív ověříme, že test umí selhat",
+      "end": 235.48,
+      "duration": 10.76,
+      "action_offset": 0.02016666666665401,
+      "parent_id": "05_red_run"
+    },
+    {
+      "id": "05_red_browser",
+      "voice_cue": "V nahrávce prohlížeče",
+      "on_screen_action": "red_video",
+      "view": "test_video",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Skutečný záznam browseru právě tohoto běhu",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 235.47847916666666,
+      "start": 235.48,
+      "section": "r2_05",
+      "section_title": "Nejdřív ověříme, že test umí selhat",
+      "end": 244.4,
+      "duration": 8.92,
+      "action_offset": 0,
+      "parent_id": "05_red_browser"
+    },
+    {
+      "id": "05_red_result",
+      "voice_cue": "Teď už terminál",
+      "on_screen_action": "red_result",
+      "view": "terminal",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "1 failed, skutečný exit1 a JUnit bez infrastrukturních errors",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 244.41312499999998,
+      "start": 244.4,
+      "section": "r2_05",
+      "section_title": "Nejdřív ověříme, že test umí selhat",
+      "end": 253.36,
+      "duration": 8.96,
+      "action_offset": 0.013124999999973852,
+      "parent_id": "05_red_result"
+    },
+    {
+      "id": "06_failure_detail",
+      "voice_cue": "V chybovém výpisu",
+      "on_screen_action": "red_detail",
+      "view": "terminal",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Výpis konkrétního assertionu a hledaného textu",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 253.4878958333333,
+      "start": 253.36,
+      "section": "r2_06",
+      "section_title": "Chybu vysvětlíme a opravíme tentýž test",
+      "end": 267.64,
+      "duration": 14.28,
+      "action_offset": 0.12789583333329801,
+      "parent_id": "06_failure_detail"
+    },
+    {
+      "id": "06_fix",
+      "voice_cue": "V editoru teď opravím",
+      "on_screen_action": "make_green",
+      "view": "editor",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Oprava jediného očekávaného textu",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 267.63827083333337,
+      "start": 267.64,
+      "section": "r2_06",
+      "section_title": "Chybu vysvětlíme a opravíme tentýž test",
+      "end": 277.36,
+      "duration": 9.72,
+      "action_offset": 0,
+      "parent_id": "06_fix"
+    },
+    {
+      "id": "06_green_command",
+      "voice_cue": "Soubor znovu uložím",
+      "on_screen_action": "green_command",
+      "view": "terminal",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Tentýž nodeid; jiný cílový report",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 277.36910416666666,
+      "start": 277.36,
+      "section": "r2_06",
+      "section_title": "Chybu vysvětlíme a opravíme tentýž test",
+      "end": 281.52,
+      "duration": 4.16,
+      "action_offset": 0.009104166666645597,
+      "parent_id": "06_green_command"
+    },
+    {
+      "id": "06_green_run",
+      "voice_cue": "Mění se pouze složka",
+      "on_screen_action": "green_run",
+      "view": "terminal",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Skutečný GREEN běh",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 281.531,
+      "start": 281.52,
+      "section": "r2_06",
+      "section_title": "Chybu vysvětlíme a opravíme tentýž test",
+      "end": 287.36,
+      "duration": 5.84,
+      "action_offset": 0.011000000000024102,
+      "parent_id": "06_green_run"
+    },
+    {
+      "id": "06_green_browser",
+      "voice_cue": "Také druhý záznam",
+      "on_screen_action": "green_video",
+      "view": "test_video",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Video z druhého běhu téhož testu",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 287.37314583333335,
+      "start": 287.36,
+      "section": "r2_06",
+      "section_title": "Chybu vysvětlíme a opravíme tentýž test",
+      "end": 291.64,
+      "duration": 4.28,
+      "action_offset": 0.013145833333339851,
+      "parent_id": "06_green_browser"
+    },
+    {
+      "id": "06_green_result",
+      "voice_cue": "Nyní obě očekávání",
+      "on_screen_action": "green_result",
+      "view": "terminal",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "1 passed, skutečný exit0 a JUnit",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 291.6482916666667,
+      "start": 291.64,
+      "section": "r2_06",
+      "section_title": "Chybu vysvětlíme a opravíme tentýž test",
+      "end": 302.12,
+      "duration": 10.48,
+      "action_offset": 0.008291666666707442,
+      "parent_id": "06_green_result"
+    },
+    {
+      "id": "07_report",
+      "voice_cue": "Nakonec otevřu",
+      "on_screen_action": "open_report",
+      "view": "browser",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Čerstvý GREEN report, jeden skutečný případ",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 302.23589583333336,
+      "start": 302.12,
+      "section": "r2_07",
+      "section_title": "Výsledek dohledáme a test zopakujeme",
+      "end": 310.96,
+      "duration": 8.84,
+      "action_offset": 0.1158958333333544,
+      "parent_id": "07_report"
+    },
+    {
+      "id": "07_details",
+      "voice_cue": "Rozbalím podrobnosti",
+      "on_screen_action": "report_details",
+      "view": "browser",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Viditelný název a detaily právě běžícího testu",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 310.9581041666667,
+      "start": 310.96,
+      "section": "r2_07",
+      "section_title": "Výsledek dohledáme a test zopakujeme",
+      "end": 325.68,
+      "duration": 14.72,
+      "action_offset": 0,
+      "parent_id": "07_details"
+    },
+    {
+      "id": "07_final_code",
+      "voice_cue": "V editoru si teď",
+      "on_screen_action": "final_code",
+      "view": "editor",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Výsledný soubor shodný se zmrazenou verzí",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 325.6647916666667,
+      "start": 325.68,
+      "section": "r2_07",
+      "section_title": "Výsledek dohledáme a test zopakujeme",
+      "end": 335.6,
+      "duration": 9.92,
+      "action_offset": 0,
+      "parent_id": "07_final_code"
+    },
+    {
+      "id": "07_exercise",
+      "voice_cue": "Pro samostatné procvičení",
+      "on_screen_action": "exercise",
+      "view": "browser",
+      "camera_focus": "Semantic subject, actual app geometry",
+      "expected_visible_state": "Živě vybrané e-mailové pole pro samostatný úkol",
+      "proof": "Actual source/DOM/run state plus extracted frames",
+      "voice_at": 335.57320833333335,
+      "start": 335.6,
+      "section": "r2_07",
+      "section_title": "Výsledek dohledáme a test zopakujeme",
+      "end": 348.48,
+      "duration": 12.88,
+      "action_offset": 0,
+      "parent_id": "07_exercise"
+    }
+  ],
+  "po_approval": "PENDING",
+  "full_course_build_authorized": false
+}

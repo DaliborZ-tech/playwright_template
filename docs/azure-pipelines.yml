@@ -1,0 +1,26 @@
+# Volitelná ukázka; skutečný Azure běh není součástí lokálního důkazu.
+trigger: none
+pool:
+  vmImage: windows-latest
+steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '3.12'
+      architecture: x64
+  - script: python -m pip install -r requirements.lock
+    displayName: Install locked dependencies
+  - script: python -m playwright install chromium
+    displayName: Install browser
+  - script: python -m pytest -m regression
+    displayName: Local demo regression
+  - task: PublishTestResults@2
+    condition: always()
+    inputs:
+      testResultsFormat: JUnit
+      testResultsFiles: reports/junit.xml
+      failTaskOnFailedTests: true
+  - task: PublishPipelineArtifact@1
+    condition: always()
+    inputs:
+      targetPath: reports
+      artifact: playwright-reports

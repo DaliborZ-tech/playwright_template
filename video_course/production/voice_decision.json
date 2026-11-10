@@ -1,0 +1,16 @@
+{
+  "selected_voice": "cs-CZ-VlastaNeural",
+  "provider": "Microsoft Edge online TTS through edge-tts",
+  "status": "production_authorized_with_corrected_pronunciation_and_continuous_prose",
+  "single_narrator_required": true,
+  "pronunciation_lexicon": "video_course/production/pronunciation_vlasta.json",
+  "pronunciation_correction": {
+    "QA": "kjů ej"
+  },
+  "narration_style": "Connected explanatory paragraphs synthesized as complete paragraphs",
+  "subtitles": "Original canonical Czech spelling; phonetic aliases apply only to speech",
+  "more_voice_samples_requested": false,
+  "paid_production_authorized": false,
+  "human_full_course_listening_review": "not_claimed",
+  "historical_comparisons": "Preserved separately in the workspace; excluded from the release"
+}

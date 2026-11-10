@@ -1,0 +1,10 @@
+# Windows11 / Python3.12 production tools. Install requirements.lock first.
+numpy==2.5.4
+Pillow==13.0.0
+imageio-ffmpeg==0.6.0
+PyAutoGUI==0.9.54
+pywin32==312
+pywinauto==0.6.9
+pyperclip==1.11.0
+psutil==7.2.2
+edge-tts==7.3.1

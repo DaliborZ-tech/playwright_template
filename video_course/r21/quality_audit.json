@@ -1,0 +1,350 @@
+{
+  "status": "TECHNICAL_AND_EVIDENCE_CHECKS_COMPLETE",
+  "movie_sha256": "6c53aeb9e0b0bc7828e115c2868399b6f2a54411835c92a8ab0893a882d42b20",
+  "duration": 348.48,
+  "shots": 30,
+  "voice": "cs-CZ-VlastaNeural",
+  "uninterrupted_original_pcm": "PASS",
+  "canonical_captions_utf8_timing": "PASS",
+  "same_actual_junit_nodeid": "tests/examples/test_video_created.py::test_video_login_form[chromium]",
+  "red_exit": 1,
+  "green_exit": 0,
+  "single_expected_value_change": "PASS",
+  "final_code_matches_frozen_starter": "PASS",
+  "activity": [
+    {
+      "shot": "01_open",
+      "duration": 15.44,
+      "longest_low_change_seconds": 15.0,
+      "actual_action_interval": [
+        4.862895833333333,
+        5.346895833388281
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "01_email",
+      "duration": 4.52,
+      "longest_low_change_seconds": 3.5,
+      "actual_action_interval": [
+        15.79,
+        16.27499999998603
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "01_password",
+      "duration": 13.64,
+      "longest_low_change_seconds": 10.5,
+      "actual_action_interval": [
+        20.310000000000002,
+        22.919999999986032
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "02_blank",
+      "duration": 15.08,
+      "longest_low_change_seconds": 14.5,
+      "actual_action_interval": [
+        33.95,
+        33.97
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "02_import",
+      "duration": 9.8,
+      "longest_low_change_seconds": 3.5,
+      "actual_action_interval": [
+        49.03,
+        56.78
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "02_function",
+      "duration": 23.08,
+      "longest_low_change_seconds": 18.0,
+      "actual_action_interval": [
+        58.830000000000005,
+        63.14299999996555
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "03_goto",
+      "duration": 10.4,
+      "longest_low_change_seconds": 7.0,
+      "actual_action_interval": [
+        81.91,
+        84.39400000005494
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "03_save",
+      "duration": 7.76,
+      "longest_low_change_seconds": 7.5,
+      "actual_action_interval": [
+        92.31,
+        92.40399999992457
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "03_dom",
+      "duration": 25.32,
+      "longest_low_change_seconds": 22.0,
+      "actual_action_interval": [
+        100.07000000000001,
+        103.30499999998604
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "cg_open",
+      "duration": 9.44,
+      "longest_low_change_seconds": 8.0,
+      "actual_action_interval": [
+        125.39000000000001,
+        125.95199999991806
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "cg_fill",
+      "duration": 8.44,
+      "longest_low_change_seconds": 7.5,
+      "actual_action_interval": [
+        134.83,
+        136.205
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "cg_inspector",
+      "duration": 20.6,
+      "longest_low_change_seconds": 20.0,
+      "actual_action_interval": [
+        143.27,
+        143.62900000005496
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "04_heading",
+      "duration": 19.56,
+      "longest_low_change_seconds": 15.5,
+      "actual_action_interval": [
+        163.87,
+        167.26099999994506
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "04_button",
+      "duration": 8.16,
+      "longest_low_change_seconds": 4.0,
+      "actual_action_interval": [
+        183.43,
+        186.82099999994506
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "04_button_dom",
+      "duration": 14.6,
+      "longest_low_change_seconds": 10.0,
+      "actual_action_interval": [
+        191.59,
+        195.85500000001397
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "05_wrong",
+      "duration": 15.4,
+      "longest_low_change_seconds": 5.5,
+      "actual_action_interval": [
+        211.0555,
+        216.52449999992456
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "05_red_command",
+      "duration": 3.48,
+      "longest_low_change_seconds": 3.0,
+      "actual_action_interval": [
+        221.59,
+        221.61
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "05_red_run",
+      "duration": 10.76,
+      "longest_low_change_seconds": 9.5,
+      "actual_action_interval": [
+        225.07,
+        235.28
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "05_red_browser",
+      "duration": 8.92,
+      "longest_low_change_seconds": 8.0,
+      "actual_action_interval": [
+        235.82999999999998,
+        243.19
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "05_red_result",
+      "duration": 8.96,
+      "longest_low_change_seconds": 8.5,
+      "actual_action_interval": [
+        244.74999999999997,
+        244.84299999999345
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "06_failure_detail",
+      "duration": 14.28,
+      "longest_low_change_seconds": 13.0,
+      "actual_action_interval": [
+        253.70999999999998,
+        254.1629999999795
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "06_fix",
+      "duration": 9.72,
+      "longest_low_change_seconds": 4.0,
+      "actual_action_interval": [
+        267.99,
+        273.47400000005496
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "06_green_command",
+      "duration": 4.16,
+      "longest_low_change_seconds": 3.5,
+      "actual_action_interval": [
+        277.71000000000004,
+        277.73
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "06_green_run",
+      "duration": 5.84,
+      "longest_low_change_seconds": 4.5,
+      "actual_action_interval": [
+        281.87000000000006,
+        287.16
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "06_green_browser",
+      "duration": 4.28,
+      "longest_low_change_seconds": 3.5,
+      "actual_action_interval": [
+        287.71000000000004,
+        289.15000000000003
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "06_green_result",
+      "duration": 10.48,
+      "longest_low_change_seconds": 10.0,
+      "actual_action_interval": [
+        291.99,
+        292.0839999999246
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "07_report",
+      "duration": 8.84,
+      "longest_low_change_seconds": 8.0,
+      "actual_action_interval": [
+        302.47,
+        303.17299999997954
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "07_details",
+      "duration": 14.72,
+      "longest_low_change_seconds": 13.5,
+      "actual_action_interval": [
+        311.31,
+        311.79400000005495
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "07_final_code",
+      "duration": 9.92,
+      "longest_low_change_seconds": 9.5,
+      "actual_action_interval": [
+        326.03000000000003,
+        326.13899999993856
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    },
+    {
+      "shot": "07_exercise",
+      "duration": 12.88,
+      "longest_low_change_seconds": 11.5,
+      "actual_action_interval": [
+        335.95000000000005,
+        337.07500000000005
+      ],
+      "capture_method": "retimed_verified_real_capture"
+    }
+  ],
+  "low_change_review_flags": [
+    {
+      "shot": "03_dom",
+      "duration": 25.32,
+      "longest_low_change_seconds": 22.0,
+      "actual_action_interval": [
+        100.07000000000001,
+        103.30499999998604
+      ],
+      "capture_method": "retimed_verified_real_capture",
+      "status": "REQUIRES_CONTENT_REVIEW",
+      "visible_subject": "Živý DOM a vybraný h2 s textem Přihlášení",
+      "warning": "Camera, text overlays, mouse and metadata are not teaching activity."
+    },
+    {
+      "shot": "cg_inspector",
+      "duration": 20.6,
+      "longest_low_change_seconds": 20.0,
+      "actual_action_interval": [
+        143.27,
+        143.62900000005496
+      ],
+      "capture_method": "retimed_verified_real_capture",
+      "status": "REQUIRES_CONTENT_REVIEW",
+      "visible_subject": "cg_inspector",
+      "warning": "Camera, text overlays, mouse and metadata are not teaching activity."
+    }
+  ],
+  "visual_watch_and_listen": "OWNER_REVIEW_REQUIRED",
+  "po_approval": "PENDING",
+  "full_course_build_authorized": false,
+  "prior_base_sha256": "8809d0363d579e5b7a5e315093d8fa43d5728a162d904e8e0f439c537bc303cb",
+  "unchanged_burned_movie_sha256": "c3ca84bdde17c1b5a9e038c8eb88b61c158fec027554d4b00c0aabcca7ea50f4",
+  "narrow_retest_scope": "Only embedded/external caption line wrapping changed; burned MP4 byte-identical; source activity and pixels unchanged; final native captions tested separately."
+}

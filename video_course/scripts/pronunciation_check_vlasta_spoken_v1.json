@@ -1,0 +1,83 @@
+{
+  "voice": "cs-CZ-VlastaNeural",
+  "lexicon_version": 1,
+  "display_text": "video_course\\scripts\\pronunciation_check.txt",
+  "spoken_text": "video_course\\scripts\\pronunciation_check_vlasta_spoken_v1.txt",
+  "original_sha256": "d6a846c6f153c1d967a3c73bd4521c0206ffc938aa29ddc199ddfbcd04c73f34",
+  "spoken_sha256": "b81528edec5e2f0f14ee3feba9161afe5fb40d1f991889a95a13121e528262c9",
+  "replacements": [
+    {
+      "start": 119,
+      "end": 129,
+      "display": "Playwright",
+      "spoken": "plejrajt"
+    },
+    {
+      "start": 148,
+      "end": 155,
+      "display": "Pythonu",
+      "spoken": "pajtonu"
+    },
+    {
+      "start": 163,
+      "end": 170,
+      "display": "pytestu",
+      "spoken": "pajtestu"
+    },
+    {
+      "start": 172,
+      "end": 179,
+      "display": "Locator",
+      "spoken": "lokejtr"
+    },
+    {
+      "start": 209,
+      "end": 216,
+      "display": "Fixture",
+      "spoken": "fikstčer"
+    },
+    {
+      "start": 247,
+      "end": 256,
+      "display": "Assertion",
+      "spoken": "aséršn"
+    },
+    {
+      "start": 283,
+      "end": 290,
+      "display": "Codegen",
+      "spoken": "koud džen"
+    },
+    {
+      "start": 337,
+      "end": 349,
+      "display": "Trace Viewer",
+      "spoken": "trejs vjúer"
+    },
+    {
+      "start": 390,
+      "end": 396,
+      "display": "slowmo",
+      "spoken": "slou mó"
+    },
+    {
+      "start": 468,
+      "end": 472,
+      "display": "slow",
+      "spoken": "slou"
+    },
+    {
+      "start": 489,
+      "end": 496,
+      "display": "Browser",
+      "spoken": "brauzer"
+    },
+    {
+      "start": 518,
+      "end": 528,
+      "display": "screenshot",
+      "spoken": "skrínšot"
+    }
+  ],
+  "human_listening_review": "pending"
+}

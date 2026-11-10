@@ -1,0 +1,7 @@
+V této ukázce neposuzujeme jen barvu hlasu. Poslouchejte také konce vět a výslovnost odborných názvů.
+Nejprve otevřeme plejrajt a spustíme test v pajtonu pomocí pajtestu.
+lokejtr určuje, který prvek hledáme. fikstčer připraví testovací prostředí. aséršn ověří očekávaný výsledek.
+koud džen nám pomůže zaznamenat první kroky. V nástroji trejs vjúer potom najdeme příčinu selhání.
+Přepínač slou mó zpomalí provádění akcí, aby byl postup v prohlížeči dobře vidět.
+Slovo slou znamená pomalu. brauzer označuje prohlížeč a skrínšot je snímek obrazovky.
+Teď se zastavme. Opravdu stačí úspěšně kliknout? Nestačí. Musíme také ověřit, že se změna uložila.

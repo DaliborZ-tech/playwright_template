@@ -1,0 +1,1789 @@
+[
+  {
+    "id": "01_open",
+    "voice_cue": "Nejdříve otevřu",
+    "on_screen_action": "open_login",
+    "view": "browser",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Přihlášení je viditelné",
+    "proof": {
+      "url": "http://127.0.0.1:5000/login",
+      "heading": [
+        "Malý portál.Skutečné testování.",
+        "Přihlášení"
+      ],
+      "email_label": "E-mail"
+    },
+    "voice_at": 4.862895833333333,
+    "start": 0.0,
+    "section": "r2_01",
+    "section_title": "Nejdřív si ověříme zadání",
+    "end": 15.44,
+    "duration": 15.44,
+    "action_offset": 4.862895833333333,
+    "parent_id": "01_open",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 4.862895833333333,
+    "action_finished": 5.346895833388281,
+    "actual_duration": 15.44,
+    "clip": "video_course\\r21\\edited\\01_open.mp4",
+    "clip_sha256": "643a0bc107036dae2838cc7d3bc8c169817a1760e9deb5651bf257984433a389",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\01_open.mp4",
+    "parent_clip_sha256": "908e7ded109fdd566fc936444ad320d50ea8cc96c7cc45b56d7f24b2a6ccdff7",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        5.344000000040978,
+        4.862895833333333
+      ],
+      [
+        5.828000000095926,
+        5.346895833388281
+      ],
+      [
+        17.04,
+        15.44
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "01_email",
+    "voice_cue": "Do e-mailového",
+    "on_screen_action": "fill_email",
+    "view": "browser",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Ve formuláři je syntetický e-mail",
+    "proof": {
+      "actual_value": "tester@example.test"
+    },
+    "voice_at": 15.433729166666666,
+    "start": 15.44,
+    "section": "r2_01",
+    "section_title": "Nejdřív si ověříme zadání",
+    "end": 19.96,
+    "duration": 4.52,
+    "action_offset": 0,
+    "parent_id": "01_email",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 0.8349999999860301,
+    "actual_duration": 4.52,
+    "clip": "video_course\\r21\\edited\\01_email.mp4",
+    "clip_sha256": "21ab3d57a6d7db25a9ac3663414f37e93712698b9a8b8cf10768130b6787ada3",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\01_email.mp4",
+    "parent_clip_sha256": "52c977265a468adb5352ffc06631fdc6b4b76133b172cbd8a28d11d4914b4b04",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.4059999999590218,
+        0.35
+      ],
+      [
+        0.890999999945052,
+        0.8349999999860301
+      ],
+      [
+        5.16,
+        4.52
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "01_password",
+    "voice_cue": "Potom vyplním",
+    "on_screen_action": "fill_clear",
+    "view": "browser",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Vyplněné pole, následně prázdný formulář",
+    "proof": {
+      "email_empty": true,
+      "password_empty": true
+    },
+    "voice_at": 19.959041666666668,
+    "start": 19.96,
+    "section": "r2_01",
+    "section_title": "Nejdřív si ověříme zadání",
+    "end": 33.6,
+    "duration": 13.64,
+    "action_offset": 0,
+    "parent_id": "01_password",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 2.9599999999860303,
+    "actual_duration": 13.64,
+    "clip": "video_course\\r21\\edited\\01_password.mp4",
+    "clip_sha256": "ef29d4fc08654b5097fcfb05da4042c84d45ef52509a4a3e7123c2ee5349823a",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\01_password.mp4",
+    "parent_clip_sha256": "ed3dcb30ac42678cba5840858e26ed44c6c2a5f578e541730855c1410c4d6068",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.4059999999590218,
+        0.35
+      ],
+      [
+        3.015999999945052,
+        2.9599999999860303
+      ],
+      [
+        15.48,
+        13.64
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "02_blank",
+    "voice_cue": "V editoru teď",
+    "on_screen_action": "blank",
+    "view": "editor",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Nový prázdný soubor v editoru",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "actual_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "voice_at": 33.70608333333333,
+    "start": 33.6,
+    "section": "r2_02",
+    "section_title": "Test vzniká od prázdného souboru",
+    "end": 48.68,
+    "duration": 15.08,
+    "action_offset": 0.10608333333333064,
+    "parent_id": "02_blank",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 0.37,
+    "actual_duration": 15.08,
+    "clip": "video_course\\r21\\edited\\02_blank.mp4",
+    "clip_sha256": "55b1c5fd6e83199b5fa6e70b1bd3fe685e7f5c3a9d43d2c07fae49005d091860",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\02_blank.mp4",
+    "parent_clip_sha256": "c6061056ecc48e2002802b5753dc379bd6b9ac6650235fe4f92913081c79e57d",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.4059999999590218,
+        0.35
+      ],
+      [
+        0.4059999999590218,
+        0.37
+      ],
+      [
+        17.04,
+        15.08
+      ]
+    ],
+    "active_speed_factor": 1,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "02_import",
+    "voice_cue": "Nejprve napíšu",
+    "on_screen_action": "type_import",
+    "view": "editor",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Import skutečně přibývá v souboru",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "sha256": "79ab483329af7105af214eb169ee9a2bbf874547d66dcadf9196d999ca9ce567",
+      "text": "\"\"\"Výsledek souboru vytvořeného od prázdné stránky během videokurzu.\"\"\"\n\nfrom playwright.sync_api import Page, expect\n"
+    },
+    "voice_at": 48.678625,
+    "start": 48.68,
+    "section": "r2_02",
+    "section_title": "Test vzniká od prázdného souboru",
+    "end": 58.48,
+    "duration": 9.8,
+    "action_offset": 0,
+    "parent_id": "02_import",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 8.1,
+    "actual_duration": 9.8,
+    "clip": "video_course\\r21\\edited\\02_import.mp4",
+    "clip_sha256": "5fdc902c7c38c9c31e868d1a1b70fa95793bec34e4c35ef2a7256f1ea5817028",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\02_import.mp4",
+    "parent_clip_sha256": "4d783c2bac03cadb6ff026ec8daf4be73782c274bc54d19089813013430cf2fe",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.3910000000614673,
+        0.35
+      ],
+      [
+        8.141000000061467,
+        8.1
+      ],
+      [
+        11.36,
+        9.8
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "02_function",
+    "voice_cue": "Pod importem",
+    "on_screen_action": "type_function",
+    "view": "editor",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Funkce test_video_login_form(page: Page)",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "sha256": "072cca823e287d5a33ebfd34b6d05f150458f5df5833ee3d19c4aaf3aa61c58e",
+      "text": "\"\"\"Výsledek souboru vytvořeného od prázdné stránky během videokurzu.\"\"\"\n\nfrom playwright.sync_api import Page, expect\n\n\ndef test_video_login_form(page: Page) -> None:\n"
+    },
+    "voice_at": 58.47991666666667,
+    "start": 58.48,
+    "section": "r2_02",
+    "section_title": "Test vzniká od prázdného souboru",
+    "end": 81.56,
+    "duration": 23.08,
+    "action_offset": 0,
+    "parent_id": "02_function",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 4.662999999965541,
+    "actual_duration": 23.08,
+    "clip": "video_course\\r21\\edited\\02_function.mp4",
+    "clip_sha256": "b046a61aeedededfc946a2d9c27158781c886d9f557cc64449275f0e2ea6ba21",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\02_function.mp4",
+    "parent_clip_sha256": "f4f9599f32f840e617082ab9c2528c7121685a0692940062bf778b566b6cab5b",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.4059999999590218,
+        0.35
+      ],
+      [
+        4.718999999924563,
+        4.662999999965541
+      ],
+      [
+        26.32,
+        23.08
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "03_goto",
+    "voice_cue": "Do těla funkce",
+    "on_screen_action": "type_goto",
+    "view": "editor",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Přibyl page.goto('/login')",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "sha256": "fd1e55438fd58321ffb684f509430276482ca4eab07da3d0157661232a44ecec",
+      "text": "\"\"\"Výsledek souboru vytvořeného od prázdné stránky během videokurzu.\"\"\"\n\nfrom playwright.sync_api import Page, expect\n\n\ndef test_video_login_form(page: Page) -> None:\n    page.goto(\"/login\")\n"
+    },
+    "voice_at": 81.62625,
+    "start": 81.56,
+    "section": "r2_03",
+    "section_title": "Navigace a skutečný DOM",
+    "end": 91.96,
+    "duration": 10.4,
+    "action_offset": 0.06624999999999659,
+    "parent_id": "03_goto",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 2.834000000054948,
+    "actual_duration": 10.4,
+    "clip": "video_course\\r21\\edited\\03_goto.mp4",
+    "clip_sha256": "66267d7f061b11897256b4acd2fff414d9e5b1f7397ef1897867f04ce02897f9",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\03_goto.mp4",
+    "parent_clip_sha256": "603f35bfbdedfc951416a9b2178c87e36a8ae8ff4d554c331d35b99d011ac3f0",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.40700000000651926,
+        0.35
+      ],
+      [
+        2.8910000000614673,
+        2.834000000054948
+      ],
+      [
+        11.88,
+        10.4
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "03_save",
+    "voice_cue": "Soubor teď uložím",
+    "on_screen_action": "save",
+    "view": "editor",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Uložený skutečný Python soubor",
+    "proof": {
+      "sha256": "fd1e55438fd58321ffb684f509430276482ca4eab07da3d0157661232a44ecec",
+      "file": "tests/examples/test_video_created.py"
+    },
+    "voice_at": 91.96120833333333,
+    "start": 91.96,
+    "section": "r2_03",
+    "section_title": "Navigace a skutečný DOM",
+    "end": 99.72,
+    "duration": 7.76,
+    "action_offset": 0.0012083333333379187,
+    "parent_id": "03_save",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 0.44399999992456285,
+    "actual_duration": 7.76,
+    "clip": "video_course\\r21\\edited\\03_save.mp4",
+    "clip_sha256": "ce9f44af216a103c25a831cdbfab459e45bd3ec1d0d784ee099a13f18a43afa1",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\03_save.mp4",
+    "parent_clip_sha256": "668496375fd2aabe0cb2a829e3da9d0fedcc5886f7c171f2c5dc9f36c7cb401c",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.40600000007543713,
+        0.35
+      ],
+      [
+        0.5,
+        0.44399999992456285
+      ],
+      [
+        9.28,
+        7.76
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "03_dom",
+    "voice_cue": "Otevřu vývojářské",
+    "on_screen_action": "inspect_heading",
+    "view": "browser",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Živý DOM a vybraný h2 s textem Přihlášení",
+    "proof": {
+      "role": "heading",
+      "name": "Přihlášení",
+      "actual_dom": "<h2>Přihlášení</h2>",
+      "node_name": "H2",
+      "selected_devtools_rows": [
+        "<h2> ​Přihlášení​ </h2> ​"
+      ],
+      "selection": "Actual DevTools element picker, selected accessible DOM row and real outerHTML"
+    },
+    "voice_at": 99.74820833333334,
+    "start": 99.72,
+    "section": "r2_03",
+    "section_title": "Navigace a skutečný DOM",
+    "end": 125.04,
+    "duration": 25.32,
+    "action_offset": 0.028208333333338942,
+    "parent_id": "03_dom",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 3.5849999999860303,
+    "actual_duration": 25.32,
+    "clip": "video_course\\r21\\edited\\03_dom.mp4",
+    "clip_sha256": "8769b1461f7ac415f590037ece3827ec2cdd2d20edd3b445248a215640c5fc1e",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\03_dom.mp4",
+    "parent_clip_sha256": "c69a6d3c2e32905704bb53d614407cb24b4f2514f322362dac905951db53f456",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.4059999999590218,
+        0.35
+      ],
+      [
+        3.640999999945052,
+        3.5849999999860303
+      ],
+      [
+        28.88,
+        25.32
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "cg_open",
+    "on_screen_action": "cg_open",
+    "view": "codegen",
+    "start": 125.04,
+    "voice_at": 125.16147916666667,
+    "voice_cue": "Než lokátor",
+    "section": "r21_codegen",
+    "section_title": "Codegen vytvoří návrh, tester určí očekávání",
+    "expected_visible_state": "cg_open",
+    "camera_focus": "Actual Codegen browser input and emitted Python in Inspector",
+    "end": 134.48,
+    "duration": 9.44,
+    "action_offset": 0.12147916666665992,
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 0.9119999999180436,
+    "actual_duration": 9.44,
+    "clip": "video_course\\r21\\edited\\cg_open.mp4",
+    "clip_sha256": "99793084b822c869ae6bfcdaacde04b6a78d9105a451e4166f06ffca9bfefd02",
+    "capture_method": "retimed_verified_real_capture",
+    "proof": {
+      "method": "Actual playwright codegen CLI, actual browser input, native Inspector",
+      "cli": [
+        "-m",
+        "playwright",
+        "codegen",
+        "--target=python-pytest",
+        "--viewport-size=1100,900",
+        "--output=reports/r21-codegen/draft.py",
+        "http://127.0.0.1:5000/login"
+      ],
+      "owned_process_pid": 63184,
+      "generated_source": "video_course\\r21\\evidence\\codegen\\cg_open.py",
+      "generated_sha256": "4624755bb1a134d9a19055060b67acb0e64d8d1234006dfe18d59604e1864598",
+      "generated_text": "import pytest\nimport re\nfrom playwright.sync_api import Page, expect\n\n\n@pytest.fixture(scope=\"session\")\ndef browser_context_args(browser_context_args, playwright):\n    return {\"viewport\": {\"width\":1100,\"height\":900}}\n\n\ndef test_example(page: Page) -> None:\n    page.goto(\"http://127.0.0.1:5000/login\")\n    page.locator(\"body\").press(\"Escape\")\n",
+      "public_synthetic_account": true
+    },
+    "parent_clip": "video_course\\r21\\recordings\\cg_open.mp4",
+    "parent_clip_sha256": "aa36bcb5365edc34306a03c0d7e4c5c2f0525fbf978158fca9af80904ad5889e",
+    "parent_contract_sha256": "12cdcab9a609643c9ccde2d6a6021d28a4181c8bde519895d54a5cdfd853b662",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.5,
+        0.35
+      ],
+      [
+        1.0619999999180436,
+        0.9119999999180436
+      ],
+      [
+        12.4,
+        9.44
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "cg_fill",
+    "on_screen_action": "cg_fill",
+    "view": "codegen",
+    "start": 134.48,
+    "voice_at": 134.5,
+    "voice_cue": "Do e-mailového",
+    "section": "r21_codegen",
+    "section_title": "Codegen vytvoří návrh, tester určí očekávání",
+    "expected_visible_state": "cg_fill",
+    "camera_focus": "Actual Codegen browser input and emitted Python in Inspector",
+    "end": 142.92,
+    "duration": 8.44,
+    "action_offset": 0.020000000000010232,
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 1.725,
+    "actual_duration": 8.44,
+    "clip": "video_course\\r21\\edited\\cg_fill.mp4",
+    "clip_sha256": "b8afa62cab16059628b7bbfdeb0350499acfeec95787b01bf93e88049e72c848",
+    "capture_method": "retimed_verified_real_capture",
+    "proof": {
+      "method": "Actual playwright codegen CLI, actual browser input, native Inspector",
+      "cli": [
+        "-m",
+        "playwright",
+        "codegen",
+        "--target=python-pytest",
+        "--viewport-size=1100,900",
+        "--output=reports/r21-codegen/draft.py",
+        "http://127.0.0.1:5000/login"
+      ],
+      "owned_process_pid": 63184,
+      "generated_source": "video_course\\r21\\evidence\\codegen\\cg_fill.py",
+      "generated_sha256": "41f0d15531ffda30b85ef801decc83c58d6a21a72f4a22260e9f94dbfa54affc",
+      "generated_text": "import pytest\nimport re\nfrom playwright.sync_api import Page, expect\n\n\n@pytest.fixture(scope=\"session\")\ndef browser_context_args(browser_context_args, playwright):\n    return {\"viewport\": {\"width\":1100,\"height\":900}}\n\n\ndef test_example(page: Page) -> None:\n    page.goto(\"http://127.0.0.1:5000/login\")\n    page.locator(\"body\").press(\"Escape\")\n    page.get_by_role(\"textbox\", name=\"E-mail\").click()\n    page.get_by_role(\"textbox\", name=\"E-mail\").fill(\"tester@example.test\")\n",
+      "public_synthetic_account": true
+    },
+    "parent_clip": "video_course\\r21\\recordings\\cg_fill.mp4",
+    "parent_clip_sha256": "86cce0bcfdcd4d27caeb64de37fd311249f5003b6f71b9e0871038a8d772e4b9",
+    "parent_contract_sha256": "12cdcab9a609643c9ccde2d6a6021d28a4181c8bde519895d54a5cdfd853b662",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.5,
+        0.35
+      ],
+      [
+        1.875,
+        1.725
+      ],
+      [
+        12.44,
+        8.44
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "cg_inspector",
+    "on_screen_action": "cg_inspector",
+    "view": "codegen",
+    "start": 142.92,
+    "voice_at": 142.936625,
+    "voice_cue": "V návrhu",
+    "section": "r21_codegen",
+    "section_title": "Codegen vytvoří návrh, tester určí očekávání",
+    "expected_visible_state": "cg_inspector",
+    "camera_focus": "Actual Codegen browser input and emitted Python in Inspector",
+    "end": 163.52,
+    "duration": 20.6,
+    "action_offset": 0.016625000000004775,
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 0.709000000054948,
+    "actual_duration": 20.6,
+    "clip": "video_course\\r21\\edited\\cg_inspector.mp4",
+    "clip_sha256": "e75ca5f7d554dfebe5fa58c1668b9641a6171fdda67c270df7ae5434f9bf5c29",
+    "capture_method": "retimed_verified_real_capture",
+    "proof": {
+      "method": "Actual playwright codegen CLI, actual browser input, native Inspector",
+      "cli": [
+        "-m",
+        "playwright",
+        "codegen",
+        "--target=python-pytest",
+        "--viewport-size=1100,900",
+        "--output=reports/r21-codegen/draft.py",
+        "http://127.0.0.1:5000/login"
+      ],
+      "owned_process_pid": 63184,
+      "generated_source": "video_course\\r21\\evidence\\codegen\\cg_inspector.py",
+      "generated_sha256": "41f0d15531ffda30b85ef801decc83c58d6a21a72f4a22260e9f94dbfa54affc",
+      "generated_text": "import pytest\nimport re\nfrom playwright.sync_api import Page, expect\n\n\n@pytest.fixture(scope=\"session\")\ndef browser_context_args(browser_context_args, playwright):\n    return {\"viewport\": {\"width\":1100,\"height\":900}}\n\n\ndef test_example(page: Page) -> None:\n    page.goto(\"http://127.0.0.1:5000/login\")\n    page.locator(\"body\").press(\"Escape\")\n    page.get_by_role(\"textbox\", name=\"E-mail\").click()\n    page.get_by_role(\"textbox\", name=\"E-mail\").fill(\"tester@example.test\")\n",
+      "public_synthetic_account": true
+    },
+    "parent_clip": "video_course\\r21\\recordings\\cg_inspector.mp4",
+    "parent_clip_sha256": "4ad5041843e70bc59bd13ecb2bf685fae31cbae061d513f1f4a24a7d5968f448",
+    "parent_contract_sha256": "12cdcab9a609643c9ccde2d6a6021d28a4181c8bde519895d54a5cdfd853b662",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.5,
+        0.35
+      ],
+      [
+        0.859000000054948,
+        0.709000000054948
+      ],
+      [
+        24.28,
+        20.6
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "04_heading",
+    "voice_cue": "Zpátky v editoru",
+    "on_screen_action": "type_heading",
+    "view": "editor",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Přibyl locator heading a očekávání viditelnosti",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "sha256": "3ca0668ad8ad387096da970e046db7ab14b672e1f3292f62143c8a7b2558d1f3",
+      "text": "\"\"\"Výsledek souboru vytvořeného od prázdné stránky během videokurzu.\"\"\"\n\nfrom playwright.sync_api import Page, expect\n\n\ndef test_video_login_form(page: Page) -> None:\n    page.goto(\"/login\")\n    expect(page.get_by_role(\"heading\", name=\"Přihlášení\", exact=True)).to_be_visible()\n"
+    },
+    "voice_at": 163.63358333333332,
+    "start": 163.52,
+    "section": "r2_04",
+    "section_title": "Z nalezeného prvku vzniká očekávání",
+    "end": 183.08,
+    "duration": 19.56,
+    "action_offset": 0.11358333333330961,
+    "parent_id": "04_heading",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 3.740999999945052,
+    "actual_duration": 19.56,
+    "clip": "video_course\\r21\\edited\\04_heading.mp4",
+    "clip_sha256": "28fae30cfcf1173c3c01a0f7abf90d2db0ecf3bef38c0e0d205a291394e5eb1e",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\04_heading.mp4",
+    "parent_clip_sha256": "68792602ce0bef2ee2f6e02156d4a68972e4d536908e528d20447ac27f2e0e49",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.40600000007543713,
+        0.35
+      ],
+      [
+        3.797000000020489,
+        3.740999999945052
+      ],
+      [
+        22.2,
+        19.56
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "04_button",
+    "voice_cue": "Potom přidám",
+    "on_screen_action": "type_button",
+    "view": "editor",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Přibyl locator button a druhé očekávání",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "sha256": "4a5df8d0ef9572e3d0f670ba93750ccb2ccf2c78c49c7f473bd1d77a9fac98e0",
+      "text": "\"\"\"Výsledek souboru vytvořeného od prázdné stránky během videokurzu.\"\"\"\n\nfrom playwright.sync_api import Page, expect\n\n\ndef test_video_login_form(page: Page) -> None:\n    page.goto(\"/login\")\n    expect(page.get_by_role(\"heading\", name=\"Přihlášení\", exact=True)).to_be_visible()\n    expect(page.get_by_role(\"button\", name=\"Přihlásit se\")).to_be_visible()\n"
+    },
+    "voice_at": 183.10379166666667,
+    "start": 183.08,
+    "section": "r2_04",
+    "section_title": "Z nalezeného prvku vzniká očekávání",
+    "end": 191.24,
+    "duration": 8.16,
+    "action_offset": 0.023791666666653555,
+    "parent_id": "04_button",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 3.740999999945052,
+    "actual_duration": 8.16,
+    "clip": "video_course\\r21\\edited\\04_button.mp4",
+    "clip_sha256": "0022831bb7cbfde7c939360691e0416fb5de7ccb6ed05b5f153fc2ca8d30dfbc",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\04_button.mp4",
+    "parent_clip_sha256": "fae1b56333392808322439c38e7696dd1187293b20c5b33a63ba6ee8855cbac4",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.3910000000614673,
+        0.35
+      ],
+      [
+        3.7820000000065193,
+        3.740999999945052
+      ],
+      [
+        9.8,
+        8.16
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "04_button_dom",
+    "voice_cue": "Vrátím se ještě",
+    "on_screen_action": "inspect_button",
+    "view": "browser",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Živý DOM vybraného tlačítka",
+    "proof": {
+      "role": "button",
+      "name": "Přihlásit se",
+      "actual_dom": "<button class=\"primary wide\" type=\"submit\">Přihlásit se →</button>",
+      "node_name": "BUTTON",
+      "selected_devtools_rows": [
+        "<button class=\"primary wide\" type=\"submit\"> ​Přihlásit se →​ </button> ​"
+      ],
+      "selection": "Actual DevTools element picker, selected accessible DOM row and real outerHTML"
+    },
+    "voice_at": 191.2559375,
+    "start": 191.24,
+    "section": "r2_04",
+    "section_title": "Z nalezeného prvku vzniká očekávání",
+    "end": 205.84,
+    "duration": 14.6,
+    "action_offset": 0.0159374999999784,
+    "parent_id": "04_button_dom",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 4.6150000000139695,
+    "actual_duration": 14.6,
+    "clip": "video_course\\r21\\edited\\04_button_dom.mp4",
+    "clip_sha256": "b12fc8e1d76a31b0239a9865c0b3027bff91ab4739cbed37b243d2bd508a3ccc",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\04_button_dom.mp4",
+    "parent_clip_sha256": "14f97168800c6648816a9f4aa67f4c7c7da9a0a0544140ab6ce4e741b6a4b9e2",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.4059999999590218,
+        0.35
+      ],
+      [
+        4.670999999972992,
+        4.6150000000139695
+      ],
+      [
+        16.52,
+        14.6
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "05_wrong",
+    "voice_cue": "V prvním očekávání teď",
+    "on_screen_action": "make_red",
+    "view": "editor",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Stejný test, pouze chybný očekávaný text",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "before": "name=\"Přihlášení\"",
+      "after": "name=\"Neexistující nadpis\"",
+      "sha256": "764a67dcad37b5844eeece6255824dff38b9e8452b4c5ce8e8dc297355a12ff8",
+      "text": "\"\"\"Výsledek souboru vytvořeného od prázdné stránky během videokurzu.\"\"\"\n\nfrom playwright.sync_api import Page, expect\n\n\ndef test_video_login_form(page: Page) -> None:\n    page.goto(\"/login\")\n    expect(page.get_by_role(\"heading\", name=\"Neexistující nadpis\", exact=True)).to_be_visible()\n    expect(page.get_by_role(\"button\", name=\"Přihlásit se\")).to_be_visible()\n"
+    },
+    "voice_at": 211.0555,
+    "start": 205.84,
+    "section": "r2_05",
+    "section_title": "Nejdřív ověříme, že test umí selhat",
+    "end": 221.24,
+    "duration": 15.4,
+    "action_offset": 5.215499999999992,
+    "parent_id": "05_wrong",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 5.215499999999992,
+    "action_finished": 10.684499999924554,
+    "actual_duration": 15.4,
+    "clip": "video_course\\r21\\edited\\05_wrong.mp4",
+    "clip_sha256": "049db0bbec92704e689981bd3999f2609b172f593438cd423cce1982f9aae624",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\05_wrong.mp4",
+    "parent_clip_sha256": "ff3c09a47dbfc9dd7a05b02d26181aa476c14157e17d05a399505b548cd32f68",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        5.719000000040978,
+        5.215499999999992
+      ],
+      [
+        11.187999999965541,
+        10.684499999924554
+      ],
+      [
+        17.56,
+        15.4
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "05_red_command",
+    "voice_cue": "V terminálu spustím",
+    "on_screen_action": "red_command",
+    "view": "terminal",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Skutečný příkaz pro stejný nodeid",
+    "proof": {
+      "command": ".\\.venv\\Scripts\\python.exe -m pytest tests/examples/test_video_created.py::test_video_login_form -q --headed --slowmo=400 --video=on --tracing=off --output=reports/r2/take_1794309488/red/artifacts --html=reports/r2/take_1794309488/red/report.html --junitxml=reports/r2/take_1794309488/red/junit.xml",
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form"
+    },
+    "voice_at": 221.2408125,
+    "start": 221.24,
+    "section": "r2_05",
+    "section_title": "Nejdřív ověříme, že test umí selhat",
+    "end": 224.72,
+    "duration": 3.48,
+    "action_offset": 0.0008124999999949978,
+    "parent_id": "05_red_command",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 0.37,
+    "actual_duration": 3.48,
+    "clip": "video_course\\r21\\edited\\05_red_command.mp4",
+    "clip_sha256": "6e4cf3683a1f0bb27dd614592c81260f02ecb1608b45e4e86480c5c7b2aeab27",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\05_red_command.mp4",
+    "parent_clip_sha256": "14dce8058ce2ffeb62c8535bfa5d24001b3aa174fba529117d00610a5eb38a77",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.40700000000651926,
+        0.35
+      ],
+      [
+        0.40700000000651926,
+        0.37
+      ],
+      [
+        4.16,
+        3.48
+      ]
+    ],
+    "active_speed_factor": 1,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "05_red_run",
+    "voice_cue": "Přepínač headed",
+    "on_screen_action": "red_run",
+    "view": "terminal",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Skutečný pytest běh a jeho RED výsledek",
+    "proof": {
+      "exit_code": 1,
+      "testcases": 1,
+      "failures": 1,
+      "errors": 0,
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form",
+      "actual_junit_nodeid": "tests/examples/test_video_created.py::test_video_login_form[chromium]",
+      "classname": "tests.examples.test_video_created",
+      "name": "test_video_login_form[chromium]",
+      "source_sha256": "764a67dcad37b5844eeece6255824dff38b9e8452b4c5ce8e8dc297355a12ff8",
+      "junit": "video_course\\r2\\evidence\\take_1794309488\\red\\junit.xml",
+      "junit_sha256": "4763778b5ba0431c3971212744fa0eef52b98b60450ba661549b48c96dde04b1",
+      "browser_video": "video_course\\r2\\evidence\\take_1794309488\\red\\artifacts\\tests-examples-test-video-created-py-test-video-login-form-chromium\\video.webm",
+      "browser_video_sha256": "89cb2395d5b3d85512f1820d3afc6b5debf06b553177e22e3e67ec69407c1624",
+      "report": "video_course\\r2\\evidence\\take_1794309488\\red\\report.html",
+      "report_sha256": "1ccf0237da86067d6e73c09ce1e8099137f0cb1484913c80efad5765e5eac0c3",
+      "capture_unix_time": 1794309826.9074209
+    },
+    "voice_at": 224.74016666666665,
+    "start": 224.72,
+    "section": "r2_05",
+    "section_title": "Nejdřív ověříme, že test umí selhat",
+    "end": 235.48,
+    "duration": 10.76,
+    "action_offset": 0.02016666666665401,
+    "parent_id": "05_red_run",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 10.56,
+    "actual_duration": 10.76,
+    "clip": "video_course\\r21\\edited\\05_red_run.mp4",
+    "clip_sha256": "35ba1e3402081ea9f57be4569f78fae70ff1e85c4e5bd1c88af94bd907ec0ea1",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\05_red_run.mp4",
+    "parent_clip_sha256": "57b26a6937f127a1e6979fcb37ecb4561afbe0e116aed4acd2b752f72647fe5f",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.40600000007543713,
+        0.35
+      ],
+      [
+        11.297000000020489,
+        10.56
+      ],
+      [
+        12.4,
+        10.76
+      ]
+    ],
+    "active_speed_factor": 1.066699,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "05_red_browser",
+    "voice_cue": "V nahrávce prohlížeče",
+    "on_screen_action": "red_video",
+    "view": "test_video",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Skutečný záznam browseru právě tohoto běhu",
+    "proof": {
+      "exit_code": 1,
+      "testcases": 1,
+      "failures": 1,
+      "errors": 0,
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form",
+      "actual_junit_nodeid": "tests/examples/test_video_created.py::test_video_login_form[chromium]",
+      "classname": "tests.examples.test_video_created",
+      "name": "test_video_login_form[chromium]",
+      "source_sha256": "764a67dcad37b5844eeece6255824dff38b9e8452b4c5ce8e8dc297355a12ff8",
+      "junit": "video_course\\r2\\evidence\\take_1794309488\\red\\junit.xml",
+      "junit_sha256": "4763778b5ba0431c3971212744fa0eef52b98b60450ba661549b48c96dde04b1",
+      "browser_video": "video_course\\r2\\evidence\\take_1794309488\\red\\artifacts\\tests-examples-test-video-created-py-test-video-login-form-chromium\\video.webm",
+      "browser_video_sha256": "89cb2395d5b3d85512f1820d3afc6b5debf06b553177e22e3e67ec69407c1624",
+      "report": "video_course\\r2\\evidence\\take_1794309488\\red\\report.html",
+      "report_sha256": "1ccf0237da86067d6e73c09ce1e8099137f0cb1484913c80efad5765e5eac0c3",
+      "capture_unix_time": 1794309826.9074209
+    },
+    "voice_at": 235.47847916666666,
+    "start": 235.48,
+    "section": "r2_05",
+    "section_title": "Nejdřív ověříme, že test umí selhat",
+    "end": 244.4,
+    "duration": 8.92,
+    "action_offset": 0,
+    "parent_id": "05_red_browser",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 7.71,
+    "actual_duration": 8.92,
+    "clip": "video_course\\r21\\edited\\05_red_browser.mp4",
+    "clip_sha256": "e3792bf1d6e36795d2afe990a2e91ca6b3c09cc754af24647a8d4a0adaf12f70",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\05_red_browser.mp4",
+    "parent_clip_sha256": "cdba630d3fb9ba99b3cbb7206149bf5d63dd04cf497b74c8adfb8fb2ce835dc3",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "actual_pytest_browser_recording",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0.35
+      ],
+      [
+        7.36,
+        7.71
+      ],
+      [
+        10.12,
+        8.92
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "05_red_result",
+    "voice_cue": "Teď už terminál",
+    "on_screen_action": "red_result",
+    "view": "terminal",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "1 failed, skutečný exit1 a JUnit bez infrastrukturních errors",
+    "proof": {
+      "exit_code": 1,
+      "testcases": 1,
+      "failures": 1,
+      "errors": 0,
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form",
+      "actual_junit_nodeid": "tests/examples/test_video_created.py::test_video_login_form[chromium]",
+      "classname": "tests.examples.test_video_created",
+      "name": "test_video_login_form[chromium]",
+      "source_sha256": "764a67dcad37b5844eeece6255824dff38b9e8452b4c5ce8e8dc297355a12ff8",
+      "junit": "video_course\\r2\\evidence\\take_1794309488\\red\\junit.xml",
+      "junit_sha256": "4763778b5ba0431c3971212744fa0eef52b98b60450ba661549b48c96dde04b1",
+      "browser_video": "video_course\\r2\\evidence\\take_1794309488\\red\\artifacts\\tests-examples-test-video-created-py-test-video-login-form-chromium\\video.webm",
+      "browser_video_sha256": "89cb2395d5b3d85512f1820d3afc6b5debf06b553177e22e3e67ec69407c1624",
+      "report": "video_course\\r2\\evidence\\take_1794309488\\red\\report.html",
+      "report_sha256": "1ccf0237da86067d6e73c09ce1e8099137f0cb1484913c80efad5765e5eac0c3",
+      "capture_unix_time": 1794309826.9074209
+    },
+    "voice_at": 244.41312499999998,
+    "start": 244.4,
+    "section": "r2_05",
+    "section_title": "Nejdřív ověříme, že test umí selhat",
+    "end": 253.36,
+    "duration": 8.96,
+    "action_offset": 0.013124999999973852,
+    "parent_id": "05_red_result",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 0.4429999999934807,
+    "actual_duration": 8.96,
+    "clip": "video_course\\r21\\edited\\05_red_result.mp4",
+    "clip_sha256": "ba9abab21cb29b7f28d2be4f6b6c8a9dd09d111607f2534d6abeeb1f7af0301c",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\05_red_result.mp4",
+    "parent_clip_sha256": "a32589264e701a29a92c1e94b52cf1947c3ec8321ead6fb8055525a766207c06",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.40700000000651926,
+        0.35
+      ],
+      [
+        0.5,
+        0.4429999999934807
+      ],
+      [
+        10.32,
+        8.96
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "06_failure_detail",
+    "voice_cue": "V chybovém výpisu",
+    "on_screen_action": "red_detail",
+    "view": "terminal",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Výpis konkrétního assertionu a hledaného textu",
+    "proof": {
+      "exit_code": 1,
+      "testcases": 1,
+      "failures": 1,
+      "errors": 0,
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form",
+      "actual_junit_nodeid": "tests/examples/test_video_created.py::test_video_login_form[chromium]",
+      "classname": "tests.examples.test_video_created",
+      "name": "test_video_login_form[chromium]",
+      "source_sha256": "764a67dcad37b5844eeece6255824dff38b9e8452b4c5ce8e8dc297355a12ff8",
+      "junit": "video_course\\r2\\evidence\\take_1794309488\\red\\junit.xml",
+      "junit_sha256": "4763778b5ba0431c3971212744fa0eef52b98b60450ba661549b48c96dde04b1",
+      "browser_video": "video_course\\r2\\evidence\\take_1794309488\\red\\artifacts\\tests-examples-test-video-created-py-test-video-login-form-chromium\\video.webm",
+      "browser_video_sha256": "89cb2395d5b3d85512f1820d3afc6b5debf06b553177e22e3e67ec69407c1624",
+      "report": "video_course\\r2\\evidence\\take_1794309488\\red\\report.html",
+      "report_sha256": "1ccf0237da86067d6e73c09ce1e8099137f0cb1484913c80efad5765e5eac0c3",
+      "capture_unix_time": 1794309826.9074209
+    },
+    "voice_at": 253.4878958333333,
+    "start": 253.36,
+    "section": "r2_06",
+    "section_title": "Chybu vysvětlíme a opravíme tentýž test",
+    "end": 267.64,
+    "duration": 14.28,
+    "action_offset": 0.12789583333329801,
+    "parent_id": "06_failure_detail",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 0.8029999999795109,
+    "actual_duration": 14.28,
+    "clip": "video_course\\r21\\edited\\06_failure_detail.mp4",
+    "clip_sha256": "9bb892612f7251bb941c480a7160251f38cd92ffb395befa0bc7e290e27a0a51",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\06_failure_detail.mp4",
+    "parent_clip_sha256": "1012e7766abbcde8d13fa6f9af7cfc2cf4cf8d1e8add852557f66346d65e9ae1",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.40700000000651926,
+        0.35
+      ],
+      [
+        0.8599999999860302,
+        0.8029999999795109
+      ],
+      [
+        16.52,
+        14.28
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "06_fix",
+    "voice_cue": "V editoru teď opravím",
+    "on_screen_action": "make_green",
+    "view": "editor",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Oprava jediného očekávaného textu",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "before": "name=\"Neexistující nadpis\"",
+      "after": "name=\"Přihlášení\"",
+      "sha256": "4a5df8d0ef9572e3d0f670ba93750ccb2ccf2c78c49c7f473bd1d77a9fac98e0",
+      "text": "\"\"\"Výsledek souboru vytvořeného od prázdné stránky během videokurzu.\"\"\"\n\nfrom playwright.sync_api import Page, expect\n\n\ndef test_video_login_form(page: Page) -> None:\n    page.goto(\"/login\")\n    expect(page.get_by_role(\"heading\", name=\"Přihlášení\", exact=True)).to_be_visible()\n    expect(page.get_by_role(\"button\", name=\"Přihlásit se\")).to_be_visible()\n"
+    },
+    "voice_at": 267.63827083333337,
+    "start": 267.64,
+    "section": "r2_06",
+    "section_title": "Chybu vysvětlíme a opravíme tentýž test",
+    "end": 277.36,
+    "duration": 9.72,
+    "action_offset": 0,
+    "parent_id": "06_fix",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 5.834000000054948,
+    "actual_duration": 9.72,
+    "clip": "video_course\\r21\\edited\\06_fix.mp4",
+    "clip_sha256": "d6b80dd244d492ceaca1a5c14b79f3b691fac6bbd2cb95a730e5bf380968701e",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\06_fix.mp4",
+    "parent_clip_sha256": "8651167831b1312b364a46bd095bf76fd0ffd1b89893bcaad76c07bdd023729a",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.40700000000651926,
+        0.35
+      ],
+      [
+        5.891000000061467,
+        5.834000000054948
+      ],
+      [
+        11.36,
+        9.72
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "06_green_command",
+    "voice_cue": "Soubor znovu uložím",
+    "on_screen_action": "green_command",
+    "view": "terminal",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Tentýž nodeid; jiný cílový report",
+    "proof": {
+      "command": ".\\.venv\\Scripts\\python.exe -m pytest tests/examples/test_video_created.py::test_video_login_form -q --headed --slowmo=400 --video=on --tracing=off --output=reports/r2/take_1794309488/green/artifacts --html=reports/r2/take_1794309488/green/report.html --junitxml=reports/r2/take_1794309488/green/junit.xml",
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form"
+    },
+    "voice_at": 277.36910416666666,
+    "start": 277.36,
+    "section": "r2_06",
+    "section_title": "Chybu vysvětlíme a opravíme tentýž test",
+    "end": 281.52,
+    "duration": 4.16,
+    "action_offset": 0.009104166666645597,
+    "parent_id": "06_green_command",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 0.37,
+    "actual_duration": 4.16,
+    "clip": "video_course\\r21\\edited\\06_green_command.mp4",
+    "clip_sha256": "94eaefe1f5266e2c7c543609d668d2bf01efdc79380bd00da8bf9b50a72bfdb9",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\06_green_command.mp4",
+    "parent_clip_sha256": "d2dc8c9d4f5af8729a1f41dcb1090b2b239e6137ceff32433867fa58c6f20e23",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.4059999999590218,
+        0.35
+      ],
+      [
+        0.4059999999590218,
+        0.37
+      ],
+      [
+        5.16,
+        4.16
+      ]
+    ],
+    "active_speed_factor": 1,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "06_green_run",
+    "voice_cue": "Mění se pouze složka",
+    "on_screen_action": "green_run",
+    "view": "terminal",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Skutečný GREEN běh",
+    "proof": {
+      "exit_code": 0,
+      "testcases": 1,
+      "failures": 0,
+      "errors": 0,
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form",
+      "actual_junit_nodeid": "tests/examples/test_video_created.py::test_video_login_form[chromium]",
+      "classname": "tests.examples.test_video_created",
+      "name": "test_video_login_form[chromium]",
+      "source_sha256": "4a5df8d0ef9572e3d0f670ba93750ccb2ccf2c78c49c7f473bd1d77a9fac98e0",
+      "junit": "video_course\\r2\\evidence\\take_1794309488\\green\\junit.xml",
+      "junit_sha256": "72fd09e7ca8b32a58622101ce28645b12da0dceebe0b6c7a70e96d7241b711fa",
+      "browser_video": "video_course\\r2\\evidence\\take_1794309488\\green\\artifacts\\tests-examples-test-video-created-py-test-video-login-form-chromium\\video.webm",
+      "browser_video_sha256": "d1cfc792cbe4194343c041517aa0398b22d5433ced507d30ff143911202afc60",
+      "report": "video_course\\r2\\evidence\\take_1794309488\\green\\report.html",
+      "report_sha256": "d12cf641f04d179fcb75cc72609a1c4fe7749bbe64f885de4f3cf4720a5a170f",
+      "capture_unix_time": 1794309937.441271
+    },
+    "voice_at": 281.531,
+    "start": 281.52,
+    "section": "r2_06",
+    "section_title": "Chybu vysvětlíme a opravíme tentýž test",
+    "end": 287.36,
+    "duration": 5.84,
+    "action_offset": 0.011000000000024102,
+    "parent_id": "06_green_run",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 5.64,
+    "actual_duration": 5.84,
+    "clip": "video_course\\r21\\edited\\06_green_run.mp4",
+    "clip_sha256": "a6615c039062e87077d8c36cd56ed7fb2df1c1deaa61404409f3a2fe8ba509d7",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\06_green_run.mp4",
+    "parent_clip_sha256": "fdd8557edbaede0f5a0c739253af09a3f3abd596407a8e1fb80b3550762dff7e",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.4059999999590218,
+        0.35
+      ],
+      [
+        6.077999999979511,
+        5.64
+      ],
+      [
+        6.76,
+        5.84
+      ]
+    ],
+    "active_speed_factor": 1.072212,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "06_green_browser",
+    "voice_cue": "Také druhý záznam",
+    "on_screen_action": "green_video",
+    "view": "test_video",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Video z druhého běhu téhož testu",
+    "proof": {
+      "exit_code": 0,
+      "testcases": 1,
+      "failures": 0,
+      "errors": 0,
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form",
+      "actual_junit_nodeid": "tests/examples/test_video_created.py::test_video_login_form[chromium]",
+      "classname": "tests.examples.test_video_created",
+      "name": "test_video_login_form[chromium]",
+      "source_sha256": "4a5df8d0ef9572e3d0f670ba93750ccb2ccf2c78c49c7f473bd1d77a9fac98e0",
+      "junit": "video_course\\r2\\evidence\\take_1794309488\\green\\junit.xml",
+      "junit_sha256": "72fd09e7ca8b32a58622101ce28645b12da0dceebe0b6c7a70e96d7241b711fa",
+      "browser_video": "video_course\\r2\\evidence\\take_1794309488\\green\\artifacts\\tests-examples-test-video-created-py-test-video-login-form-chromium\\video.webm",
+      "browser_video_sha256": "d1cfc792cbe4194343c041517aa0398b22d5433ced507d30ff143911202afc60",
+      "report": "video_course\\r2\\evidence\\take_1794309488\\green\\report.html",
+      "report_sha256": "d12cf641f04d179fcb75cc72609a1c4fe7749bbe64f885de4f3cf4720a5a170f",
+      "capture_unix_time": 1794309937.441271
+    },
+    "voice_at": 287.37314583333335,
+    "start": 287.36,
+    "section": "r2_06",
+    "section_title": "Chybu vysvětlíme a opravíme tentýž test",
+    "end": 291.64,
+    "duration": 4.28,
+    "action_offset": 0.013145833333339851,
+    "parent_id": "06_green_browser",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 1.79,
+    "actual_duration": 4.28,
+    "clip": "video_course\\r21\\edited\\06_green_browser.mp4",
+    "clip_sha256": "3f40ca56973c6e5dc547a096f4de0c7eae8ae258ae7ead96fd77825157a88a03",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\06_green_browser.mp4",
+    "parent_clip_sha256": "047e3a25388e65205237d9b3ce0f8d44dd5ed92ac0df354b7716b6109676469a",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "actual_pytest_browser_recording",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0.35
+      ],
+      [
+        1.44,
+        1.79
+      ],
+      [
+        4.8,
+        4.28
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "06_green_result",
+    "voice_cue": "Nyní obě očekávání",
+    "on_screen_action": "green_result",
+    "view": "terminal",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "1 passed, skutečný exit0 a JUnit",
+    "proof": {
+      "exit_code": 0,
+      "testcases": 1,
+      "failures": 0,
+      "errors": 0,
+      "nodeid": "tests/examples/test_video_created.py::test_video_login_form",
+      "actual_junit_nodeid": "tests/examples/test_video_created.py::test_video_login_form[chromium]",
+      "classname": "tests.examples.test_video_created",
+      "name": "test_video_login_form[chromium]",
+      "source_sha256": "4a5df8d0ef9572e3d0f670ba93750ccb2ccf2c78c49c7f473bd1d77a9fac98e0",
+      "junit": "video_course\\r2\\evidence\\take_1794309488\\green\\junit.xml",
+      "junit_sha256": "72fd09e7ca8b32a58622101ce28645b12da0dceebe0b6c7a70e96d7241b711fa",
+      "browser_video": "video_course\\r2\\evidence\\take_1794309488\\green\\artifacts\\tests-examples-test-video-created-py-test-video-login-form-chromium\\video.webm",
+      "browser_video_sha256": "d1cfc792cbe4194343c041517aa0398b22d5433ced507d30ff143911202afc60",
+      "report": "video_course\\r2\\evidence\\take_1794309488\\green\\report.html",
+      "report_sha256": "d12cf641f04d179fcb75cc72609a1c4fe7749bbe64f885de4f3cf4720a5a170f",
+      "capture_unix_time": 1794309937.441271
+    },
+    "voice_at": 291.6482916666667,
+    "start": 291.64,
+    "section": "r2_06",
+    "section_title": "Chybu vysvětlíme a opravíme tentýž test",
+    "end": 302.12,
+    "duration": 10.48,
+    "action_offset": 0.008291666666707442,
+    "parent_id": "06_green_result",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 0.44399999992456285,
+    "actual_duration": 10.48,
+    "clip": "video_course\\r21\\edited\\06_green_result.mp4",
+    "clip_sha256": "857f96ed5d61940f216001c47a299394758d6ceb683af4e9dd99ca0e0a2a6f2c",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\06_green_result.mp4",
+    "parent_clip_sha256": "2c60feef7d8e6111c40d5a32412007ba54d36da0a2b1222af97187c2b49f61dd",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.40600000007543713,
+        0.35
+      ],
+      [
+        0.5,
+        0.44399999992456285
+      ],
+      [
+        11.88,
+        10.48
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "07_report",
+    "voice_cue": "Nakonec otevřu",
+    "on_screen_action": "open_report",
+    "view": "browser",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Čerstvý GREEN report, jeden skutečný případ",
+    "proof": {
+      "report_sha256": "d12cf641f04d179fcb75cc72609a1c4fe7749bbe64f885de4f3cf4720a5a170f",
+      "title": "report.html",
+      "actual_text": "report.html\n\nReport generated on 10-Nov-2026 at 12:25:42 by pytest-html v4.2.0\n\nEnvironment\nPython\t\n3.12.15\n\nPlatform\t\nWindows-11-10.0.26300-SP0\n\nPackages\t\npytest: 9.2.0\npluggy: 1.7.0\n\nPlugins\t\nhtml: 4.2.0\nmetadata: 3.1.1\nplaywright: 0.10.0\nSummary\n\n1 test took 00:00:04.\n\n(Un)check the boxes to filter the results.\n\n0 Failed,\n1 Passed,\n0 Skipped,\n0 Expected failures,\n0 Unexpected passes,\n0 Errors,\n0 Reruns\n0 Retried,\nShow all details\n / \nHide all details\nResult\tTest\tDuration\tLinks\nPassed\ttests/examples/test_video_created.py::test_video_login_form[chromium]\t00:00:04\t"
+    },
+    "voice_at": 302.23589583333336,
+    "start": 302.12,
+    "section": "r2_07",
+    "section_title": "Výsledek dohledáme a test zopakujeme",
+    "end": 310.96,
+    "duration": 8.84,
+    "action_offset": 0.1158958333333544,
+    "parent_id": "07_report",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 1.052999999979511,
+    "actual_duration": 8.84,
+    "clip": "video_course\\r21\\edited\\07_report.mp4",
+    "clip_sha256": "cd0543117316e045f9ab5bdd24a404ebec56e611ba83f6085372083c35b8ecd3",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\07_report.mp4",
+    "parent_clip_sha256": "dd2c4fb49c500590bc7320ee9b996f37a20c6477cb8b0a9b84894cbc421c34c4",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.3910000000614673,
+        0.35
+      ],
+      [
+        1.0940000000409782,
+        1.052999999979511
+      ],
+      [
+        10.32,
+        8.84
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "07_details",
+    "voice_cue": "Rozbalím podrobnosti",
+    "on_screen_action": "report_details",
+    "view": "browser",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Viditelný název a detaily právě běžícího testu",
+    "proof": {
+      "actual_text": "report.html\n\nReport generated on 10-Nov-2026 at 12:25:42 by pytest-html v4.2.0\n\nEnvironment\nPython\t\n3.12.15\n\nPlatform\t\nWindows-11-10.0.26300-SP0\n\nPackages\t\npytest: 9.2.0\npluggy: 1.7.0\n\nPlugins\t\nhtml: 4.2.0\nmetadata: 3.1.1\nplaywright: 0.10.0\nSummary\n\n1 test took 00:00:04.\n\n(Un)check the boxes to filter the results.\n\n0 Failed,\n1 Passed,\n0 Skipped,\n0 Expected failures,\n0 Unexpected passes,\n0 Errors,\n0 Reruns\n0 Retried,\nShow all details\n / \nHide all details\nResult\tTest\tDuration\tLinks\nPassed\ttests/examples/test_video_created.py::test_video_login_form[chromium]\t00:00:04\t\n\n<\n>\nVideo\n1 / 1\nNo log output captured.",
+      "expected_case": "test_video_login_form"
+    },
+    "voice_at": 310.9581041666667,
+    "start": 310.96,
+    "section": "r2_07",
+    "section_title": "Výsledek dohledáme a test zopakujeme",
+    "end": 325.68,
+    "duration": 14.72,
+    "action_offset": 0,
+    "parent_id": "07_details",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 0.834000000054948,
+    "actual_duration": 14.72,
+    "clip": "video_course\\r21\\edited\\07_details.mp4",
+    "clip_sha256": "7c05f146fdcdf1f3092b7076c1e0aa0ce5425f9e91a53536c4c6c90f387d4c2b",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\07_details.mp4",
+    "parent_clip_sha256": "b5f0cf30ea7805335988ffc5751a189d68c9481f6e28d6a2d096e35e729811aa",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.4219999999040738,
+        0.35
+      ],
+      [
+        0.9059999999590218,
+        0.834000000054948
+      ],
+      [
+        17.04,
+        14.72
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "07_final_code",
+    "voice_cue": "V editoru si teď",
+    "on_screen_action": "final_code",
+    "view": "editor",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Výsledný soubor shodný se zmrazenou verzí",
+    "proof": {
+      "file": "tests/examples/test_video_created.py",
+      "matches_frozen_reference": true,
+      "sha256": "4a5df8d0ef9572e3d0f670ba93750ccb2ccf2c78c49c7f473bd1d77a9fac98e0"
+    },
+    "voice_at": 325.6647916666667,
+    "start": 325.68,
+    "section": "r2_07",
+    "section_title": "Výsledek dohledáme a test zopakujeme",
+    "end": 335.6,
+    "duration": 9.92,
+    "action_offset": 0,
+    "parent_id": "07_final_code",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 0.4589999999385327,
+    "actual_duration": 9.92,
+    "clip": "video_course\\r21\\edited\\07_final_code.mp4",
+    "clip_sha256": "ccb4a88bc48698e0bd87e843016d80964f6ea4b51e3bb6cb1e24f8d08d0a767b",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\07_final_code.mp4",
+    "parent_clip_sha256": "af3122ba939273c904159d9b45a8b14d9918a904fd1380a3de16fedb49e75617",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.3910000000614673,
+        0.35
+      ],
+      [
+        0.5,
+        0.4589999999385327
+      ],
+      [
+        11.36,
+        9.92
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  },
+  {
+    "id": "07_exercise",
+    "voice_cue": "Pro samostatné procvičení",
+    "on_screen_action": "exercise",
+    "view": "browser",
+    "camera_focus": "Semantic subject, actual app geometry",
+    "expected_visible_state": "Živě vybrané e-mailové pole pro samostatný úkol",
+    "proof": {
+      "url": "http://127.0.0.1:5000/login",
+      "heading": [
+        "Malý portál.Skutečné testování.",
+        "Přihlášení"
+      ],
+      "email_label": "E-mail"
+    },
+    "voice_at": 335.57320833333335,
+    "start": 335.6,
+    "section": "r2_07",
+    "section_title": "Výsledek dohledáme a test zopakujeme",
+    "end": 348.48,
+    "duration": 12.88,
+    "action_offset": 0,
+    "parent_id": "07_exercise",
+    "status": "edited_from_real_capture",
+    "human_review": "pending",
+    "run_group": "r21_verified_capture_edit",
+    "contract_sha256": "cbb0b8b756aef38ad3406198f22974ad62564e76093022b65e589335ab0e9e21",
+    "action_started": 0.35,
+    "action_finished": 1.475,
+    "actual_duration": 12.88,
+    "clip": "video_course\\r21\\edited\\07_exercise.mp4",
+    "clip_sha256": "109d64aac252a4c11f6bb4ee816235c9ada1e7f5d4eaffe93ad3f44ee9dd20f2",
+    "capture_method": "retimed_verified_real_capture",
+    "parent_clip": "video_course\\r2\\recordings\\07_exercise.mp4",
+    "parent_clip_sha256": "ab78e9b61f75da84210b896329d5163f863756d11e96cb4d01d7f6ebccbe892b",
+    "parent_contract_sha256": "af5973e0322ff505e19d9dfec0f61cb932326ded40bd5d3256c910a3d51c008e",
+    "parent_capture_method": "real_own_application_desktop_capture",
+    "retiming_control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        0.3910000000614673,
+        0.35
+      ],
+      [
+        1.5160000000614673,
+        1.475
+      ],
+      [
+        14.48,
+        12.88
+      ]
+    ],
+    "active_speed_factor": 1.0,
+    "note": "Real actions retained; waiting/holding time edited. No UI states fabricated."
+  }
+]

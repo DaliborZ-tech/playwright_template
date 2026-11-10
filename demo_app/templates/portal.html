@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}{% if section == 'dashboard' %}Dashboard{% else %}Záznamy{% endif %}{% endblock %}
+{% block content %}
+<p class="eyebrow">VÁŠ TESTOVACÍ PROSTOR</p>
+<div class="page-heading"><div><h1>{% if section == 'dashboard' %}Dashboard{% else %}Záznamy{% endif %}</h1><p class="muted">Od prvního požadavku po poslední ověření. Vše na jednom místě.</p></div><button id="new-record" class="primary">＋ Nový záznam</button></div>
+<section class="metrics" aria-label="Souhrn"><div class="card"><span>Načtené požadavky</span><strong id="total-count">—</strong><small>Aktuálně zobrazený výběr</small></div><div class="card"><span>Prostředí</span><strong class="metric-text">Lokální demo</strong><small><span class="live-dot"></span> Oddělená data každé relace</small></div><div class="card"><span>Váš další krok</span><strong class="metric-text">Napište první test</strong><small>Najít prvek → provést akci → ověřit</small></div></section>
+<section class="card records-panel" aria-labelledby="records-title">
+<div class="panel-heading"><div><h2 id="records-title">Přehled požadavků</h2><p class="muted">Spravujte syntetické požadavky svého týmu.</p></div><span class="tag">REGRESNÍ SCÉNÁŘ</span></div>
+<div class="toolbar"><div class="search-field"><label for="search">Vyhledat záznam</label><input id="search" type="search" placeholder="Hledat podle názvu…"></div><div><label for="filter-status">Filtrovat podle stavu</label><select id="filter-status"><option value="">Všechny stavy</option><option>Nový</option><option>Rozpracovaný</option><option>Hotový</option></select></div><button id="reload" class="secondary">Načíst znovu</button></div>
+<p id="loading" role="status" hidden>Načítám záznamy…</p><p id="api-error" role="alert" class="error" hidden></p><p id="notification" role="status" class="notice" hidden></p>
+<div class="table-wrap"><table aria-label="Záznamy"><thead><tr><th>POŽADAVEK</th><th>ŘEŠITEL</th><th>STAV</th><th>PRIORITA</th><th>AKCE</th></tr></thead><tbody id="records-body"></tbody></table></div><p id="empty" class="empty" hidden>Žádné odpovídající záznamy.</p>
+<div class="panel-footer"><span>Syntetická data. Změny zůstávají pouze ve vaší relaci.</span><button id="reset" class="quiet">Obnovit výchozí data</button></div>
+</section>
+<details class="teaching-tools"><summary>Výukové nástroje</summary><p>Chyba je řízená a nemění data. Po ověření použijte Načíst znovu.</p><button id="simulate-error" class="secondary">Simulovat chybu API</button></details>
+<dialog id="record-dialog" aria-labelledby="dialog-title"><form id="record-form" novalidate><div class="dialog-heading"><h2 id="dialog-title">Nový záznam</h2><button id="cancel-x" type="button" class="quiet" aria-label="Zavřít formulář">✕</button></div><p id="form-error" role="alert" class="error" hidden></p><label for="record-title">Název požadavku</label><input id="record-title" name="title" maxlength="80" required><label for="owner">Řešitel</label><select id="owner" name="owner"><option>Jana</option><option>Petr</option></select><label for="record-status">Stav</label><select id="record-status" name="status"><option>Nový</option><option>Rozpracovaný</option><option>Hotový</option></select><label class="checkbox"><input type="checkbox" id="priority" name="priority"> Prioritní</label><div class="dialog-actions"><button id="cancel" type="button" class="secondary">Zrušit</button><button class="primary" type="submit">Uložit záznam</button></div></form></dialog>
+{% endblock %}
+

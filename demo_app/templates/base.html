@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="csrf-token" content="{{ session.csrf }}">
+  <title>{% block title %}QA Training Portal{% endblock %} · Playwright Academy</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="{{ url_for('static', filename='portal.js') }}" defer></script>
+</head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="/dashboard"><span class="brand-icon">A</span>academy<span class="dot">.</span></a>
+  <p class="eyebrow">QA WORKSPACE</p>
+  <nav aria-label="Hlavní navigace">
+    <a href="/dashboard" {% if section == 'dashboard' %}aria-current="page"{% endif %}>◫ &nbsp; Přehled</a>
+    <a href="/records" {% if section == 'records' %}aria-current="page"{% endif %}>▤ &nbsp; Záznamy</a>
+  </nav>
+  <div class="sidebar-footer"><span class="live-dot"></span> Lokální výukové prostředí<br><small>Pouze syntetická data · v1.0</small></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><span>Playwright Academy <span class="muted">/ QA Training Portal</span></span>
+    {% if session.logged_in %}<form action="/logout" method="post"><input type="hidden" name="csrf" value="{{ session.csrf }}"><span class="avatar">JT</span><span>Jana Testerová</span><button class="quiet" type="submit">Odhlásit se</button></form>{% else %}<span class="tag">PYTHON STARTER KIT</span>{% endif %}
+  </header>
+  <main>{% block content %}{% endblock %}</main>
+</div>
+</body></html>
+

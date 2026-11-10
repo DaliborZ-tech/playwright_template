@@ -1,0 +1,591 @@
+{
+  "parent_audio": "video_course\\r2\\narration.wav",
+  "parent_sha256": "6041fd242670d3ed8901c6d3a3d42b9e44197d636c23afaaabffda1269de061c",
+  "edits": [
+    {
+      "left": 225799,
+      "right": 249082,
+      "reason": "on-screen task or view change",
+      "before": 0.9231879999999997,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 41
+    },
+    {
+      "left": 531767,
+      "right": 562454,
+      "reason": "connected explanation",
+      "before": 0.9059999999999988,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 1
+    },
+    {
+      "left": 787154,
+      "right": 810097,
+      "reason": "on-screen task or view change",
+      "before": 0.9161040000000007,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 1031405,
+      "right": 1057902,
+      "reason": "on-screen task or view change",
+      "before": 0.9901659999999985,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 20
+    },
+    {
+      "left": 1271755,
+      "right": 1303852,
+      "reason": "connected explanation",
+      "before": 0.9353750000000005,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 4
+    },
+    {
+      "left": 1491066,
+      "right": 1523606,
+      "reason": "connected explanation",
+      "before": 0.9446040000000018,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 4
+    },
+    {
+      "left": 1773812,
+      "right": 1793305,
+      "reason": "meaningful paragraph change",
+      "before": 1.0537920000000014,
+      "after": 0.6476774565217371,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 1986870,
+      "right": 2018140,
+      "reason": "connected explanation",
+      "before": 0.9181460000000001,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 1
+    },
+    {
+      "left": 2289888,
+      "right": 2321165,
+      "reason": "connected explanation",
+      "before": 0.918292000000001,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 2579066,
+      "right": 2602671,
+      "reason": "on-screen task or view change",
+      "before": 0.9298959999999994,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 2808369,
+      "right": 2843490,
+      "reason": "connected explanation",
+      "before": 0.9983750000000029,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 25
+    },
+    {
+      "left": 3112229,
+      "right": 3139224,
+      "reason": "on-screen task or view change",
+      "before": 1.0005210000000062,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 3366550,
+      "right": 3398387,
+      "reason": "connected explanation",
+      "before": 0.9299580000000134,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 3708956,
+      "right": 3740925,
+      "reason": "connected explanation",
+      "before": 0.9327090000000027,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 3
+    },
+    {
+      "left": 3863332,
+      "right": 3900270,
+      "reason": "connected explanation",
+      "before": 1.0362290000000058,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 27
+    },
+    {
+      "left": 4073331,
+      "right": 4107057,
+      "reason": "connected explanation",
+      "before": 0.9693129999999996,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 4
+    },
+    {
+      "left": 4375685,
+      "right": 4394013,
+      "reason": "meaningful paragraph change",
+      "before": 1.0295210000000026,
+      "after": 0.6476774565217371,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 4649824,
+      "right": 4683257,
+      "reason": "connected explanation",
+      "before": 0.9632090000000062,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 20
+    },
+    {
+      "left": 4928597,
+      "right": 4951512,
+      "reason": "on-screen task or view change",
+      "before": 0.9155209999999983,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 5126949,
+      "right": 5158998,
+      "reason": "connected explanation",
+      "before": 0.9343750000000028,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 4
+    },
+    {
+      "left": 5358260,
+      "right": 5381733,
+      "reason": "on-screen task or view change",
+      "before": 0.9271459999999934,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 5601607,
+      "right": 5633772,
+      "reason": "connected explanation",
+      "before": 0.9367909999999995,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 34
+    },
+    {
+      "left": 5809819,
+      "right": 5845394,
+      "reason": "connected explanation",
+      "before": 1.0078329999999909,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 23
+    },
+    {
+      "left": 6083734,
+      "right": 6114134,
+      "reason": "connected explanation",
+      "before": 0.9000210000000095,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 6410671,
+      "right": 6443389,
+      "reason": "connected explanation",
+      "before": 0.9483119999999872,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 18
+    },
+    {
+      "left": 6726648,
+      "right": 6745461,
+      "reason": "meaningful paragraph change",
+      "before": 1.039625000000001,
+      "after": 0.6476774565217371,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 6992490,
+      "right": 7028238,
+      "reason": "connected explanation",
+      "before": 1.0114370000000008,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 24
+    },
+    {
+      "left": 7240466,
+      "right": 7272444,
+      "reason": "connected explanation",
+      "before": 0.932895000000002,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 3
+    },
+    {
+      "left": 7509549,
+      "right": 7541297,
+      "reason": "connected explanation",
+      "before": 0.9281039999999905,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 4
+    },
+    {
+      "left": 7788782,
+      "right": 7815656,
+      "reason": "on-screen task or view change",
+      "before": 0.9980000000000189,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 20
+    },
+    {
+      "left": 8021287,
+      "right": 8058070,
+      "reason": "connected explanation",
+      "before": 1.0330000000000155,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 23
+    },
+    {
+      "left": 8239747,
+      "right": 8262569,
+      "reason": "on-screen task or view change",
+      "before": 0.9135840000000144,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 8498467,
+      "right": 8532480,
+      "reason": "connected explanation",
+      "before": 0.9752909999999986,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 8
+    },
+    {
+      "left": 8707836,
+      "right": 8744433,
+      "reason": "connected explanation",
+      "before": 1.0291249999999934,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 40
+    },
+    {
+      "left": 9031890,
+      "right": 9050442,
+      "reason": "meaningful paragraph change",
+      "before": 1.0341870000000029,
+      "after": 0.6476774565217371,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 9301974,
+      "right": 9325523,
+      "reason": "on-screen task or view change",
+      "before": 0.9287300000000016,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 7
+    },
+    {
+      "left": 9595765,
+      "right": 9627453,
+      "reason": "connected explanation",
+      "before": 0.92685400000002,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 1
+    },
+    {
+      "left": 9846125,
+      "right": 9871110,
+      "reason": "on-screen task or view change",
+      "before": 0.9586659999999938,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 4
+    },
+    {
+      "left": 10043184,
+      "right": 10070079,
+      "reason": "on-screen task or view change",
+      "before": 0.998437999999993,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 46
+    },
+    {
+      "left": 10319243,
+      "right": 10350710,
+      "reason": "connected explanation",
+      "before": 0.9222499999999911,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 3
+    },
+    {
+      "left": 10612712,
+      "right": 10636714,
+      "reason": "on-screen task or view change",
+      "before": 0.9381669999999929,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 10891646,
+      "right": 10925637,
+      "reason": "connected explanation",
+      "before": 0.9748339999999871,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 5
+    },
+    {
+      "left": 11100606,
+      "right": 11124576,
+      "reason": "on-screen task or view change",
+      "before": 0.9375,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 11337587,
+      "right": 11373036,
+      "reason": "connected explanation",
+      "before": 1.0052080000000103,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 4
+    },
+    {
+      "left": 11589916,
+      "right": 11609542,
+      "reason": "meaningful paragraph change",
+      "before": 1.0565620000000138,
+      "after": 0.6476774565217371,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 11849918,
+      "right": 11880610,
+      "reason": "connected explanation",
+      "before": 0.9061049999999966,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 37
+    },
+    {
+      "left": 12072116,
+      "right": 12109144,
+      "reason": "connected explanation",
+      "before": 1.0381049999999732,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 23
+    },
+    {
+      "left": 12361469,
+      "right": 12385945,
+      "reason": "on-screen task or view change",
+      "before": 0.9480410000000461,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 12583974,
+      "right": 12617231,
+      "reason": "connected explanation",
+      "before": 0.9595410000000015,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 3
+    },
+    {
+      "left": 12886073,
+      "right": 12908416,
+      "reason": "on-screen task or view change",
+      "before": 0.903603999999973,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 13108688,
+      "right": 13133473,
+      "reason": "on-screen task or view change",
+      "before": 0.9544789999999921,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 13416709,
+      "right": 13442470,
+      "reason": "on-screen task or view change",
+      "before": 0.9748129999999833,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 19
+    },
+    {
+      "left": 13644409,
+      "right": 13669306,
+      "reason": "on-screen task or view change",
+      "before": 0.9568129999999542,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 13970806,
+      "right": 14001979,
+      "reason": "connected explanation",
+      "before": 0.9161250000000223,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 37
+    },
+    {
+      "left": 14203391,
+      "right": 14224133,
+      "reason": "meaningful paragraph change",
+      "before": 1.079812000000004,
+      "after": 0.6476774565217371,
+      "removed_peak_int16": 19
+    },
+    {
+      "left": 14432095,
+      "right": 14465613,
+      "reason": "connected explanation",
+      "before": 0.9649789999999712,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 7
+    },
+    {
+      "left": 14681628,
+      "right": 14704552,
+      "reason": "on-screen task or view change",
+      "before": 0.9157079999999951,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 20
+    },
+    {
+      "left": 14958187,
+      "right": 14991410,
+      "reason": "connected explanation",
+      "before": 0.9588330000000269,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 4
+    },
+    {
+      "left": 15228673,
+      "right": 15265377,
+      "reason": "connected explanation",
+      "before": 1.0313539999999648,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 41
+    },
+    {
+      "left": 15480542,
+      "right": 15504488,
+      "reason": "on-screen task or view change",
+      "before": 0.936999999999955,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 15714143,
+      "right": 15744701,
+      "reason": "connected explanation",
+      "before": 0.9033130000000256,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 1
+    },
+    {
+      "left": 16014719,
+      "right": 16043627,
+      "reason": "on-screen task or view change",
+      "before": 1.0403950000000464,
+      "after": 0.4381347499999987,
+      "removed_peak_int16": 27
+    },
+    {
+      "left": 16351756,
+      "right": 16382935,
+      "reason": "connected explanation",
+      "before": 0.9162499999999909,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 16689807,
+      "right": 16719488,
+      "reason": "connected explanation",
+      "before": 0.8850419999999986,
+      "after": 0.26669071739130357,
+      "removed_peak_int16": 4
+    }
+  ],
+  "codegen_edits": [
+    {
+      "left": 252378,
+      "right": 284872,
+      "reason": "connected explanation",
+      "before": 0.9849579999999998,
+      "after": 0.30800000000000005,
+      "removed_peak_int16": 20
+    },
+    {
+      "left": 481073,
+      "right": 510096,
+      "reason": "connected explanation",
+      "before": 0.9126460000000005,
+      "after": 0.30800000000000005,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 716828,
+      "right": 745788,
+      "reason": "connected explanation",
+      "before": 0.9113330000000008,
+      "after": 0.30800000000000005,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 944278,
+      "right": 976114,
+      "reason": "connected explanation",
+      "before": 0.9712500000000013,
+      "after": 0.30800000000000005,
+      "removed_peak_int16": 5
+    },
+    {
+      "left": 1209380,
+      "right": 1239077,
+      "reason": "connected explanation",
+      "before": 0.9266870000000011,
+      "after": 0.30800000000000005,
+      "removed_peak_int16": 18
+    },
+    {
+      "left": 1498092,
+      "right": 1527256,
+      "reason": "connected explanation",
+      "before": 0.9155830000000016,
+      "after": 0.30800000000000005,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 1739800,
+      "right": 1770870,
+      "reason": "connected explanation",
+      "before": 0.955292,
+      "after": 0.30800000000000005,
+      "removed_peak_int16": 0
+    },
+    {
+      "left": 2051531,
+      "right": 2078880,
+      "reason": "connected explanation",
+      "before": 0.8777709999999956,
+      "after": 0.30800000000000005,
+      "removed_peak_int16": 1
+    }
+  ],
+  "insert_at_parent_time": 140.68800000000002,
+  "insert_at_final_time": 125.0599375,
+  "insert_duration": 38.472479166666666,
+  "output_sha256": "310962c7511e98c367cf4586ef406983152cd6cc6b13f0184565aa8560ce3237",
+  "sample_rate": 48000,
+  "phonemes_time_stretched": false,
+  "human_listening_review": "PENDING"
+}

@@ -1,0 +1,20 @@
+{
+  "revision": "R2.1",
+  "decision": "APPROVED",
+  "date": "2026-11-10",
+  "timezone": "Europe/Prague",
+  "reviewer": "Product Owner / user",
+  "user_statement": "schvaluji",
+  "scope": "Entire R2.1 reference chapter and its visual and audio standard, in response to the request to approve the full chapter after viewing and listening.",
+  "review_method": "Explicit owner approval in this conversation; no separate viewing-session telemetry is claimed.",
+  "frozen_commit": "129d317771d91da04e31e8150a2111188f9ae51f",
+  "voice": "cs-CZ-VlastaNeural",
+  "movies": {
+    "Playwright_Academy_R21_Prvni_Test.mp4": "6c53aeb9e0b0bc7828e115c2868399b6f2a54411835c92a8ab0893a882d42b20",
+    "Playwright_Academy_R21_Prvni_Test_Titulky.mp4": "c3ca84bdde17c1b5a9e038c8eb88b61c158fec027554d4b00c0aabcca7ea50f4"
+  },
+  "approved_delivery_archive_sha256": "d54fbf5af53154a6a0c4e610eb4d5382cdf22124992888f83ffb4a9f86ada6d3",
+  "full_course_build_authorized": true,
+  "remaining_chapters_product_acceptance": "NOT_YET_REVIEWED",
+  "legacy_full_course_product_status": "CHANGES_REQUIRED"
+}

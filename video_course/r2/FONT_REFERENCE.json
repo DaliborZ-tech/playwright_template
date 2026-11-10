@@ -1,0 +1,28 @@
+{
+  "font_family": "Segoe UI",
+  "fonts": [
+    {
+      "file": "segoeui.ttf",
+      "sha256": "704eada12961a27fd271f7d3b09e2066520e758390c1776744eff430fee30f6e"
+    },
+    {
+      "file": "segoeuib.ttf",
+      "sha256": "b169e636719880976a97e94e3b1cb3dbe5f4a38eabc037bf9f2a9165154c3ad2"
+    }
+  ],
+  "font_redistributed": false,
+  "ffmpeg_version": "ffmpeg version 7.1-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers",
+  "ffmpeg_sha256": "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3",
+  "python": "3.12.15 (main, Oct  3 2026, 01:05:37) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "imageio-ffmpeg": "0.6.0",
+    "edge-tts": "7.3.1",
+    "PyAutoGUI": "0.9.54",
+    "pywin32": "312",
+    "pywinauto": "0.6.9",
+    "Pillow": "13.0.0",
+    "numpy": "2.5.4",
+    "pyperclip": "1.11.0",
+    "playwright": "1.64.1"
+  }
+}
